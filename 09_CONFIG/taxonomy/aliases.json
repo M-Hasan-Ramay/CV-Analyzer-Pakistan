@@ -1,0 +1,137 @@
+
+{
+  "aliases": [
+    {
+      "alias": "postgres",
+      "entity_ids": ["TECH.DB.POSTGRESQL"],
+      "resolution": "single"
+    },
+    {
+      "alias": "reactjs",
+      "entity_ids": ["TECH.WEB.REACT"],
+      "resolution": "single"
+    },
+    {
+      "alias": "react.js",
+      "entity_ids": ["TECH.WEB.REACT"],
+      "resolution": "single"
+    },
+    {
+      "alias": "k8s",
+      "entity_ids": ["TECH.DEVOPS.KUBERNETES"],
+      "resolution": "single"
+    },
+    {
+      "alias": "dotnet",
+      "entity_ids": ["TECH.PLATFORM.DOTNET"],
+      "resolution": "single"
+    },
+    {
+      "alias": "asp.net",
+      "entity_ids": ["TECH.PLATFORM.DOTNET"],
+      "resolution": "single"
+    },
+    {
+      "alias": "ms excel",
+      "entity_ids": ["TECH.BUSINESS.MICROSOFT_EXCEL"],
+      "resolution": "single"
+    },
+    {
+      "alias": "power bi",
+      "entity_ids": ["TECH.BUSINESS.MICROSOFT_POWER_BI"],
+      "resolution": "single"
+    },
+    {
+      "alias": "hr information system",
+      "entity_ids": ["TECH.BUSINESS.HRIS"],
+      "resolution": "single"
+    },
+    {
+      "alias": "warehouse management software",
+      "entity_ids": ["TECH.BUSINESS.WMS"],
+      "resolution": "single"
+    },
+    {
+      "alias": "on premise",
+      "entity_ids": ["TECH.CONCEPT.ON_PREMISES"],
+      "resolution": "single"
+    },
+    {
+      "alias": "on-prem",
+      "entity_ids": ["TECH.CONCEPT.ON_PREMISES"],
+      "resolution": "single"
+    },
+    {
+      "alias": "software as a service",
+      "entity_ids": ["TECH.CONCEPT.SAAS"],
+      "resolution": "single"
+    },
+    {
+      "alias": "saas",
+      "entity_ids": ["TECH.CONCEPT.SAAS"],
+      "resolution": "single"
+    },
+    {
+      "alias": "sass",
+      "entity_ids": ["TECH.WEB.SASS", "TECH.CONCEPT.SAAS"],
+      "resolution": "context_required"
+    },
+    {
+      "alias": "oracle",
+      "entity_ids": ["TECH.DB.ORACLE_DATABASE", "TECH.BUSINESS.ORACLE_ERP"],
+      "resolution": "context_required"
+    },
+    {
+      "alias": "java",
+      "entity_ids": ["TECH.LANG.JAVA"],
+      "resolution": "context_required",
+      "note": "Usually the programming language in a software CV, but context should be retained because the word can have other meanings."
+    },
+    {
+      "alias": "three tier",
+      "entity_ids": ["ARCH.APP.THREE_TIER", "ARCH.NET.HIERARCHICAL"],
+      "resolution": "context_required"
+    },
+    {
+      "alias": "three-tier architecture",
+      "entity_ids": ["ARCH.APP.THREE_TIER", "ARCH.NET.HIERARCHICAL"],
+      "resolution": "context_required"
+    },
+    {
+      "alias": "n-tier",
+      "entity_ids": ["ARCH.APP.N_TIER"],
+      "resolution": "single"
+    },
+    {
+      "alias": "cloud",
+      "entity_ids": ["TECH.CONCEPT.CLOUD"],
+      "resolution": "context_required",
+      "note": "A broad concept; record specific providers and services separately when present."
+    },
+    {
+      "alias": "internet",
+      "entity_ids": ["TECH.NET.INTERNET"],
+      "resolution": "single"
+    },
+    {
+      "alias": "github",
+      "entity_ids": ["TECH.DEVOPS.GITHUB"],
+      "resolution": "single"
+    },
+    {
+      "alias": "oracle database",
+      "entity_ids": ["TECH.DB.ORACLE_DATABASE"],
+      "resolution": "single"
+    },
+    {
+      "alias": "oracle erp",
+      "entity_ids": ["TECH.BUSINESS.ORACLE_ERP"],
+      "resolution": "single"
+    },
+    {
+      "alias": "oracle fusion cloud applications",
+      "entity_ids": ["TECH.BUSINESS.ORACLE_ERP"],
+      "resolution": "single"
+    }
+  ]
+}

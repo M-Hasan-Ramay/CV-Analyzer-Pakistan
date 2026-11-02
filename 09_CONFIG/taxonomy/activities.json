@@ -1,0 +1,1325 @@
+{
+    "activities": [
+        {
+            "id": "ACTIVITY.RECRUITMENT",
+            "name": "Recruitment",
+            "category": "Human Resources",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "recruiting",
+                "talent acquisition",
+                "hiring"
+            ]
+        },
+        {
+            "id": "ACTIVITY.TALENT_ACQUISITION",
+            "name": "Talent Acquisition",
+            "category": "Human Resources",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "TA",
+                "talent acquisition"
+            ]
+        },
+        {
+            "id": "ACTIVITY.HR_OPERATIONS",
+            "name": "HR Operations",
+            "category": "Human Resources",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "HR operations",
+                "personnel operations"
+            ]
+        },
+        {
+            "id": "ACTIVITY.PAYROLL",
+            "name": "Payroll",
+            "category": "Human Resources",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "salary processing",
+                "payroll processing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.ACCOUNTING",
+            "name": "Accounting",
+            "category": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "accounts",
+                "accounting"
+            ]
+        },
+        {
+            "id": "ACTIVITY.BOOKKEEPING",
+            "name": "Bookkeeping",
+            "category": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "book keeping",
+                "bookkeeping"
+            ]
+        },
+        {
+            "id": "ACTIVITY.ACCOUNTS_PAYABLE",
+            "name": "Accounts Payable",
+            "category": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "AP",
+                "payables"
+            ]
+        },
+        {
+            "id": "ACTIVITY.ACCOUNTS_RECEIVABLE",
+            "name": "Accounts Receivable",
+            "category": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "AR",
+                "receivables"
+            ]
+        },
+        {
+            "id": "ACTIVITY.FINANCIAL_REPORTING",
+            "name": "Financial Reporting",
+            "category": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "financial reports",
+                "financial reporting"
+            ]
+        },
+        {
+            "id": "ACTIVITY.BUDGETING",
+            "name": "Budgeting",
+            "category": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "budget preparation",
+                "budgeting"
+            ]
+        },
+        {
+            "id": "ACTIVITY.RECONCILIATION",
+            "name": "Reconciliation",
+            "category": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "bank reconciliation",
+                "account reconciliation"
+            ]
+        },
+        {
+            "id": "ACTIVITY.SOURCING",
+            "name": "Sourcing",
+            "category": "Procurement",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "strategic sourcing",
+                "supplier sourcing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.VENDOR_EVALUATION",
+            "name": "Vendor Evaluation",
+            "category": "Procurement",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "supplier evaluation",
+                "vendor assessment"
+            ]
+        },
+        {
+            "id": "ACTIVITY.PURCHASING",
+            "name": "Purchasing",
+            "category": "Procurement",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "purchase",
+                "purchasing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.PO_PROCESSING",
+            "name": "Purchase Order Processing",
+            "category": "Procurement",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "PO processing",
+                "purchase order processing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.STOCK_CONTROL",
+            "name": "Stock Control",
+            "category": "Inventory",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "inventory control",
+                "stock control"
+            ]
+        },
+        {
+            "id": "ACTIVITY.STOCK_TAKING",
+            "name": "Stock Taking",
+            "category": "Inventory",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "stock count",
+                "physical inventory"
+            ]
+        },
+        {
+            "id": "ACTIVITY.RECEIVING",
+            "name": "Receiving",
+            "category": "Inventory",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "goods receiving",
+                "material receiving"
+            ]
+        },
+        {
+            "id": "ACTIVITY.DISPATCH",
+            "name": "Dispatch",
+            "category": "Inventory",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "dispatch",
+                "goods dispatch"
+            ]
+        },
+        {
+            "id": "ACTIVITY.LOGISTICS",
+            "name": "Logistics",
+            "category": "Supply Chain",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "logistics management",
+                "transport coordination"
+            ]
+        },
+        {
+            "id": "ACTIVITY.FULFILLMENT",
+            "name": "Fulfillment",
+            "category": "Supply Chain",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "order fulfillment",
+                "fulfilment"
+            ]
+        },
+        {
+            "id": "ACTIVITY.PROCESS_MANAGEMENT",
+            "name": "Process Management",
+            "category": "Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "process management",
+                "business process management"
+            ]
+        },
+        {
+            "id": "ACTIVITY.ORDER_PROCESSING",
+            "name": "Order Processing",
+            "category": "Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "order processing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.TRANSACTION_PROCESSING",
+            "name": "Transaction Processing",
+            "category": "Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "transaction processing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.DOCUMENT_PROCESSING",
+            "name": "Document Processing",
+            "category": "Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "document processing",
+                "documentation processing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.OFFICE_ADMINISTRATION",
+            "name": "Office Administration",
+            "category": "Administration",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "office administration",
+                "administrative support"
+            ]
+        },
+        {
+            "id": "ACTIVITY.RECORD_MANAGEMENT",
+            "name": "Records Management",
+            "category": "Administration",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "record keeping",
+                "records management"
+            ]
+        },
+        {
+            "id": "ACTIVITY.CORRESPONDENCE",
+            "name": "Correspondence",
+            "category": "Administration",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "official correspondence",
+                "business correspondence"
+            ]
+        },
+        {
+            "id": "ACTIVITY.SCHEDULING",
+            "name": "Scheduling",
+            "category": "Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "calendar management",
+                "scheduling"
+            ]
+        },
+        {
+            "id": "ACTIVITY.FOLLOW_UP",
+            "name": "Follow-up",
+            "category": "Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "follow up",
+                "follow-up"
+            ]
+        },
+        {
+            "id": "ACTIVITY.CROSS_FUNCTIONAL_COORDINATION",
+            "name": "Cross-functional Coordination",
+            "category": "Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "cross functional coordination",
+                "interdepartmental coordination"
+            ]
+        },
+        {
+            "id": "ACTIVITY.PROJECT_PLANNING",
+            "name": "Project Planning",
+            "category": "Project Management",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "project planning"
+            ]
+        },
+        {
+            "id": "ACTIVITY.PROJECT_TRACKING",
+            "name": "Project Tracking",
+            "category": "Project Management",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "project monitoring",
+                "project tracking"
+            ]
+        },
+        {
+            "id": "ACTIVITY.PROJECT_REPORTING",
+            "name": "Project Reporting",
+            "category": "Project Management",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "project reports",
+                "project reporting"
+            ]
+        },
+        {
+            "id": "ACTIVITY.CUSTOMER_DISCOVERY",
+            "name": "Customer Discovery",
+            "category": "Sales",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "customer discovery",
+                "business discovery"
+            ]
+        },
+        {
+            "id": "ACTIVITY.OPPORTUNITY_DEVELOPMENT",
+            "name": "Opportunity Development",
+            "category": "Sales",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [
+                "opportunity development",
+                "pipeline development"
+            ]
+        },
+        {
+            "id": "ACTIVITY.TECHNICAL_DISCOVERY",
+            "name": "Technical Discovery",
+            "category": "Presales",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "technical discovery",
+                "technical requirement discovery"
+            ]
+        },
+        {
+            "id": "ACTIVITY.REQUIREMENT_ANALYSIS",
+            "name": "Requirement Analysis",
+            "category": "Presales / Architecture",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "requirements analysis",
+                "requirement assessment"
+            ]
+        },
+        {
+            "id": "ACTIVITY.SIZING",
+            "name": "Solution Sizing",
+            "category": "Presales",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "sizing",
+                "capacity sizing"
+            ]
+        },
+        {
+            "id": "ACTIVITY.BOQ",
+            "name": "Bill of Quantities",
+            "category": "Presales",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "BOQ",
+                "bill of quantities",
+                "BOM"
+            ]
+        },
+        {
+            "id": "ACTIVITY.HLD",
+            "name": "High-Level Design",
+            "category": "Solution Architecture",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "HLD",
+                "high level design"
+            ]
+        },
+        {
+            "id": "ACTIVITY.LLD",
+            "name": "Low-Level Design",
+            "category": "Solution Architecture",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "LLD",
+                "low level design"
+            ]
+        },
+        {
+            "id": "ACTIVITY.ARCHITECTURE_DESIGN",
+            "name": "Architecture Design",
+            "category": "Solution Architecture",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "solution architecture",
+                "architecture design"
+            ]
+        },
+        {
+            "id": "ACTIVITY.INSTALLATION",
+            "name": "Installation",
+            "category": "Solution Delivery",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "installation",
+                "installed"
+            ]
+        },
+        {
+            "id": "ACTIVITY.CONFIGURATION",
+            "name": "Configuration",
+            "category": "Solution Delivery",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "configuration",
+                "configured"
+            ]
+        },
+        {
+            "id": "ACTIVITY.IMPLEMENTATION",
+            "name": "Implementation",
+            "category": "Solution Delivery",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "implementation",
+                "implemented"
+            ]
+        },
+        {
+            "id": "ACTIVITY.MIGRATION",
+            "name": "Migration",
+            "category": "Solution Delivery",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "migration",
+                "migrated"
+            ]
+        },
+        {
+            "id": "ACTIVITY.INTEGRATION",
+            "name": "Integration",
+            "category": "Solution Delivery",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "integration",
+                "integrated"
+            ]
+        },
+        {
+            "id": "ACTIVITY.TESTING",
+            "name": "Testing",
+            "category": "Delivery / Software",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "testing",
+                "tested",
+                "test execution"
+            ]
+        },
+        {
+            "id": "ACTIVITY.COMMISSIONING",
+            "name": "Commissioning",
+            "category": "Solution Delivery",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "commissioning",
+                "commissioned"
+            ]
+        },
+        {
+            "id": "ACTIVITY.MONITORING",
+            "name": "Monitoring",
+            "category": "Postsales / Operations",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "monitoring",
+                "monitored"
+            ]
+        },
+        {
+            "id": "ACTIVITY.INCIDENT_MANAGEMENT",
+            "name": "Incident Management",
+            "category": "Postsales / Support",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "incident management",
+                "incident handling"
+            ]
+        },
+        {
+            "id": "ACTIVITY.SOFTWARE_DEVELOPMENT",
+            "name": "Software Development",
+            "category": "Software Engineering",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "software development",
+                "application development"
+            ]
+        },
+        {
+            "id": "ACTIVITY.FRONTEND_DEVELOPMENT",
+            "name": "Frontend Development",
+            "category": "Software Engineering",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "front end development",
+                "frontend development"
+            ]
+        },
+        {
+            "id": "ACTIVITY.BACKEND_DEVELOPMENT",
+            "name": "Backend Development",
+            "category": "Software Engineering",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "back end development",
+                "backend development"
+            ]
+        },
+        {
+            "id": "ACTIVITY.FULL_STACK_DEVELOPMENT",
+            "name": "Full-Stack Development",
+            "category": "Software Engineering",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "full stack",
+                "full-stack development"
+            ]
+        },
+        {
+            "id": "ACTIVITY.API_DEVELOPMENT",
+            "name": "API Development",
+            "category": "Software Engineering",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "API development",
+                "REST API development"
+            ]
+        },
+        {
+            "id": "ACTIVITY.DATABASE_ADMINISTRATION",
+            "name": "Database Administration",
+            "category": "Database Administration",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "DBA",
+                "database administration"
+            ]
+        },
+        {
+            "id": "ACTIVITY.CI_CD",
+            "name": "CI/CD",
+            "category": "DevOps",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "CI/CD",
+                "continuous integration",
+                "continuous deployment"
+            ]
+        },
+        {
+            "id": "ACTIVITY.AUTOMATION",
+            "name": "Automation",
+            "category": "DevOps / Engineering",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "automation",
+                "automated"
+            ]
+        },
+        {
+            "id": "ACTIVITY.CONTAINERIZATION",
+            "name": "Containerization",
+            "category": "DevOps",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "containers",
+                "containerization"
+            ]
+        },
+        {
+            "id": "ACTIVITY.ORCHESTRATION",
+            "name": "Orchestration",
+            "category": "DevOps / Platform",
+            "branch": "TECHNICAL",
+            "aliases": [
+                "orchestration",
+                "container orchestration"
+            ]
+        },
+        {
+            "id": "ACTIVITY.ACCOUNT_PLANNING",
+            "name": "Account Planning",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.AUDIT_REPORTING",
+            "name": "Audit Reporting",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.BACKUP_RECOVERY",
+            "name": "Backup Recovery",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.CAPACITY_PLANNING",
+            "name": "Capacity Planning",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.CODE_REVIEW",
+            "name": "Code Review",
+            "category": "SOFTWARE_AND_INTEGRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.COMMERCIAL_NEGOTIATION",
+            "name": "Commercial Negotiation",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.COMPENSATION_BENEFITS",
+            "name": "Compensation Benefits",
+            "category": "HUMAN_RESOURCES",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.COMPLIANCE_AUDIT",
+            "name": "Compliance Audit",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.COMPLIANCE_MATRIX",
+            "name": "Compliance Matrix",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.CONTRACT_COORDINATION",
+            "name": "Contract Coordination",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.CONTROL_TESTING",
+            "name": "Control Testing",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.CUSTOMER_COORDINATION",
+            "name": "Customer Coordination",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DATABASE_BACKUP",
+            "name": "Database Backup",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DATABASE_MIGRATION",
+            "name": "Database Migration",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DATABASE_PERFORMANCE",
+            "name": "Database Performance",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DATABASE_RECOVERY",
+            "name": "Database Recovery",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DATABASE_SECURITY",
+            "name": "Database Security",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DEBUGGING",
+            "name": "Debugging",
+            "category": "SOFTWARE_AND_INTEGRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DEMAND_PLANNING",
+            "name": "Demand Planning",
+            "category": "SUPPLY_CHAIN_AND_INVENTORY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DEMO",
+            "name": "Demo",
+            "category": "SOLUTION_DELIVERY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DISTRIBUTION",
+            "name": "Distribution",
+            "category": "SUPPLY_CHAIN_AND_INVENTORY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DOCUMENTATION",
+            "name": "Documentation",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.DOCUMENT_COORDINATION",
+            "name": "Document Coordination",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.EMPLOYEE_RELATIONS",
+            "name": "Employee Relations",
+            "category": "HUMAN_RESOURCES",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.EXECUTIVE_SUPPORT",
+            "name": "Executive Support",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.EXTERNAL_AUDIT",
+            "name": "External Audit",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.FACILITIES_COORDINATION",
+            "name": "Facilities Coordination",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.FAT",
+            "name": "Fat",
+            "category": "SOLUTION_DELIVERY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.FINANCIAL_CONTROL",
+            "name": "Financial Control",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.FORECASTING",
+            "name": "Forecasting",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.HANDOVER",
+            "name": "Handover",
+            "category": "SOLUTION_DELIVERY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.HR_REPORTING",
+            "name": "Hr Reporting",
+            "category": "HUMAN_RESOURCES",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.INFRASTRUCTURE_AS_CODE",
+            "name": "Infrastructure As Code",
+            "category": "SOFTWARE_AND_INTEGRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.INTEGRATION_DESIGN",
+            "name": "Integration Design",
+            "category": "SOFTWARE_AND_INTEGRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.INTERNAL_AUDIT",
+            "name": "Internal Audit",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.INTEROPERABILITY",
+            "name": "Interoperability",
+            "category": "SOFTWARE_AND_INTEGRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.INVENTORY_REPORTING",
+            "name": "Inventory Reporting",
+            "category": "SUPPLY_CHAIN_AND_INVENTORY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.LIFECYCLE_DESIGN",
+            "name": "Lifecycle Design",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.LIFECYCLE_REFRESH",
+            "name": "Lifecycle Refresh",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.MATERIAL_CONTROL",
+            "name": "Material Control",
+            "category": "SUPPLY_CHAIN_AND_INVENTORY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.OEM_COORDINATION",
+            "name": "Oem Coordination",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.OFFICE_COORDINATION",
+            "name": "Office Coordination",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.ONBOARDING",
+            "name": "Onboarding",
+            "category": "HUMAN_RESOURCES",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.OPERATIONAL_REPORTING",
+            "name": "Operational Reporting",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.OPERATIONS_MANAGEMENT",
+            "name": "Operations Management",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.OPTIMIZATION",
+            "name": "Optimization",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.PATCHING",
+            "name": "Patching",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.PERFORMANCE_MANAGEMENT",
+            "name": "Performance Management",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.PLATFORM_ENGINEERING",
+            "name": "Platform Engineering",
+            "category": "TECHNICAL_OPERATIONS",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.POC",
+            "name": "Poc",
+            "category": "SOLUTION_DELIVERY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.PREVENTIVE_MAINTENANCE",
+            "name": "Preventive Maintenance",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.PROBLEM_MANAGEMENT",
+            "name": "Problem Management",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.PROJECT_GOVERNANCE",
+            "name": "Project Governance",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.QUOTATION_COMPARISON",
+            "name": "Quotation Comparison",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.RELEASE_MANAGEMENT",
+            "name": "Release Management",
+            "category": "SOFTWARE_AND_INTEGRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.RESILIENCE_DESIGN",
+            "name": "Resilience Design",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.RISK_MANAGEMENT",
+            "name": "Risk Management",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.SAT",
+            "name": "Sat",
+            "category": "SOLUTION_DELIVERY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.SECURITY_ARCHITECTURE",
+            "name": "Security Architecture",
+            "category": "GENERAL_BUSINESS_OR_TECHNICAL_ACTIVITY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.STAKEHOLDER_COORDINATION",
+            "name": "Stakeholder Coordination",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.STAKEHOLDER_MANAGEMENT",
+            "name": "Stakeholder Management",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.SUPPLIER_COORDINATION",
+            "name": "Supplier Coordination",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.SUPPLY_CHAIN_PLANNING",
+            "name": "Supply Chain Planning",
+            "category": "SUPPLY_CHAIN_AND_INVENTORY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.TAXATION",
+            "name": "Taxation",
+            "category": "GOVERNANCE_AND_COMPLIANCE",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.TECHNICAL_PROPOSAL",
+            "name": "Technical Proposal",
+            "category": "SOLUTION_DELIVERY",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.TENDER_PROCESSING",
+            "name": "Tender Processing",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.TENDER_RESPONSE",
+            "name": "Tender Response",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.TRAINING",
+            "name": "Training",
+            "category": "SOLUTION_DELIVERY",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.VENDOR_COORDINATION",
+            "name": "Vendor Coordination",
+            "category": "COMMERCIAL_AND_VENDOR",
+            "branch": "BUSINESS_CORPORATE",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "ACTIVITY.WARRANTY_COORDINATION",
+            "name": "Warranty Coordination",
+            "category": "COORDINATION_AND_ADMINISTRATION",
+            "branch": "TECHNICAL",
+            "aliases": [],
+            "description": "Generated from an existing function-to-activity reference. Review and refine before production use.",
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        }
+    ]
+}

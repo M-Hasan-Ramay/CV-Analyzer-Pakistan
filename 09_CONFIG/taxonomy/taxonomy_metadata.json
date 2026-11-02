@@ -1,0 +1,58 @@
+{
+    "taxonomy_name": "CV_AI Recruitment and System Integration Taxonomy",
+    "taxonomy_version": "0.1.0",
+    "status": "development",
+    "language": "en",
+    "scope": [
+        "CV understanding",
+        "recruitment",
+        "career classification",
+        "technical competency evidence",
+        "business and corporate competency evidence",
+        "system integration",
+        "technology relationships",
+        "certification consistency",
+        "career history analysis"
+    ],
+    "design_principles": [
+        "Technology does not equal occupation.",
+        "Certification does not equal practical competency.",
+        "Keyword occurrence does not equal experience.",
+        "Career function is independent from technology.",
+        "Technical and non-technical occupations are parallel branches.",
+        "Evidence must be preserved before interpretation.",
+        "Semantic interpretation should use the complete CV context.",
+        "CMC-specific system integration knowledge is an extension layer.",
+        "Taxonomy identity must remain separate from competency assessment.",
+        "Human review remains available for ambiguous cases."
+    ],
+    "top_level_branches": [
+        {
+            "id": "TECHNICAL",
+            "name": "Technical / Technology",
+            "description": "Technology, engineering, infrastructure, software and technical system integration domains."
+        },
+        {
+            "id": "BUSINESS_CORPORATE",
+            "name": "Business / Corporate",
+            "description": "Business, corporate, administrative and operational career domains."
+        }
+    ],
+    "namespaces": {
+        "domain": "CMC.DOMAIN",
+        "subdomain": "CMC.SUBDOMAIN",
+        "technology": "TECH",
+        "oem": "OEM",
+        "role": "ROLE",
+        "occupation": "OCC",
+        "function": "FUNCTION",
+        "activity": "ACTIVITY",
+        "skill": "SKILL",
+        "competency": "COMP",
+        "certification": "CERT",
+        "architecture": "ARCH",
+        "industry": "IND",
+        "solution": "SOLUTION",
+        "lifecycle": "LIFECYCLE"
+    }
+}

@@ -1,0 +1,533 @@
+{
+  "schema_version": "1.0",
+  "certifications": [
+    {
+      "pattern": "\\bCCNA(?:\\s+(Enterprise|Data Center|Collaboration|Security|Industrial))?\\b",
+      "normalized_name": "Cisco Certified Network Associate",
+      "vendor": "Cisco",
+      "category": "Networking",
+      "level": "Associate",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bCCNP(?:\\s+(Enterprise|Data Center|Collaboration|Security|Industrial))?\\b",
+      "normalized_name": "Cisco Certified Network Professional",
+      "vendor": "Cisco",
+      "category": "Networking",
+      "level": "Professional",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bCCIE(?:\\s+(Enterprise|Data Center|Collaboration|Security|Industrial))?\\b",
+      "normalized_name": "Cisco Certified Internetwork Expert",
+      "vendor": "Cisco",
+      "category": "Networking",
+      "level": "Expert",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bCyberOps\\s+(?:Associate|Professional)\\b",
+      "normalized_name": "Cisco CyberOps",
+      "vendor": "Cisco",
+      "category": "Cybersecurity",
+      "level": "Associate / Professional",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\bJNCIA(?:-[A-Z]{2,5})?\\b",
+      "normalized_name": "Juniper Networks Certified Associate",
+      "vendor": "Juniper Networks",
+      "category": "Networking",
+      "level": "Associate",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bJNCIS(?:-[A-Z]{2,5})?\\b",
+      "normalized_name": "Juniper Networks Certified Specialist",
+      "vendor": "Juniper Networks",
+      "category": "Networking",
+      "level": "Specialist",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bJNCIP(?:-[A-Z]{2,5})?\\b",
+      "normalized_name": "Juniper Networks Certified Professional",
+      "vendor": "Juniper Networks",
+      "category": "Networking",
+      "level": "Professional",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bJNCIE(?:-[A-Z]{2,5})?\\b",
+      "normalized_name": "Juniper Networks Certified Expert",
+      "vendor": "Juniper Networks",
+      "category": "Networking",
+      "level": "Expert",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bHCIA-(Datacom|Storage|Security|Cloud\\s*Service|IoT|AI)\\b",
+      "normalized_name": "Huawei Certified ICT Associate",
+      "vendor": "Huawei",
+      "category": "ICT",
+      "level": "Associate",
+      "domain": "Huawei technology certification"
+    },
+    {
+      "pattern": "\\bHCIP-(Datacom|Storage|Security|Cloud\\s*Service|IoT|AI)\\b",
+      "normalized_name": "Huawei Certified ICT Professional",
+      "vendor": "Huawei",
+      "category": "ICT",
+      "level": "Professional",
+      "domain": "Huawei technology certification"
+    },
+    {
+      "pattern": "\\bHCIE-(Datacom|Storage|Security|Cloud\\s*Service|IoT|AI)\\b",
+      "normalized_name": "Huawei Certified ICT Expert",
+      "vendor": "Huawei",
+      "category": "ICT",
+      "level": "Expert",
+      "domain": "Huawei technology certification"
+    },
+    {
+      "pattern": "\\bHCSA-(?:Presales|Storage|Security|Cloud|IoT)\\b",
+      "normalized_name": "Huawei Certified ICT Associate",
+      "vendor": "Huawei",
+      "category": "ICT",
+      "level": "Associate",
+      "domain": "Huawei technology certification"
+    },
+    {
+      "pattern": "\\bHCSP-(?:Presales|Senior|Storage|Security|Cloud|IoT)\\b",
+      "normalized_name": "Huawei Certified ICT Professional",
+      "vendor": "Huawei",
+      "category": "ICT",
+      "level": "Professional",
+      "domain": "Huawei technology certification"
+    },
+    {
+      "pattern": "\\bHCS-(?:Field|Sales|Partner)\\b",
+      "normalized_name": "Huawei Certified Service",
+      "vendor": "Huawei",
+      "category": "Partner / Sales",
+      "level": "Credential",
+      "domain": "Huawei partner certification"
+    },
+    {
+      "pattern": "\\bH3CNE(?:-RS\\+)?\\b",
+      "normalized_name": "H3C Certified Network Engineer",
+      "vendor": "H3C",
+      "category": "Networking",
+      "level": "Engineer",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bH3CSE(?:-RS\\+)?\\b",
+      "normalized_name": "H3C Certified Senior Engineer",
+      "vendor": "H3C",
+      "category": "Networking",
+      "level": "Senior Engineer",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bH3CIE(?:-RS\\+)?\\b",
+      "normalized_name": "H3C Certified Internetwork Expert",
+      "vendor": "H3C",
+      "category": "Networking",
+      "level": "Expert",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\b(?:NSE\\s*[1-8]|FCP|FCSS)(?:\\s*[-:]?\\s*(?:Network Security|Public Cloud Security|Security Operations|SASE))?\\b",
+      "normalized_name": "Fortinet NSE / FCP / FCSS Certification",
+      "vendor": "Fortinet",
+      "category": "Cybersecurity",
+      "level": "Vendor-defined",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\bPCNSA\\b",
+      "normalized_name": "Palo Alto Networks Certified Network Security Administrator",
+      "vendor": "Palo Alto Networks",
+      "category": "Cybersecurity",
+      "level": "Associate",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\bPCNSE\\b",
+      "normalized_name": "Palo Alto Networks Certified Network Security Engineer",
+      "vendor": "Palo Alto Networks",
+      "category": "Cybersecurity",
+      "level": "Engineer",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\bCCSA\\b",
+      "normalized_name": "Check Point Certified Security Administrator",
+      "vendor": "Check Point",
+      "category": "Cybersecurity",
+      "level": "Administrator",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\bCCSE\\+?\\b",
+      "normalized_name": "Check Point Certified Security Expert",
+      "vendor": "Check Point",
+      "category": "Cybersecurity",
+      "level": "Expert",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:CKA|CKAD|CKS|KCNA)\\b",
+      "normalized_name": "Cloud Native Computing Foundation Certification",
+      "vendor": "CNCF",
+      "category": "Cloud Native",
+      "level": "Vendor-defined",
+      "domain": "IT Systems / Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:NCP-MCI|NCA|NPX)\\b",
+      "normalized_name": "Nutanix Certification",
+      "vendor": "Nutanix",
+      "category": "Infrastructure",
+      "level": "Vendor-defined",
+      "domain": "IT Systems / Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:VCP-DCV|VCP|VCAP-DCV|VCAP|VCDX)\\b",
+      "normalized_name": "VMware Certification",
+      "vendor": "VMware by Broadcom",
+      "category": "Virtualization",
+      "level": "Vendor-defined",
+      "domain": "IT Systems / Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:VMCE|VMCA|VMTSP|VMTS)\\b",
+      "normalized_name": "Veeam Certification",
+      "vendor": "Veeam",
+      "category": "Data Protection",
+      "level": "Vendor-defined",
+      "domain": "Storage & Data Protection"
+    },
+    {
+      "pattern": "\\b(?:CDCP|CDCS|CDCE)\\b",
+      "normalized_name": "EPI Data Centre Certification",
+      "vendor": "EPI",
+      "category": "Data Center Facilities",
+      "level": "Vendor-defined",
+      "domain": "Data Center Facilities"
+    },
+    {
+      "pattern": "\\b(?:ATD|ATS|AOS)\\b",
+      "normalized_name": "Uptime Institute Accredited Certification",
+      "vendor": "Uptime Institute",
+      "category": "Data Center Facilities",
+      "level": "Vendor-defined",
+      "domain": "Data Center Facilities"
+    },
+    {
+      "pattern": "\\b(?:RCDD|DCDC)\\b",
+      "normalized_name": "BICSI Certification",
+      "vendor": "BICSI",
+      "category": "Data Center / Cabling",
+      "level": "Vendor-defined",
+      "domain": "Data Center Facilities"
+    },
+    {
+      "pattern": "\\b(?:AZ-900|AZ-104|AZ-305|AZ-400|AZ-500|AZ-800|AZ-801)\\b",
+      "normalized_name": "Microsoft Azure Certification",
+      "vendor": "Microsoft",
+      "category": "Cloud",
+      "level": "Vendor-defined",
+      "domain": "Cloud & Digital Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:AI-900|AI-102|DP-100|SC-200|SC-300|SC-900|SC-100)\\b",
+      "normalized_name": "Microsoft AI / Security Certification",
+      "vendor": "Microsoft",
+      "category": "AI / Cybersecurity",
+      "level": "Vendor-defined",
+      "domain": "Microsoft technology certification"
+    },
+    {
+      "pattern": "\\b(?:CKA|CKAD|CKS)\\b",
+      "normalized_name": "CNCF Kubernetes Certification",
+      "vendor": "CNCF",
+      "category": "Cloud Native",
+      "level": "Vendor-defined",
+      "domain": "IT Systems / Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:Terraform Associate|HashiCorp Certified: Terraform Associate)\\b",
+      "normalized_name": "HashiCorp Certified: Terraform Associate",
+      "vendor": "HashiCorp",
+      "category": "Infrastructure Automation",
+      "level": "Associate",
+      "domain": "IT Systems / Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:CISA|CISM|CRISC|CGEIT)\\b",
+      "normalized_name": "ISACA Certification",
+      "vendor": "ISACA",
+      "category": "Audit / Security / Governance",
+      "level": "Professional",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:CISSP|CCSP|SSCP)\\b",
+      "normalized_name": "ISC2 Certification",
+      "vendor": "ISC2",
+      "category": "Cybersecurity",
+      "level": "Professional",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:OSCP|OSWA|OSWE|OSEP|OSED)\\b",
+      "normalized_name": "Offensive Security Certification",
+      "vendor": "OffSec",
+      "category": "Offensive Security",
+      "level": "Professional",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:GSEC|GCIA|GCIH|GPEN|GXPN)\\b",
+      "normalized_name": "GIAC Certification",
+      "vendor": "GIAC",
+      "category": "Cybersecurity",
+      "level": "Professional",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:Network\\+|Security\\+|CySA\\+|PenTest\\+|CASP\\+|A\\+)\\b",
+      "normalized_name": "CompTIA Certification",
+      "vendor": "CompTIA",
+      "category": "IT / Cybersecurity",
+      "level": "Vendor-defined",
+      "domain": "IT and Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:AZ-220|IoT Specialty|IC32|IC33|IC34|IC37)\\b",
+      "normalized_name": "IoT / Industrial Cybersecurity Certification",
+      "vendor": "Microsoft / AWS / ISA",
+      "category": "IoT / OT Security",
+      "level": "Vendor-defined",
+      "domain": "Smart Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:AI Practitioner|ML Engineer Associate|ML Specialty|Professional ML Engineer|NCA-AIIO|NCP-AII|NCP-AIN|NCP-GENL|NCP-ADS)\\b",
+      "normalized_name": "AI / Machine Learning Certification",
+      "vendor": "AWS / Google Cloud / NVIDIA",
+      "category": "AI / Machine Learning",
+      "level": "Vendor-defined",
+      "domain": "AI / Machine Learning"
+    },
+    {
+      "pattern": "\\b(?:NSE|FCP|FCSS)\\b",
+      "normalized_name": "Fortinet Certification",
+      "vendor": "Fortinet",
+      "category": "Cybersecurity",
+      "level": "Vendor-defined",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:RHCSA|RHCE|RHCA)\\b",
+      "normalized_name": "Red Hat Certification",
+      "vendor": "Red Hat",
+      "category": "Linux Systems",
+      "level": "Vendor-defined",
+      "domain": "IT Systems / Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:PCA|PCMA|PCMP)\\b",
+      "normalized_name": "Monitoring / Observability Certification",
+      "vendor": "Prometheus / Paessler",
+      "category": "Monitoring",
+      "level": "Vendor-defined",
+      "domain": "Software / Applications / Platforms"
+    },
+    {
+      "pattern": "\\b(?:CSA|CIS|CAD|CTA)\\b",
+      "normalized_name": "ServiceNow Certification",
+      "vendor": "ServiceNow",
+      "category": "Enterprise Applications",
+      "level": "Vendor-defined",
+      "domain": "ERP & Business Applications"
+    },
+    {
+      "pattern": "\\b(?:ACA|ACP|ACMX)(?:\\s+Mobility)?\\b",
+      "normalized_name": "HPE Aruba Certification",
+      "vendor": "HPE Aruba",
+      "category": "Networking",
+      "level": "Vendor-defined",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\b(?:ECA|ECP|ECE)(?:\\s+Solutions?\\s+(?:Selling|Design))?\\b",
+      "normalized_name": "Extreme Networks Certification",
+      "vendor": "Extreme Networks",
+      "category": "Networking",
+      "level": "Vendor-defined",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bACE\\s+(?:Associate|Specialist|Professional|Expert)\\b",
+      "normalized_name": "Arista Certified Engineer",
+      "vendor": "Arista Networks",
+      "category": "Networking",
+      "level": "Vendor-defined",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\b(?:NRS\\s*I|NRS\\s*II|SRA)\\b",
+      "normalized_name": "Nokia Network Certification",
+      "vendor": "Nokia",
+      "category": "Networking",
+      "level": "Vendor-defined",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\bF5-(?:CA|CTS|CSE)\\b",
+      "normalized_name": "F5 Certification",
+      "vendor": "F5",
+      "category": "Application Delivery / Security",
+      "level": "Vendor-defined",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\b(?:MTCNA|MTCRE|MTCINE)\\b",
+      "normalized_name": "MikroTik Certification",
+      "vendor": "MikroTik",
+      "category": "Networking",
+      "level": "Vendor-defined",
+      "domain": "IP Datacom / Networking"
+    },
+    {
+      "pattern": "\\b(?:NCDA|NCSA|NCIE)\\b",
+      "normalized_name": "NetApp Certification",
+      "vendor": "NetApp",
+      "category": "Storage",
+      "level": "Vendor-defined",
+      "domain": "Storage & Data Protection"
+    },
+    {
+      "pattern": "\\b(?:SCSA|SCSP|SCSE)(?:-HCI)?\\b",
+      "normalized_name": "Sangfor Certification",
+      "vendor": "Sangfor",
+      "category": "Infrastructure / Virtualization",
+      "level": "Vendor-defined",
+      "domain": "IT Systems / Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:CVSA|CV Professional|CV Engineer|CV Master Engineer)\\b",
+      "normalized_name": "Commvault Certification",
+      "vendor": "Commvault",
+      "category": "Data Protection",
+      "level": "Vendor-defined",
+      "domain": "Storage & Data Protection"
+    },
+    {
+      "pattern": "\\b(?:LRCA|LogRhythm Certified Administrator)\\b",
+      "normalized_name": "LogRhythm Certified Administrator",
+      "vendor": "LogRhythm / Exabeam",
+      "category": "Security Operations",
+      "level": "Administrator",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:SC-200|SC-300|SC-900|SC-100)\\b",
+      "normalized_name": "Microsoft Security Certification",
+      "vendor": "Microsoft",
+      "category": "Cybersecurity",
+      "level": "Vendor-defined",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:Associate Cloud Engineer|Professional Cloud Architect|Professional Cloud DevOps Engineer|Professional Machine Learning Engineer)\\b",
+      "normalized_name": "Google Cloud Certification",
+      "vendor": "Google Cloud",
+      "category": "Cloud / AI",
+      "level": "Vendor-defined",
+      "domain": "Cloud & Digital Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:OCI Foundations Associate|OCI Architect Associate|OCI Architect Professional)\\b",
+      "normalized_name": "Oracle Cloud Infrastructure Certification",
+      "vendor": "Oracle",
+      "category": "Cloud",
+      "level": "Vendor-defined",
+      "domain": "Cloud & Digital Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:ACA Cloud|ACP Cloud|ACE Cloud)\\b",
+      "normalized_name": "Alibaba Cloud Certification",
+      "vendor": "Alibaba Cloud",
+      "category": "Cloud",
+      "level": "Vendor-defined",
+      "domain": "Cloud & Digital Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:ISO\\s*/?\\s*IEC\\s*)?27001\\s+(?:Lead Auditor|Lead Implementer|Internal Auditor)\\b",
+      "normalized_name": "ISO/IEC 27001 Auditor / Implementer",
+      "vendor": "ISO / Certification Body",
+      "category": "Information Security Management",
+      "level": "Vendor-defined",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:CISA|CISM|CRISC|CGEIT)\\b",
+      "normalized_name": "ISACA Certification",
+      "vendor": "ISACA",
+      "category": "Audit / Security / Governance",
+      "level": "Professional",
+      "domain": "Cybersecurity"
+    },
+    {
+      "pattern": "\\b(?:CNCF )?PCA\\b",
+      "normalized_name": "Prometheus Certified Associate",
+      "vendor": "CNCF",
+      "category": "Observability",
+      "level": "Associate",
+      "domain": "Software / Applications / Platforms"
+    },
+    {
+      "pattern": "\\b(?:PCMA|PCMP)\\b",
+      "normalized_name": "Paessler PRTG Certification",
+      "vendor": "Paessler",
+      "category": "Monitoring",
+      "level": "Vendor-defined",
+      "domain": "Software / Applications / Platforms"
+    },
+    {
+      "pattern": "\\b(?:MS-700|Teams Rooms Certification)\\b",
+      "normalized_name": "Microsoft Teams Certification",
+      "vendor": "Microsoft",
+      "category": "Unified Communications",
+      "level": "Vendor-defined",
+      "domain": "Unified Communications & Collaboration"
+    },
+    {
+      "pattern": "\\b(?:RCDD|DCDC|BICSI Installer [12])\\b",
+      "normalized_name": "BICSI Cabling / Data Center Certification",
+      "vendor": "BICSI",
+      "category": "Data Center / Cabling",
+      "level": "Vendor-defined",
+      "domain": "Data Center Facilities"
+    },
+    {
+      "pattern": "\\b(?:AZ-220|IoT Specialty|IC32|IC33|IC34|IC37)\\b",
+      "normalized_name": "IoT / Industrial Cybersecurity Certification",
+      "vendor": "Microsoft / AWS / ISA",
+      "category": "IoT / OT Security",
+      "level": "Vendor-defined",
+      "domain": "Smart Infrastructure"
+    },
+    {
+      "pattern": "\\b(?:NCA-GENL|NCP-GENL|NCP-AAI|NCA-GENM|NCP-AII|NCP-AIN)\\b",
+      "normalized_name": "NVIDIA AI Certification",
+      "vendor": "NVIDIA",
+      "category": "AI / Machine Learning",
+      "level": "Vendor-defined",
+      "domain": "AI / Machine Learning"
+    }
+  ]
+}

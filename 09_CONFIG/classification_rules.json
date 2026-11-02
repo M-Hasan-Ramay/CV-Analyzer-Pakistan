@@ -1,0 +1,1077 @@
+{
+  "schema_version": "1.0",
+  "industries": [
+    {
+      "name": "Oil & Gas",
+      "subindustries": [
+        {
+          "name": "Upstream",
+          "keywords": [
+            "upstream",
+            "exploration and production",
+            "exploration & production",
+            "drilling",
+            "well completion",
+            "well intervention",
+            "reservoir engineering",
+            "reservoir management",
+            "production operations",
+            "oilfield services",
+            "petroleum engineering",
+            "geoscience",
+            "seismic interpretation"
+          ]
+        },
+        {
+          "name": "Midstream",
+          "keywords": [
+            "midstream",
+            "oil pipeline",
+            "gas pipeline",
+            "pipeline operations",
+            "pipeline integrity",
+            "gas processing",
+            "natural gas processing",
+            "lng",
+            "liquefied natural gas",
+            "compression station",
+            "gas transmission",
+            "oil terminal",
+            "storage terminal"
+          ]
+        },
+        {
+          "name": "Downstream",
+          "keywords": [
+            "downstream",
+            "refinery",
+            "refining",
+            "petrochemical",
+            "petrochemicals",
+            "fuel distribution",
+            "fuel retail",
+            "lubricants",
+            "process plant",
+            "oil marketing company"
+          ]
+        },
+        {
+          "name": "General / Integrated",
+          "keywords": [
+            "oil and gas",
+            "oil & gas",
+            "oilfield",
+            "petroleum",
+            "hydrocarbon",
+            "hydrocarbons"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telecommunications",
+      "keywords": [
+        "telecommunications",
+        "telecommunication",
+        "telecom operator",
+        "mobile network operator",
+        "cellular operator",
+        "telecom industry",
+        "internet service provider",
+        "isp"
+      ]
+    },
+    {
+      "name": "Banking & Financial Services",
+      "keywords": [
+        "banking",
+        "commercial bank",
+        "investment banking",
+        "financial services",
+        "insurance industry",
+        "fintech",
+        "microfinance"
+      ]
+    },
+    {
+      "name": "Healthcare & Life Sciences",
+      "keywords": [
+        "healthcare",
+        "hospital",
+        "clinical",
+        "pharmaceutical",
+        "pharma",
+        "life sciences",
+        "medical devices"
+      ]
+    },
+    {
+      "name": "Manufacturing & Industrial",
+      "keywords": [
+        "manufacturing",
+        "industrial automation",
+        "factory",
+        "production line",
+        "plant operations",
+        "industrial engineering"
+      ]
+    },
+    {
+      "name": "Energy & Utilities",
+      "keywords": [
+        "power generation",
+        "electric utility",
+        "electricity distribution",
+        "renewable energy",
+        "solar energy",
+        "wind energy",
+        "energy sector"
+      ]
+    },
+    {
+      "name": "Government & Public Sector",
+      "keywords": [
+        "government department",
+        "public sector",
+        "ministry",
+        "municipal government",
+        "government agency",
+        "public administration"
+      ]
+    },
+    {
+      "name": "Education",
+      "keywords": [
+        "higher education",
+        "educational institution",
+        "school administration",
+        "university administration",
+        "education sector"
+      ]
+    },
+    {
+      "name": "Construction & Engineering",
+      "keywords": [
+        "construction industry",
+        "civil construction",
+        "engineering consultancy",
+        "construction project",
+        "building contractor"
+      ]
+    },
+    {
+      "name": "Retail & Consumer",
+      "keywords": [
+        "retail industry",
+        "retail operations",
+        "fast moving consumer goods",
+        "fmcg",
+        "consumer goods"
+      ]
+    },
+    {
+      "name": "Information Technology & Software",
+      "keywords": [
+        "software house",
+        "software company",
+        "technology company",
+        "information technology services",
+        "software development company",
+        "saas company"
+      ]
+    }
+  ],
+  "industry_taxonomies": [
+    {
+      "name": "Professional network industries",
+      "labels": [
+        "Administration of Justice",
+        "Advertising Services",
+        "Airlines and Aviation",
+        "Alternative Dispute Resolution",
+        "Alternative Medicine",
+        "Animation and Post-production",
+        "Appliances, Electrical, and Electronics Manufacturing",
+        "Architecture and Planning",
+        "Armed Forces",
+        "Artists and Writers",
+        "Automation Machinery Manufacturing",
+        "Aviation and Aerospace Component Manufacturing",
+        "Banking",
+        "Beverage Manufacturing",
+        "Biotechnology Research",
+        "Book and Periodical Publishing",
+        "Broadcast Media Production and Distribution",
+        "Business Consulting and Services",
+        "Capital Markets",
+        "Chemical Manufacturing",
+        "Civic and Social Organizations",
+        "Civil Engineering",
+        "Computer Games",
+        "Computer Hardware Manufacturing",
+        "Computer Networking Products",
+        "Computer and Network Security",
+        "Computers and Electronics Manufacturing",
+        "Construction",
+        "Consumer Services",
+        "Dairy Product Manufacturing",
+        "Defense and Space Manufacturing",
+        "Design Services",
+        "E-Learning Providers",
+        "Education Administration Programs",
+        "Entertainment Providers",
+        "Environmental Services",
+        "Events Services",
+        "Executive Offices",
+        "Facilities Services",
+        "Farming",
+        "Financial Services",
+        "Fisheries",
+        "Food and Beverage Manufacturing",
+        "Food and Beverage Services",
+        "Freight and Package Transportation",
+        "Fundraising",
+        "Furniture and Home Furnishings Manufacturing",
+        "Gambling Facilities and Casinos",
+        "Glass, Ceramics and Concrete Manufacturing",
+        "Government Administration",
+        "Government Relations Services",
+        "Graphic Design",
+        "Higher Education",
+        "Hospitality",
+        "Hospitals and Health Care",
+        "Human Resources Services",
+        "IT Services and IT Consulting",
+        "Individual and Family Services",
+        "Industrial Machinery Manufacturing",
+        "Information Services",
+        "Insurance",
+        "International Affairs",
+        "International Trade and Development",
+        "Investment Banking",
+        "Investment Management",
+        "Law Enforcement",
+        "Law Practice",
+        "Leasing Non-residential Real Estate",
+        "Legal Services",
+        "Legislative Offices",
+        "Libraries",
+        "Machinery Manufacturing",
+        "Manufacturing",
+        "Maritime Transportation",
+        "Market Research",
+        "Media Production",
+        "Medical Equipment Manufacturing",
+        "Medical Practices",
+        "Mental Health Care",
+        "Mining",
+        "Motor Vehicle Manufacturing",
+        "Movies, Videos, and Sound",
+        "Museums, Historical Sites, and Zoos",
+        "Musicians",
+        "Nanotechnology Research",
+        "Newspaper Publishing",
+        "Non-profit Organizations",
+        "Online Audio and Video Media",
+        "Outsourcing and Offshoring Consulting",
+        "Packaging and Containers Manufacturing",
+        "Paper and Forest Product Manufacturing",
+        "Performing Arts",
+        "Personal Care Product Manufacturing",
+        "Pharmaceutical Manufacturing",
+        "Philanthropic Fundraising Services",
+        "Photography",
+        "Plastics Manufacturing",
+        "Political Organizations",
+        "Primary and Secondary Education",
+        "Printing Services",
+        "Professional Training and Coaching",
+        "Public Policy Offices",
+        "Public Relations and Communications Services",
+        "Public Safety",
+        "Railroad Equipment Manufacturing",
+        "Ranching",
+        "Real Estate",
+        "Recreational Facilities",
+        "Religious Institutions",
+        "Renewable Energy Semiconductor Manufacturing",
+        "Research Services",
+        "Restaurants",
+        "Retail",
+        "Retail Apparel and Fashion",
+        "Retail Art Supplies",
+        "Retail Groceries",
+        "Retail Luxury Goods and Jewelry",
+        "Retail Office Equipment",
+        "Security and Investigations",
+        "Semiconductor Manufacturing",
+        "Shipbuilding",
+        "Software Development",
+        "Spectator Sports",
+        "Sporting Goods Manufacturing",
+        "Staffing and Recruiting",
+        "Strategic Management Services",
+        "Technology, Information and Internet",
+        "Telecommunications",
+        "Textile Manufacturing",
+        "Think Tanks",
+        "Tobacco Manufacturing",
+        "Translation and Localization",
+        "Transportation, Logistics, Supply Chain and Storage",
+        "Travel Arrangements",
+        "Truck Transportation",
+        "Utilities",
+        "Venture Capital and Private Equity Principals",
+        "Veterinary Services",
+        "Warehousing and Storage",
+        "Wellness and Fitness Services",
+        "Wholesale",
+        "Wholesale Building Materials",
+        "Wholesale Import and Export",
+        "Wireless Services",
+        "Writing and Editing",
+        "Accommodation"
+      ]
+    },
+    {
+      "name": "Broad economic sectors",
+      "labels": [
+        "Accommodation and Food Services",
+        "Administrative and Support Services",
+        "Administrative and Support and Waste Management and Remediation Services",
+        "Agriculture, Forestry, Fishing and Hunting",
+        "Air Transportation",
+        "Ambulatory Health Care Services",
+        "Amusement, Gambling, and Recreation Industries",
+        "Animal Production",
+        "Apparel Manufacturing",
+        "Arts, Entertainment, and Recreation",
+        "Beverage and Tobacco Product Manufacturing",
+        "Broadcasting",
+        "Building Material and Garden Equipment and Supplies Dealers",
+        "Chemical Manufacturing",
+        "Clothing and Clothing Accessories Stores",
+        "Computer and Electronic Product Manufacturing",
+        "Construction of Buildings",
+        "Couriers and Messengers",
+        "Credit Intermediation and Related Activities",
+        "Crop Production",
+        "Data Processing, Hosting, and Related Services",
+        "Education and Health Services",
+        "Educational Services",
+        "Electrical Equipment, Appliance, and Component Manufacturing",
+        "Electronics and Appliance Stores",
+        "Fabricated Metal Product Manufacturing",
+        "Finance and Insurance",
+        "Financial Activities",
+        "Fishing, Hunting and Trapping",
+        "Food Manufacturing",
+        "Food Services and Drinking Places",
+        "Food and Beverage Stores",
+        "Forestry and Logging",
+        "Funds, Trusts, and Other Financial Vehicles",
+        "Furniture and Home Furnishings Stores",
+        "Furniture and Related Product Manufacturing",
+        "Gasoline Stations",
+        "General Merchandise Stores",
+        "Goods-Producing Industries",
+        "Health Care and Social Assistance",
+        "Health and Personal Care Stores",
+        "Heavy and Civil Engineering Construction",
+        "Hospitals",
+        "Information",
+        "Insurance Carriers and Related Activities",
+        "Internet Publishing and Broadcasting",
+        "Leather and Allied Product Manufacturing",
+        "Leisure and Hospitality",
+        "Lessors of Nonfinancial Intangible Assets",
+        "Machinery Manufacturing",
+        "Management of Companies and Enterprises",
+        "Manufacturing",
+        "Merchant Wholesalers, Durable Goods",
+        "Merchant Wholesalers, Nondurable Goods",
+        "Mining, Quarrying, and Oil and Gas Extraction",
+        "Miscellaneous Manufacturing",
+        "Miscellaneous Store Retailers",
+        "Monetary Authorities - Central Bank",
+        "Motion Picture and Sound Recording Industries",
+        "Motor Vehicle and Parts Dealers",
+        "Museums, Historical Sites, and Similar Institutions",
+        "Natural Resources and Mining",
+        "Nonmetallic Mineral Product Manufacturing",
+        "Nonstore Retailers",
+        "Nursing and Residential Care Facilities",
+        "Oil and Gas Extraction",
+        "Other Information Services",
+        "Other Services",
+        "Paper Manufacturing",
+        "Performing Arts, Spectator Sports, and Related Industries",
+        "Personal and Laundry Services",
+        "Petroleum and Coal Products Manufacturing",
+        "Pipeline Transportation",
+        "Plastics and Rubber Products Manufacturing",
+        "Postal Service",
+        "Primary Metal Manufacturing",
+        "Printing and Related Support Activities",
+        "Private Households",
+        "Professional and Business Services",
+        "Professional, Scientific, and Technical Services",
+        "Publishing Industries",
+        "Rail Transportation",
+        "Real Estate and Rental and Leasing",
+        "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+        "Rental and Leasing Services",
+        "Repair and Maintenance",
+        "Retail Trade",
+        "Scenic and Sightseeing Transportation",
+        "Securities, Commodity Contracts, and Other Financial Investments and Related Activities",
+        "Service-Providing Industries",
+        "Social Assistance",
+        "Specialty Trade Contractors",
+        "Sporting Goods, Hobby, Book, and Music Stores",
+        "Support Activities for Agriculture and Forestry",
+        "Support Activities for Mining",
+        "Support Activities for Transportation",
+        "Textile Mills",
+        "Textile Product Mills",
+        "Trade, Transportation, and Utilities",
+        "Transit and Ground Passenger Transportation",
+        "Transportation Equipment Manufacturing",
+        "Transportation and Warehousing",
+        "Truck Transportation",
+        "Warehousing and Storage",
+        "Waste Management and Remediation Services",
+        "Water Transportation",
+        "Wholesale Electronic Markets and Agents and Brokers",
+        "Wholesale Trade",
+        "Wood Product Manufacturing"
+      ]
+    }
+  ],
+  "career_functions": [
+    {
+      "name": "Human Resources",
+      "keywords": [
+        "hr",
+        "human resources",
+        "talent acquisition",
+        "recruitment",
+        "recruiting",
+        "employee benefits",
+        "payroll administration",
+        "learning and development",
+        "employee relations",
+        "workplace culture",
+        "hr compliance"
+      ]
+    },
+    {
+      "name": "Finance & Accounts",
+      "keywords": [
+        "accountant",
+        "accounting",
+        "finance",
+        "financial accounting",
+        "bookkeeping",
+        "accounts payable",
+        "accounts receivable",
+        "budgeting",
+        "financial auditing",
+        "tax compliance",
+        "cash flow management",
+        "invoicing"
+      ]
+    },
+    {
+      "name": "Legal & Compliance",
+      "keywords": [
+        "legal counsel",
+        "legal services",
+        "contract review",
+        "contract management",
+        "corporate governance",
+        "regulatory compliance",
+        "intellectual property",
+        "legal compliance",
+        "compliance officer"
+      ]
+    },
+    {
+      "name": "Administration & Facilities",
+      "keywords": [
+        "admin",
+        "office administration",
+        "facilities management",
+        "office maintenance",
+        "physical security",
+        "office supplies",
+        "workplace operations",
+        "facility operations"
+      ]
+    },
+    {
+      "name": "Sales / Business Development",
+      "keywords": [
+        "bd",
+        "sales",
+        "business development",
+        "account executive",
+        "client accounts",
+        "lead generation",
+        "deal closing",
+        "revenue growth"
+      ]
+    },
+    {
+      "name": "Marketing",
+      "keywords": [
+        "marketing",
+        "brand awareness",
+        "advertising campaigns",
+        "digital campaigns",
+        "public relations",
+        "market research",
+        "brand management"
+      ]
+    },
+    {
+      "name": "Customer Support / Success",
+      "keywords": [
+        "customer service",
+        "customer support",
+        "customer success",
+        "customer service",
+        "client onboarding",
+        "customer retention",
+        "customer satisfaction",
+        "issue resolution",
+        "technical support"
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "keywords": [
+        "information technology",
+        "it infrastructure",
+        "it infrastructure",
+        "internal network",
+        "help desk",
+        "service desk",
+        "cybersecurity operations",
+        "systems administration"
+      ]
+    },
+    {
+      "name": "Research & Development",
+      "keywords": [
+        "research and development",
+        "research & development",
+        "product research",
+        "product innovation",
+        "prototype testing",
+        "product development"
+      ]
+    },
+    {
+      "name": "Production / Manufacturing",
+      "keywords": [
+        "production",
+        "manufacturing operations",
+        "assembly line",
+        "factory operations",
+        "production planning",
+        "manufacturing process"
+      ]
+    },
+    {
+      "name": "Quality Assurance",
+      "keywords": [
+        "qa engineer",
+        "qc inspector",
+        "quality assurance",
+        "quality control",
+        "product testing",
+        "software testing",
+        "safety standards",
+        "quality inspection"
+      ]
+    },
+    {
+      "name": "Procurement / Purchasing",
+      "keywords": [
+        "procurement",
+        "purchasing",
+        "vendor sourcing",
+        "supplier negotiations",
+        "purchase orders",
+        "vendor management"
+      ]
+    },
+    {
+      "name": "Logistics & Supply Chain",
+      "keywords": [
+        "logistics",
+        "supply chain",
+        "inventory management",
+        "warehouse operations",
+        "shipping",
+        "distribution",
+        "supply chain planning"
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "name": "Power",
+      "keywords": [
+        "ups",
+        "uninterruptible power",
+        "diesel generator",
+        "generator synchronization",
+        "power distribution",
+        "switchgear",
+        "medium voltage",
+        "low voltage",
+        "electrical protection",
+        "pdu"
+      ]
+    },
+    {
+      "name": "Cooling",
+      "keywords": [
+        "crac",
+        "crah",
+        "precision cooling",
+        "chilled water",
+        "cooling tower",
+        "thermal management",
+        "hot aisle containment",
+        "cold aisle containment"
+      ]
+    },
+    {
+      "name": "Data Center Facilities",
+      "keywords": [
+        "data center facilities",
+        "data centre facilities",
+        "data center infrastructure",
+        "data centre infrastructure",
+        "dcim",
+        "data center commissioning",
+        "data centre commissioning",
+        "structured cabling",
+        "raised floor"
+      ]
+    },
+    {
+      "name": "IT Systems / Infrastructure",
+      "keywords": [
+        "server administration",
+        "server infrastructure",
+        "virtualization",
+        "virtualisation",
+        "hyper-v",
+        "vmware",
+        "nutanix",
+        "hyperconverged",
+        "windows server",
+        "linux administration",
+        "high performance computing",
+        "hpc cluster"
+      ]
+    },
+    {
+      "name": "Storage & Data Protection",
+      "keywords": [
+        "san storage",
+        "nas storage",
+        "enterprise storage",
+        "storage area network",
+        "backup and recovery",
+        "data protection",
+        "disaster recovery",
+        "veeam",
+        "commvault",
+        "rubrik",
+        "cohesity"
+      ]
+    },
+    {
+      "name": "IP Datacom / Networking",
+      "keywords": [
+        "network engineer",
+        "network administrator",
+        "network architect",
+        "routing and switching",
+        "bgp",
+        "ospf",
+        "mpls",
+        "sd-wan",
+        "vxlan",
+        "evpn",
+        "cisco aci",
+        "network operations center",
+        "noc engineer"
+      ]
+    },
+    {
+      "name": "Software / Applications / Platforms",
+      "keywords": [
+        "software engineer",
+        "software developer",
+        "application developer",
+        "mobile app developer",
+        "web developer",
+        "full-stack developer",
+        "full stack developer",
+        "frontend developer",
+        "front-end developer",
+        "backend developer",
+        "back-end developer",
+        "software development"
+      ]
+    },
+    {
+      "name": "Cloud & Digital Infrastructure",
+      "keywords": [
+        "cloud engineer",
+        "cloud architect",
+        "aws",
+        "microsoft azure",
+        "google cloud platform",
+        "gcp",
+        "cloud infrastructure",
+        "hybrid cloud"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "keywords": [
+        "cybersecurity",
+        "cyber security",
+        "security operations center",
+        "soc analyst",
+        "siem",
+        "soar",
+        "edr",
+        "xdr",
+        "vapt",
+        "penetration testing",
+        "identity and access management",
+        "privileged access management"
+      ]
+    },
+    {
+      "name": "Smart Infrastructure",
+      "keywords": [
+        "building management system",
+        "bms",
+        "scada",
+        "industrial iot",
+        "internet of things",
+        "iot",
+        "operational technology",
+        "ot security",
+        "smart building"
+      ]
+    },
+    {
+      "name": "AI / Machine Learning",
+      "keywords": [
+        "machine learning engineer",
+        "artificial intelligence",
+        "machine learning",
+        "deep learning",
+        "generative ai",
+        "computer vision",
+        "natural language processing",
+        "pytorch",
+        "tensorflow",
+        "llm"
+      ]
+    }
+  ],
+  "software_technologies": [
+    {
+      "name": "Flutter",
+      "aliases": ["Flutter SDK"],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "Dart",
+      "aliases": [],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "Kotlin",
+      "aliases": ["Kotlin Android"],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "Android",
+      "aliases": ["Android SDK", "Jetpack Compose"],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "Swift",
+      "aliases": ["SwiftUI"],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "iOS",
+      "aliases": ["iOS SDK"],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "React Native",
+      "aliases": [],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "Xamarin",
+      "aliases": [".NET MAUI", "MAUI"],
+      "category": "Mobile Development"
+    },
+    {
+      "name": "React",
+      "aliases": ["React.js", "ReactJS"],
+      "category": "Frontend"
+    },
+    {
+      "name": "Angular",
+      "aliases": ["AngularJS"],
+      "category": "Frontend"
+    },
+    {
+      "name": "Vue",
+      "aliases": ["Vue.js", "VueJS"],
+      "category": "Frontend"
+    },
+    {
+      "name": "HTML",
+      "aliases": ["HTML5"],
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS",
+      "aliases": ["CSS3", "Sass", "SCSS"],
+      "category": "Frontend"
+    },
+    {
+      "name": "JavaScript",
+      "aliases": ["JavaScript", "ECMAScript"],
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "aliases": ["TS"],
+      "category": "Frontend"
+    },
+    {
+      "name": "ASP.NET",
+      "aliases": ["ASP.NET Core", "ASP.NET MVC"],
+      "category": "Backend"
+    },
+    {
+      "name": "C#",
+      "aliases": ["C Sharp"],
+      "category": "Backend"
+    },
+    {
+      "name": "Node.js",
+      "aliases": ["NodeJS"],
+      "category": "Backend"
+    },
+    {
+      "name": "Express",
+      "aliases": ["Express.js", "ExpressJS"],
+      "category": "Backend"
+    },
+    {
+      "name": "Spring",
+      "aliases": ["Spring Boot", "Spring Framework"],
+      "category": "Backend"
+    },
+    {
+      "name": "Django",
+      "aliases": ["Django REST Framework"],
+      "category": "Backend"
+    },
+    {
+      "name": "FastAPI",
+      "aliases": [],
+      "category": "Backend"
+    },
+    {
+      "name": "Laravel",
+      "aliases": [],
+      "category": "Backend"
+    },
+    {
+      "name": "MongoDB",
+      "aliases": ["Mongo DB"],
+      "category": "Database"
+    },
+    {
+      "name": "PostgreSQL",
+      "aliases": ["Postgres"],
+      "category": "Database"
+    },
+    {
+      "name": "SQL Server",
+      "aliases": ["Microsoft SQL Server", "MSSQL"],
+      "category": "Database"
+    },
+    {
+      "name": "MySQL",
+      "aliases": ["MySQL Server"],
+      "category": "Database"
+    },
+    {
+      "name": "Apache Kafka",
+      "aliases": ["Kafka"],
+      "category": "Event Streaming"
+    },
+    {
+      "name": "RabbitMQ",
+      "aliases": [],
+      "category": "Messaging"
+    },
+    {
+      "name": "Docker",
+      "aliases": ["Docker Compose"],
+      "category": "Containers"
+    },
+    {
+      "name": "Kubernetes",
+      "aliases": ["K8s"],
+      "category": "Container Orchestration"
+    },
+    {
+      "name": "Podman",
+      "aliases": [],
+      "category": "Containers"
+    },
+    {
+      "name": "OpenShift",
+      "aliases": ["Red Hat OpenShift"],
+      "category": "Container Orchestration"
+    },
+    {
+      "name": "Microservices",
+      "aliases": ["Microservice Architecture"],
+      "category": "Architecture"
+    },
+    {
+      "name": "MERN",
+      "aliases": ["MERN Stack"],
+      "category": "Named Stack"
+    },
+    {
+      "name": "PERN",
+      "aliases": ["PERN Stack"],
+      "category": "Named Stack"
+    },
+    {
+      "name": "Full Stack",
+      "aliases": ["Full-Stack", "Fullstack"],
+      "category": "Role / Stack"
+    }
+  ],
+  "education_departments": [
+    {
+      "department": "Human Resources",
+      "keywords": ["human resources", "human resource management", "hrm"]
+    },
+    {
+      "department": "Finance & Accounting",
+      "keywords": [
+        "accounting",
+        "finance",
+        "financial management",
+        "banking and finance",
+        "taxation"
+      ]
+    },
+    {
+      "department": "Legal & Compliance",
+      "keywords": [
+        "law",
+        "legal studies",
+        "corporate law",
+        "compliance management"
+      ]
+    },
+    {
+      "department": "Marketing",
+      "keywords": [
+        "marketing",
+        "digital marketing",
+        "public relations",
+        "advertising"
+      ]
+    },
+    {
+      "department": "Administration & Facilities",
+      "keywords": [
+        "public administration",
+        "office administration"
+      ]
+    },
+    {
+      "department": "Research & Development",
+      "keywords": [
+        "research and development",
+        "research & development",
+        "research science"
+      ]
+    },
+    {
+      "department": "Production / Manufacturing",
+      "keywords": [
+        "manufacturing engineering",
+        "production engineering",
+        "industrial production"
+      ]
+    },
+    {
+      "department": "Quality Assurance",
+      "keywords": [
+        "quality assurance",
+        "quality management",
+        "quality engineering"
+      ]
+    },
+    {
+      "department": "Customer Support / Success",
+      "keywords": [
+        "customer service management",
+        "customer experience"
+      ]
+    },
+    {
+      "department": "Procurement",
+      "keywords": [
+        "procurement",
+        "purchasing",
+        "supply management",
+        "purchasing and supply"
+      ]
+    },
+    {
+      "department": "Logistics & Supply Chain",
+      "keywords": ["supply chain", "logistics"]
+    },
+    {
+      "department": "Engineering / IT",
+      "keywords": [
+        "computer science",
+        "software engineering",
+        "computer engineering",
+        "information technology",
+        "electrical engineering",
+        "telecommunications engineering"
+      ]
+    }
+  ]
+}

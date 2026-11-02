@@ -1,0 +1,2776 @@
+{
+    "subdomains": [
+        {
+            "id": "BUSINESS.SUBDOMAIN.ADMIN.CORRESPONDENCE",
+            "name": "Correspondence",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.ADMINISTRATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.ADMIN.EXECUTIVE_SUPPORT",
+            "name": "Executive Support",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.ADMINISTRATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.ADMIN.FACILITIES_ADMIN",
+            "name": "Facilities Admin",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.ADMINISTRATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.ADMIN.GENERAL_ADMIN",
+            "name": "General Admin",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.ADMINISTRATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.ADMIN.OFFICE_MANAGEMENT",
+            "name": "Office Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.ADMINISTRATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.ADMIN.RECORDS",
+            "name": "Records",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.ADMINISTRATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.BA.BUSINESS_PROCESS",
+            "name": "Business Process",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.BUSINESS_ANALYSIS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.BA.PROCESS_ANALYSIS",
+            "name": "Process Analysis",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.BUSINESS_ANALYSIS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.BA.PROCESS_IMPROVEMENT",
+            "name": "Process Improvement",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.BUSINESS_ANALYSIS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.BA.REQUIREMENTS",
+            "name": "Requirements",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.BUSINESS_ANALYSIS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.BA.STAKEHOLDER_ANALYSIS",
+            "name": "Stakeholder Analysis",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.BUSINESS_ANALYSIS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.COORDINATION.CUSTOMER_COORDINATION",
+            "name": "Customer Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.COORDINATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.COORDINATION.DOCUMENT_COORDINATION",
+            "name": "Document Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.COORDINATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.COORDINATION.OPERATIONS_COORDINATION",
+            "name": "Operations Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.COORDINATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.COORDINATION.PROJECT_COORDINATION",
+            "name": "Project Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.COORDINATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.COORDINATION.SCHEDULING",
+            "name": "Scheduling",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.COORDINATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.COORDINATION.VENDOR_COORDINATION",
+            "name": "Vendor Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.COORDINATION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.CUSTOMER_SERVICE.CUSTOMER_RELATIONS",
+            "name": "Customer Relations",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.CUSTOMER_SERVICE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.CUSTOMER_SERVICE.CUSTOMER_SUPPORT",
+            "name": "Customer Support",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.CUSTOMER_SERVICE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.CUSTOMER_SERVICE.SERVICE_COORDINATION",
+            "name": "Service Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.CUSTOMER_SERVICE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.ACCOUNTING",
+            "name": "Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.ACCOUNTS_PAYABLE",
+            "name": "Accounts Payable",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.ACCOUNTS_RECEIVABLE",
+            "name": "Accounts Receivable",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.AUDIT",
+            "name": "Audit",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.BUDGETING",
+            "name": "Budgeting",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.FINANCE",
+            "name": "Finance",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.FINANCIAL_CONTROL",
+            "name": "Financial Control",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.FINANCIAL_REPORTING",
+            "name": "Financial Reporting",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.FINANCE.TAX",
+            "name": "Tax",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.FINANCE_ACCOUNTING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.COMPENSATION_BENEFITS",
+            "name": "Compensation Benefits",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.EMPLOYEE_RELATIONS",
+            "name": "Employee Relations",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.EXECUTIVE_RECRUITMENT",
+            "name": "Executive Recruitment",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.GENERALIST",
+            "name": "Generalist",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.HRBP",
+            "name": "Human Resources Business Partner (HRBP)",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.HRIS",
+            "name": "Human Resources Information System (HRIS)",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.HR_ANALYTICS",
+            "name": "Hr Analytics",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.LEARNING_DEVELOPMENT",
+            "name": "Learning Development",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.OPERATIONS",
+            "name": "Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.ORGANIZATIONAL_DEVELOPMENT",
+            "name": "Organizational Development",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.PAYROLL",
+            "name": "Payroll",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.PERFORMANCE",
+            "name": "Performance",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.RECRUITMENT",
+            "name": "Recruitment",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.TALENT_MANAGEMENT",
+            "name": "Talent Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.TECHNICAL_RECRUITMENT",
+            "name": "Technical Recruitment",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.HR.WORKFORCE_PLANNING",
+            "name": "Workforce Planning",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.HUMAN_RESOURCES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.INVENTORY.DISPATCH",
+            "name": "Dispatch",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.INVENTORY_WAREHOUSE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.INVENTORY.MATERIALS",
+            "name": "Materials",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.INVENTORY_WAREHOUSE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.INVENTORY.RECEIVING",
+            "name": "Receiving",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.INVENTORY_WAREHOUSE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.INVENTORY.STOCK_CONTROL",
+            "name": "Stock Control",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.INVENTORY_WAREHOUSE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.INVENTORY.STOCK_TAKING",
+            "name": "Stock Taking",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.INVENTORY_WAREHOUSE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.INVENTORY.WAREHOUSE",
+            "name": "Warehouse",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.INVENTORY_WAREHOUSE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.LEGAL.COMPLIANCE",
+            "name": "Compliance",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.LEGAL_COMPLIANCE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.LEGAL.CONTRACTS",
+            "name": "Contracts",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.LEGAL_COMPLIANCE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.LEGAL.POLICY",
+            "name": "Policy",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.LEGAL_COMPLIANCE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.LEGAL.REGULATORY",
+            "name": "Regulatory",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.LEGAL_COMPLIANCE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MANAGEMENT.BUSINESS_MANAGEMENT",
+            "name": "Business Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MANAGEMENT.DEPARTMENT_MANAGEMENT",
+            "name": "Department Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MANAGEMENT.GENERAL_MANAGEMENT",
+            "name": "General Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MANAGEMENT.OPERATIONS_MANAGEMENT",
+            "name": "Operations Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MARKETING.BRAND",
+            "name": "Brand",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MARKETING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MARKETING.COMMUNICATIONS",
+            "name": "Communications",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MARKETING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MARKETING.CONTENT",
+            "name": "Content",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MARKETING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MARKETING.DIGITAL",
+            "name": "Digital",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MARKETING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.MARKETING.MARKET_RESEARCH",
+            "name": "Market Research",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.MARKETING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.OPERATIONS.BUSINESS_OPERATIONS",
+            "name": "Business Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.OPERATIONS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.OPERATIONS.DOCUMENT_PROCESSING",
+            "name": "Document Processing",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.OPERATIONS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.OPERATIONS.ORDER_PROCESSING",
+            "name": "Order Processing",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.OPERATIONS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.OPERATIONS.PROCESSING",
+            "name": "Processing",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.OPERATIONS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.OPERATIONS.PROCESS_MANAGEMENT",
+            "name": "Process Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.OPERATIONS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.OPERATIONS.TRANSACTION_PROCESSING",
+            "name": "Transaction Processing",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.OPERATIONS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PM.GOVERNANCE",
+            "name": "Governance",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROJECT_MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PM.PROJECT_CONTROL",
+            "name": "Project Control",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROJECT_MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PM.PROJECT_COORDINATION",
+            "name": "Project Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROJECT_MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PM.PROJECT_MANAGEMENT",
+            "name": "Project Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROJECT_MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PM.REPORTING",
+            "name": "Reporting",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROJECT_MANAGEMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PROCUREMENT.COMMERCIAL",
+            "name": "Commercial",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROCUREMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PROCUREMENT.CONTRACTS",
+            "name": "Contracts",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROCUREMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PROCUREMENT.PO",
+            "name": "Purchase Orders",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROCUREMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PROCUREMENT.PURCHASING",
+            "name": "Purchasing",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROCUREMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PROCUREMENT.SOURCING",
+            "name": "Sourcing",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROCUREMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PROCUREMENT.TENDER",
+            "name": "Tender",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROCUREMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.PROCUREMENT.VENDOR_MANAGEMENT",
+            "name": "Vendor Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.PROCUREMENT"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SALES.ACCOUNT_MANAGEMENT",
+            "name": "Account Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SALES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SALES.BUSINESS_DEVELOPMENT",
+            "name": "Business Development",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SALES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SALES.CHANNEL",
+            "name": "Channel",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SALES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SALES.CUSTOMER_RELATIONS",
+            "name": "Customer Relations",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SALES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SALES.ENTERPRISE_SALES",
+            "name": "Enterprise Sales",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SALES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SALES.RETAIL_SALES",
+            "name": "Retail Sales",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SALES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.DEMAND_PLANNING",
+            "name": "Demand Planning",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SUPPLY_CHAIN"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.DISTRIBUTION",
+            "name": "Distribution",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SUPPLY_CHAIN"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.FULFILLMENT",
+            "name": "Fulfillment",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SUPPLY_CHAIN"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.LOGISTICS",
+            "name": "Logistics",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SUPPLY_CHAIN"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.PLANNING",
+            "name": "Planning",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SUPPLY_CHAIN"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.SUPPLIER_MANAGEMENT",
+            "name": "Supplier Management",
+            "branch": "BUSINESS_CORPORATE",
+            "parent_domain_ids": [
+                "BUSINESS.SUPPLY_CHAIN"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.AI_NETWORKING",
+            "name": "AI Networking",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.AI_STORAGE",
+            "name": "AI Storage",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.COMPUTER_VISION",
+            "name": "Computer Vision",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.CUDA",
+            "name": "Cuda",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.DEEP_LEARNING",
+            "name": "Deep Learning",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.GENERATIVE_AI",
+            "name": "Generative Ai",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.GPU_INFRASTRUCTURE",
+            "name": "GPU Infrastructure",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.INFERENCE",
+            "name": "Inference",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.MACHINE_LEARNING",
+            "name": "Machine Learning",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.MLOPS",
+            "name": "Machine Learning Operations (MLOps)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.NLP",
+            "name": "Natural Language Processing (NLP)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.RAG",
+            "name": "Retrieval-Augmented Generation (RAG)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.AI.VECTOR_DATABASES",
+            "name": "Vector Databases",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.ADMINISTRATION",
+            "name": "Administration",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.ARCHITECTURE",
+            "name": "Architecture",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.ENGINEERING",
+            "name": "Engineering",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.HYBRID",
+            "name": "Hybrid",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.INFRASTRUCTURE",
+            "name": "Infrastructure",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD",
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.IT_SYSTEMS",
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.PRIVATE",
+            "name": "Private",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.PUBLIC",
+            "name": "Public",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD",
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.SAAS",
+            "name": "Software as a Service (SaaS)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD",
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CLOUD.SECURITY",
+            "name": "Security",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CLOUD"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.AIRFLOW",
+            "name": "Airflow",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.CHILLED_WATER",
+            "name": "Chilled Water",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.CONTAINMENT",
+            "name": "Containment",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.CONTROLS",
+            "name": "Controls",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.CRAC_CRAH",
+            "name": "CRAC / CRAH",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.DX",
+            "name": "Direct Expansion (DX)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.HEAT_REJECTION",
+            "name": "Heat Rejection",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.COOLING.LIQUID",
+            "name": "Liquid",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.COOLING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.API_SECURITY",
+            "name": "Api Security",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.CLOUD_SECURITY",
+            "name": "Cloud Security",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.ENDPOINT",
+            "name": "Endpoint",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.GRC",
+            "name": "Governance, Risk and Compliance (GRC)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.IAM",
+            "name": "Identity and Access Management (IAM)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.INCIDENT_RESPONSE",
+            "name": "Incident Response",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.NAC",
+            "name": "Network Access Control (NAC)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.NDR",
+            "name": "Network Detection and Response (NDR)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.NGFW",
+            "name": "Next-Generation Firewall (NGFW)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY",
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.PAM",
+            "name": "Privileged Access Management (PAM)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.PEN_TESTING",
+            "name": "Pen Testing",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.SIEM",
+            "name": "Security Information and Event Management (SIEM)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.SOAR",
+            "name": "Security Orchestration, Automation and Response (SOAR)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.SOC",
+            "name": "Soc",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.THREAT_INTELLIGENCE",
+            "name": "Threat Intelligence",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.VAPT",
+            "name": "Vulnerability Assessment and Penetration Testing (VAPT)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.VULNERABILITY",
+            "name": "Vulnerability",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.WAF",
+            "name": "Waf",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.CYBER.ZERO_TRUST",
+            "name": "Zero Trust",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.BMS",
+            "name": "Building Management System (BMS)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.COLOCATION",
+            "name": "Colocation",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.COMMISSIONING",
+            "name": "Commissioning",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.DCIM",
+            "name": "Data Center Infrastructure Management (DCIM)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.FIRE",
+            "name": "Fire",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.PHYSICAL_SECURITY",
+            "name": "Physical Security",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.RACKS",
+            "name": "Racks",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.STRUCTURED_CABLING",
+            "name": "Structured Cabling",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.DCF.TIER_ARCHITECTURE",
+            "name": "Tier Architecture",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.ARCHITECTURE",
+            "name": "Architecture",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.AUTOMATION",
+            "name": "Automation",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.DATA_CENTER",
+            "name": "Data Center",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.ENTERPRISE",
+            "name": "Enterprise",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING",
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.IP_MPLS",
+            "name": "IP / MPLS",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.ISP_CARRIER",
+            "name": "Isp Carrier",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.LAN",
+            "name": "Lan",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.NAC",
+            "name": "Network Access Control (NAC)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.NOC",
+            "name": "Noc",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.ROUTING",
+            "name": "Routing",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.SD_WAN",
+            "name": "Software-Defined WAN (SD-WAN)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.SWITCHING",
+            "name": "Switching",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.TELEMETRY",
+            "name": "Telemetry",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING",
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.VXLAN_EVPN",
+            "name": "VXLAN / EVPN",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.WAN",
+            "name": "Wan",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.WIRELESS",
+            "name": "Wireless",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.NETWORK.WLAN",
+            "name": "Wlan",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.BATTERIES",
+            "name": "Batteries",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.COMMISSIONING",
+            "name": "Commissioning",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.DISTRIBUTION",
+            "name": "Distribution",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.GENERATORS",
+            "name": "Generators",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.MONITORING",
+            "name": "Monitoring",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.MV_LV",
+            "name": "Medium-Voltage / Low-Voltage",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.PROTECTION",
+            "name": "Protection",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.UPS",
+            "name": "Ups",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.POWER.UTILITY",
+            "name": "Utility",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.POWER"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.ANALYTICS",
+            "name": "Analytics",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.BMS",
+            "name": "Building Management System (BMS)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.EDGE",
+            "name": "Edge",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.IOT",
+            "name": "Internet of Things (IoT)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.OT",
+            "name": "Operational Technology (OT)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.PHYSICAL_SECURITY",
+            "name": "Physical Security",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.SCADA",
+            "name": "Supervisory Control and Data Acquisition (SCADA)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.SENSORS",
+            "name": "Sensors",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.SMART_BUILDINGS",
+            "name": "Smart Buildings",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SMART.SMART_DC",
+            "name": "Smart Dc",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.API",
+            "name": "Application Programming Interfaces (APIs)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.APPLICATION_ARCHITECTURE",
+            "name": "Application Architecture",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.APPLICATION_SUPPORT",
+            "name": "Application Support",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.BACKEND",
+            "name": "Backend",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.CONTAINERIZATION",
+            "name": "Containerization",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.DATABASES",
+            "name": "Databases",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.DEVOPS",
+            "name": "Devops",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.CLOUD",
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.ENGINEERING",
+            "name": "Engineering",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+            "name": "Frontend",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.FULL_STACK",
+            "name": "Full Stack",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.MICROSERVICES",
+            "name": "Microservices",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.ORCHESTRATION",
+            "name": "Orchestration",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+            "name": "Platform Engineering",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.CLOUD",
+                "CMC.DOMAIN.IT_SYSTEMS",
+                "CMC.DOMAIN.IP_NETWORKING"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
+            "name": "Programming Languages",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.AI_ML"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.TESTING",
+            "name": "Testing",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.VERSION_CONTROL",
+            "name": "Version Control",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SOFTWARE.WEB_INFRASTRUCTURE",
+            "name": "Web Infrastructure",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.SOFTWARE",
+                "CMC.DOMAIN.IT_SYSTEMS",
+                "CMC.DOMAIN.IP_NETWORKING",
+                "CMC.DOMAIN.CYBERSECURITY"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.ARCHIVE",
+            "name": "Archive",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.BACKUP",
+            "name": "Backup",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION",
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.DR",
+            "name": "Disaster Recovery (DR)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.FLASH",
+            "name": "Flash",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.NAS",
+            "name": "Network-Attached Storage (NAS)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.NVME",
+            "name": "Non-Volatile Memory Express (NVMe)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.NVME_OF",
+            "name": "NVMe over Fabrics (NVMe-oF)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.OBJECT",
+            "name": "Object",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.RANSOMWARE_RECOVERY",
+            "name": "Ransomware Recovery",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.REPLICATION",
+            "name": "Replication",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.SAN",
+            "name": "Storage Area Network (SAN)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.STORAGE.SCALE_OUT",
+            "name": "Scale Out",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.CONTAINERS",
+            "name": "Containers",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.GPU_COMPUTING",
+            "name": "Gpu Computing",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.HA_DR",
+            "name": "High Availability and Disaster Recovery",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.HCI",
+            "name": "Hyper-Converged Infrastructure (HCI)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.HPC",
+            "name": "High-Performance Computing (HPC)",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.LINUX",
+            "name": "Linux",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS",
+                "CMC.DOMAIN.SOFTWARE"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.OPERATING_SYSTEMS",
+            "name": "Operating Systems",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.PRIVATE_CLOUD",
+            "name": "Private Cloud",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.SERVERS",
+            "name": "Servers",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.SYSTEMS_MANAGEMENT",
+            "name": "Systems Management",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.VIRTUALIZATION",
+            "name": "Virtualization",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS",
+                "CMC.DOMAIN.CLOUD"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        },
+        {
+            "id": "CMC.SUBDOMAIN.SYSTEMS.WINDOWS",
+            "name": "Windows",
+            "branch": "TECHNICAL",
+            "parent_domain_ids": [
+                "CMC.DOMAIN.IT_SYSTEMS"
+            ],
+            "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
+            "aliases": [],
+            "review_status": "GENERATED_NEEDS_REVIEW",
+            "generated_by": "taxonomy_repair.py"
+        }
+    ]
+}

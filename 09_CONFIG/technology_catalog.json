@@ -1,0 +1,1771 @@
+{
+  "schema_version": "1.0",
+  "skills": [
+    {
+      "domain": "IP Datacom / Networking",
+      "subcategory": "Routing and switching",
+      "signal_tier": "core",
+      "terms": {
+        "IS-IS": ["ISIS"],
+        "VRF": [],
+        "VXLAN": [],
+        "EVPN": [],
+        "SD-WAN": ["SDWAN"],
+        "NAC": ["Network Access Control"],
+        "Wireless LAN": ["WLAN", "Wi-Fi", "WiFi"],
+        "Network automation": [],
+        "Network telemetry": [],
+        "Leaf-spine architecture": ["leaf spine"],
+        "Structured cabling": [],
+        "Optical transceiver": ["optical transceivers", "SFP", "SFP+"],
+        "BGP": [],
+        "OSPF": [],
+        "MPLS": [],
+        "VLAN": [],
+        "Routing and switching": []
+      }
+    },
+    {
+      "domain": "IT Systems / Infrastructure",
+      "subcategory": "Compute and systems",
+      "signal_tier": "core",
+      "terms": {
+        "Hyper-converged infrastructure": ["HCI", "hyperconverged infrastructure"],
+        "Private cloud": [],
+        "High availability": ["HA"],
+        "Disaster recovery": ["DR"],
+        "Virtual Desktop Infrastructure": ["VDI"],
+        "Kubernetes": ["K8s"],
+        "OpenShift": [],
+        "Rancher": [],
+        "VMware Tanzu": ["Tanzu"],
+        "Docker": [],
+        "Linux": ["Linux/Unix"],
+        "Red Hat Enterprise Linux": ["RHEL"],
+        "SUSE Linux Enterprise": ["SLES", "SUSE"],
+        "Ubuntu": [],
+        "Oracle Linux": [],
+        "Rocky Linux": [],
+        "AlmaLinux": [],
+        "Windows Server": [],
+        "AIX": [],
+        "IBM i": [],
+        "z/OS": [],
+        "Ansible": [],
+        "Terraform": [],
+        "Intune": ["Microsoft Intune"],
+        "ServiceNow": [],
+        "Zabbix": [],
+        "Nagios": [],
+        "Veeam": [],
+        "VMware Site Recovery Manager": ["VMware SRM"],
+        "OpenStack": [],
+        "Proxmox": [],
+        "Nutanix": []
+      }
+    },
+    {
+      "domain": "Storage & Data Protection",
+      "subcategory": "Storage and recovery",
+      "signal_tier": "core",
+      "terms": {
+        "SAN": ["Storage Area Network"],
+        "NAS": ["Network Attached Storage"],
+        "Object storage": [],
+        "NVMe-oF": ["NVMe over Fabrics"],
+        "All-flash storage": ["all flash"],
+        "Scale-out storage": [],
+        "Immutable backup": [],
+        "Air-gapped backup": ["air gap backup"],
+        "Storage replication": [],
+        "Tape backup": ["tape archive"],
+        "Ransomware recovery": [],
+        "Ceph": [],
+        "MinIO": [],
+        "NetApp ONTAP": ["ONTAP"],
+        "PowerStore": [],
+        "PowerMax": [],
+        "PowerScale": [],
+        "PowerProtect": [],
+        "Data Domain": ["DataDomain"],
+        "Alletra": [],
+        "OceanStor": [],
+        "FlashSystem": [],
+        "FlashBlade": [],
+        "Rubrik": [],
+        "Cohesity": [],
+        "Commvault": [],
+        "Veeam": []
+      }
+    },
+    {
+      "domain": "Data Center Facilities",
+      "subcategory": "Facility standards and systems",
+      "signal_tier": "core",
+      "terms": {
+        "TIA-942": ["TIA 942"],
+        "ISO/IEC 22237": ["EN 50600"],
+        "BICSI": [],
+        "ASHRAE": [],
+        "NFPA": [],
+        "Uptime Institute": [],
+        "DCIM": ["Data Center Infrastructure Management"],
+        "BMS": ["Building Management System"],
+        "FM-200": ["FM200"],
+        "Novec 1230": [],
+        "Inergen": [],
+        "Argonite": [],
+        "Water mist suppression": [],
+        "Data center commissioning": ["data centre commissioning"],
+        "Modular data center": ["modular data centre", "prefabricated data center"],
+        "Environmental monitoring": [],
+        "Physical access control": [],
+        "Fire suppression": [],
+        "Racks and containment": ["rack containment"]
+      }
+    },
+    {
+      "domain": "Cybersecurity",
+      "subcategory": "Security operations and controls",
+      "signal_tier": "core",
+      "terms": {
+        "NGFW": ["Next-Generation Firewall"],
+        "Zero Trust": ["Zero-Trust"],
+        "SASE": [],
+        "SSE": [],
+        "EDR": [],
+        "XDR": [],
+        "SIEM": [],
+        "SOAR": [],
+        "NDR": [],
+        "IAM": ["Identity and Access Management"],
+        "PAM": ["Privileged Access Management"],
+        "WAF": ["Web Application Firewall"],
+        "DDoS protection": ["DDoS mitigation"],
+        "Vulnerability management": [],
+        "GRC": ["Governance Risk and Compliance"],
+        "OT security": ["Operational Technology Security"],
+        "Email security": [],
+        "Cloud security": [],
+        "API security": [],
+        "Network Access Control": [],
+        "FortiGate": [],
+        "Prisma Cloud": [],
+        "Microsoft Sentinel": [],
+        "Microsoft Defender": [],
+        "CrowdStrike Falcon": ["Falcon"],
+        "CyberArk": [],
+        "Tenable": [],
+        "Qualys": [],
+        "Darktrace": [],
+        "Claroty": [],
+        "Nozomi Networks": ["Nozomi"]
+      }
+    },
+    {
+      "domain": "Software / Applications / Platforms",
+      "subcategory": "Software platforms and databases",
+      "signal_tier": "core",
+      "terms": {
+        "SQL": ["Structured Query Language"],
+        "PostgreSQL": ["Postgres"],
+        "MySQL": [],
+        "MariaDB": [],
+        "SQLite": [],
+        "Redis": [],
+        "Cassandra": [],
+        "DynamoDB": [],
+        "Snowflake": [],
+        "Databricks": [],
+        "Teradata": [],
+        "Couchbase": [],
+        "Elasticsearch": ["Elastic Search"],
+        "Apache Spark": ["Spark"],
+        "Apache Airflow": ["Airflow"],
+        "ETL": ["Extract Transform Load"],
+        "Power BI": ["PowerBI"],
+        "Tableau": [],
+        "Git": [],
+        "GitHub Actions": ["GH Actions"],
+        "GitLab CI": [],
+        "CI/CD": ["Continuous Integration", "Continuous Delivery"],
+        "Jenkins": [],
+        "GitHub": [],
+        "GitLab": [],
+        "Bitbucket": [],
+        "Subversion": ["SVN"],
+        "Travis CI": ["Travis"],
+        "Vagrant": [],
+        "PhantomJS": [],
+        "Terraform": [],
+        "CloudFormation": [],
+        "Helm": [],
+        "OpenAPI": ["Swagger"],
+        "REST API": ["RESTful API"],
+        "GraphQL": [],
+        "gRPC": [],
+        "WebSockets": ["WebSocket"],
+        "OAuth": ["OAuth2"],
+        "JWT": ["JSON Web Token"],
+        "Microservices": [],
+        "Serverless": [],
+        "Event-driven architecture": ["event driven architecture"],
+        "Service mesh": [],
+        "SOLID principles": ["SOLID"],
+        "Object-oriented programming": ["OOP"],
+        "Functional programming": [],
+        "Design patterns": [],
+        "Domain-driven design": ["DDD"],
+        "Model-view-controller": ["MVC"],
+        "CRUD": [],
+        "ORM": ["Object Relational Mapping"],
+        "Jest": [],
+        "Apache Kafka": ["Kafka"],
+        "RabbitMQ": [],
+        "pytest": ["PyTest"],
+        "JUnit": [],
+        "Cypress": [],
+        "Playwright": [],
+        "Selenium": [],
+        "SonarQube": [],
+        "ESLint": [],
+        "Postman": [],
+        "Prometheus": [],
+        "Grafana": [],
+        "Datadog": [],
+        "Dynatrace": [],
+        "New Relic": [],
+        "OpenTelemetry": []
+      }
+    },
+    {
+      "domain": "Smart Infrastructure",
+      "subcategory": "Building, industrial and IoT systems",
+      "signal_tier": "core",
+      "terms": {
+        "SCADA": [],
+        "Industrial IoT": ["IIoT"],
+        "IoT": ["Internet of Things"],
+        "Building automation": [],
+        "Smart building": [],
+        "Edge computing": [],
+        "PLC": ["Programmable Logic Controller"],
+        "DCS": ["Distributed Control System"],
+        "HMI": ["Human Machine Interface"],
+        "AVEVA": [],
+        "Ignition SCADA": ["Inductive Automation Ignition"],
+        "ThingWorx": [],
+        "Niagara Framework": ["Tridium Niagara"],
+        "EcoStruxure": [],
+        "Siemens Desigo": [],
+        "Genetec": [],
+        "Milestone XProtect": ["XProtect"],
+        "Axis Camera Station": [],
+        "Ignition": []
+      }
+    },
+    {
+      "domain": "AI / Machine Learning",
+      "subcategory": "AI infrastructure and applications",
+      "signal_tier": "core",
+      "terms": {
+        "CUDA": [],
+        "cuDNN": [],
+        "TensorRT": [],
+        "NVIDIA DGX": ["DGX"],
+        "NVIDIA HGX": ["HGX"],
+        "NVIDIA H100": ["H100"],
+        "NVIDIA H200": ["H200"],
+        "NVIDIA B200": ["B200"],
+        "AMD Instinct": [],
+        "ROCm": [],
+        "Google TPU": ["TPU"],
+        "AWS Trainium": ["Trainium"],
+        "AWS Inferentia": ["Inferentia"],
+        "PyTorch": ["Torch"],
+        "TensorFlow": [],
+        "JAX": [],
+        "LangChain": [],
+        "LlamaIndex": [],
+        "Hugging Face": ["HuggingFace"],
+        "RAG": ["Retrieval Augmented Generation"],
+        "Vector database": ["Vector DB"],
+        "Pinecone": [],
+        "Milvus": [],
+        "Weaviate": [],
+        "Qdrant": [],
+        "ChromaDB": ["Chroma"],
+        "pgvector": [],
+        "MLflow": [],
+        "Kubeflow": [],
+        "Weights & Biases": ["Weights and Biases", "W&B"],
+        "vLLM": [],
+        "KServe": [],
+        "OpenCV": [],
+        "YOLO": [],
+        "spaCy": [],
+        "Large language models": ["LLM", "LLMs"],
+        "Generative AI": ["GenAI"],
+        "Natural language processing": ["NLP"],
+        "Computer vision": [],
+        "MLOps": []
+      },
+      "software_categories": {
+        "AI / ML": [
+          "CUDA", "cuDNN", "TensorRT", "PyTorch", "TensorFlow", "JAX",
+          "LangChain", "LlamaIndex", "Hugging Face", "RAG",
+          "Vector database", "Pinecone", "Milvus", "Weaviate", "Qdrant",
+          "ChromaDB", "pgvector", "MLflow", "Kubeflow", "Weights & Biases",
+          "vLLM", "KServe", "OpenCV", "YOLO", "spaCy",
+          "Large language models", "Generative AI",
+          "Natural language processing", "Computer vision", "MLOps"
+        ]
+      }
+    },
+    {
+      "domain": "Power",
+      "subcategory": "Power infrastructure",
+      "signal_tier": "core",
+      "terms": {
+        "UPS": ["Uninterruptible Power Supply"],
+        "Medium voltage": ["MV"],
+        "Low voltage": ["LV"],
+        "Switchgear": [],
+        "Power distribution unit": ["PDU"],
+        "Remote power panel": ["RPP"],
+        "Battery energy storage system": ["BESS"],
+        "Power quality": [],
+        "Protection relay": ["Protective relays"],
+        "Generator synchronization": [],
+        "Busway": ["Busbar trunking"],
+        "Transformer": ["Power transformer"],
+        "Battery backup": [],
+        "Power monitoring": []
+      }
+    },
+    {
+      "domain": "Cooling",
+      "subcategory": "Thermal management",
+      "signal_tier": "core",
+      "terms": {
+        "CRAC": [],
+        "CRAH": [],
+        "Chilled water": [],
+        "Chiller": ["Chillers"],
+        "Cooling tower": [],
+        "Dry cooler": [],
+        "Hot aisle containment": [],
+        "Cold aisle containment": [],
+        "Rear-door heat exchanger": ["Rear door heat exchanger"],
+        "Direct-to-chip cooling": ["Direct liquid cooling"],
+        "Coolant distribution unit": ["CDU"],
+        "Immersion cooling": [],
+        "Liquid cooling": [],
+        "Thermal monitoring": []
+      }
+    },
+    {
+      "domain": "Unified Communications & Collaboration",
+      "subcategory": "Collaboration platforms",
+      "signal_tier": "core",
+      "terms": {
+        "Unified communications": ["UC"],
+        "Video conferencing": [],
+        "Microsoft Teams Rooms": ["Teams Rooms"],
+        "Cisco Webex": ["Webex"],
+        "Zoom Rooms": [],
+        "SIP": ["Session Initiation Protocol"],
+        "VoIP": ["Voice over IP"],
+        "Contact center": [],
+        "Genesys Cloud": [],
+        "Avaya Aura": []
+      }
+    },
+    {
+      "domain": "End-User Computing & Print",
+      "subcategory": "End-user devices and printing",
+      "signal_tier": "core",
+      "terms": {
+        "Endpoint management": [],
+        "Desktop support": [],
+        "Microsoft Surface": [],
+        "Print management": [],
+        "Print server": [],
+        "Mobile device management": ["MDM"]
+      }
+    },
+    {
+      "domain": "Telecommunications",
+      "subcategory": "Carrier and telecom infrastructure",
+      "signal_tier": "core",
+      "terms": {
+        "5G": [],
+        "4G LTE": ["LTE"],
+        "Radio access network": ["RAN"],
+        "Core network": [],
+        "Carrier Ethernet": [],
+        "DWDM": [],
+        "OTN": ["Optical Transport Network"],
+        "GPON": [],
+        "Fiber optic network": ["fiber-optic network"],
+        "Mobile network operator": ["MNO"],
+        "Telecom OSS/BSS": ["OSS/BSS"]
+      }
+    },
+    {
+      "domain": "Cloud & Digital Infrastructure",
+      "subcategory": "Cloud providers and services",
+      "signal_tier": "core",
+      "terms": {
+        "AWS": ["Amazon Web Services"],
+        "Microsoft Azure": ["Azure"],
+        "Google Cloud Platform": ["GCP", "Google Cloud"],
+        "Alibaba Cloud": [],
+        "Huawei Cloud": [],
+        "Oracle Cloud Infrastructure": ["OCI"],
+        "IBM Cloud": [],
+        "Amazon EKS": ["EKS"],
+        "Azure Kubernetes Service": ["AKS"],
+        "Google Kubernetes Engine": ["GKE"],
+        "Cloud migration": [],
+        "Infrastructure as Code": ["IaC"],
+        "CloudFormation": [],
+        "DigitalOcean": [],
+        "Heroku": [],
+        "App Engine": []
+      }
+    },
+    {
+      "domain": "ERP & Business Applications",
+      "subcategory": "Enterprise applications",
+      "signal_tier": "core",
+      "terms": {
+        "SAP S/4HANA": ["S/4HANA", "SAP HANA"],
+        "Microsoft Dynamics 365": ["Dynamics 365"],
+        "Odoo": [],
+        "Infor": [],
+        "Workday": [],
+        "Salesforce": [],
+        "Zoho": [],
+        "Enterprise Resource Planning": ["ERP"],
+        "Customer Relationship Management": ["CRM"],
+        "HRIS": ["Human Resources Information System"]
+      }
+    },
+    {
+      "domain": "Software / Applications / Platforms",
+      "subcategory": "Programming and web development",
+      "signal_tier": "core",
+      "terms": {
+        "JavaScript": ["JS", "ECMAScript"],
+        "TypeScript": ["TS"],
+        "Python": [],
+        "Java": [],
+        "C++": [],
+        "C#": ["C Sharp"],
+        "Go programming language": ["Golang", "Go language"],
+        "Rust": [],
+        "PHP": [],
+        "Ruby": [],
+        "Kotlin": [],
+        "Swift": [],
+        "Objective-C": ["Objective C"],
+        "C programming language": ["C language", "C programming"],
+        "Scala": [],
+        "Dart": [],
+        "R programming language": ["R language", "R programming"],
+        "Perl": [],
+        "OCaml": [],
+        "CLISP": [],
+        "CoffeeScript": [],
+        "Flex": [],
+        "NetLogo": [],
+        "OpenGL": [],
+        "Bash": ["Bash shell"],
+        "PowerShell": [],
+        "Zsh": [],
+        "PL/SQL": [],
+        "T-SQL": ["Transact-SQL"],
+        "HTML5": ["HTML"],
+        "CSS3": ["CSS"],
+        "XML": [],
+        "JSON": [],
+        "YAML": [],
+        "Markdown": [],
+        "LaTeX": [],
+        "Regex": ["Regular expressions"],
+        "Metaprogramming": [],
+        "DOM": ["Document Object Model"],
+        "ES6+": ["ECMAScript 6"],
+        "Web APIs": [],
+        "Web Components": ["WebComponents"],
+        "Browser Events": [],
+        "React": ["React.js", "ReactJS"],
+        "Angular": ["AngularJS"],
+        "Vue.js": ["Vue", "VueJS"],
+        "Svelte": [],
+        "Next.js": ["NextJS"],
+        "Nuxt": ["Nuxt.js"],
+        "Redux": [],
+        "AngularFire": [],
+        "Backbone.js": ["Backbone"],
+        "Knockout.js": ["Knockout"],
+        "Polymer": [],
+        "jQuery": [],
+        "Sass": ["SCSS"],
+        "Less": [],
+        "Compass": [],
+        "Bootstrap": [],
+        "Tailwind CSS": ["Tailwind"],
+        "Material UI": ["MUI"],
+        "npm": [],
+        "Yarn": [],
+        "pnpm": [],
+        "Webpack": [],
+        "Vite": [],
+        "Babel": [],
+        "Gulp": [],
+        "Grunt": [],
+        "Bower": [],
+        "Browserify": [],
+        "RequireJS": ["Require.js"],
+        "D3.js": ["D3"],
+        "Chart.js": [],
+        "Google Charts": [],
+        "Three.js": [],
+        "PixiJS": ["Pixi.js"],
+        "Canvas API": ["Canvas"],
+        "SVG": ["Scalable Vector Graphics"],
+        "CodeMirror": [],
+        "Modernizr": [],
+        "Single-page application": ["SPA"],
+        "Server-side rendering": ["SSR"],
+        "Client-side rendering": ["CSR"],
+        "State management": [],
+        "Pagination": [],
+        "Node.js": ["Node", "NodeJS"],
+        "Express.js": ["Express", "ExpressJS"],
+        "NestJS": [],
+        "Django": [],
+        "Flask": [],
+        "FastAPI": [],
+        "Tornado": [],
+        "Spring Boot": ["Spring"],
+        "JEE": ["Java EE"],
+        "Jersey": [],
+        "Play Framework": ["Play2"],
+        "Google Web Toolkit": ["GWT"],
+        "Hibernate": [],
+        "ASP.NET Core": ["ASP.NET"],
+        "Laravel": [],
+        "Symfony": [],
+        "Drupal": ["Drupal 7"],
+        "Drupal Commerce": [],
+        "WordPress": [],
+        "Ruby on Rails": ["Rails"],
+        "Firebase": [],
+        "Supabase": [],
+        "REST": ["REST API", "RESTful API"],
+        "SOAP": [],
+        "GraphQL": [],
+        "gRPC": [],
+        "WebSockets": ["WebSocket"],
+        "AJAX": [],
+        "OAuth": [],
+        "Single sign-on": ["SSO"],
+        "Session management": ["Session handling"],
+        "Batch processing": [],
+        "Cron": ["Cron jobs"],
+        "CRUD": [],
+        "MVC": ["Model-view-controller"],
+        "Ionic": [],
+        "Cordova": [],
+        "Xamarin": [],
+        "React Native": [],
+        "Flutter": [],
+        "Android": ["Android SDK"],
+        "iOS": ["iOS SDK"],
+        "SwiftUI": [],
+        "Jetpack Compose": [],
+        "Push notifications": [],
+        "App Store deployment": [],
+        "PostGIS": [],
+        "SQLite": [],
+        "MariaDB": [],
+        "Redis": [],
+        "Cassandra": [],
+        "DynamoDB": [],
+        "Firebase Firestore": ["Firestore"],
+        "MongoDB": ["Mongo DB"],
+        "SQL Server": ["MSSQL", "Microsoft SQL Server"],
+        "Oracle Database": [],
+        "Elasticsearch": [],
+        "ETL": ["Extract Transform Load"],
+        "Apache Airflow": ["Airflow"],
+        "Apache Spark": ["Spark"],
+        "Snowflake": [],
+        "Power BI": ["PowerBI"],
+        "Tableau": [],
+        "Database design": [],
+        "Data modeling": [],
+        "Indexing": [],
+        "Caching": [],
+        "Unit testing": [],
+        "Integration testing": [],
+        "End-to-end testing": ["E2E testing"],
+        "Accessibility testing": [],
+        "Performance testing": [],
+        "Regression testing": [],
+        "Jasmine": [],
+        "Mocha": [],
+        "Chai": [],
+        "Karma": [],
+        "BrowserStack": [],
+        "Sauce Labs": [],
+        "Lighthouse": [],
+        "GTmetrix": [],
+        "PageSpeed Insights": [],
+        "WebPageTest": [],
+        "Tenon": [],
+        "Static analysis": [],
+        "SonarQube": [],
+        "JSHint": [],
+        "CSSLint": [],
+        "Test pyramid": [],
+        "Test-driven development": ["TDD"],
+        "Behavior-driven development": ["BDD"],
+        "OWASP": [],
+        "Role-based access control": ["RBAC"],
+        "Attribute-based access control": ["ABAC"],
+        "TLS": ["TLS/SSL"],
+        "Principle of least privilege": ["Least privilege"],
+        "OWASP Top 10": [],
+        "Cross-site request forgery": ["CSRF"],
+        "DDoS": ["Distributed denial of service"],
+        "Cryptography": [],
+        "SQL injection": ["SQLi"],
+        "Cross-site scripting": ["XSS"],
+        "Penetration testing": ["Pen testing"],
+        "Monolithic architecture": ["Monolith"],
+        "Hexagonal architecture": [],
+        "Circuit breaker pattern": ["Circuit breakers"],
+        "GRASP": [],
+        "DRY": [],
+        "KISS": [],
+        "Clean code": [],
+        "Design patterns": [],
+        "Microservices": [],
+        "Event-driven architecture": ["Event driven"],
+        "Domain-driven design": ["DDD"],
+        "Service mesh": [],
+        "Serverless": [],
+        "Scalability": [],
+        "scikit-learn": ["sklearn"],
+        "Pandas": [],
+        "NumPy": [],
+        "Jupyter": ["Jupyter Notebook"],
+        "Machine learning": ["ML"],
+        "Deep learning": ["DL"],
+        "Natural language processing": ["NLP"],
+        "Computer vision": [],
+        "Large language models": ["LLMs"],
+        "MLOps": [],
+        "Knowledge graph": ["Knowledge graphs"],
+        "SPARQL": [],
+        "RDF": [],
+        "OWL": [],
+        "Visual Studio Code": ["VS Code"],
+        "IntelliJ IDEA": ["IntelliJ"],
+        "Eclipse IDE": ["Eclipse"],
+        "Visual Studio": [],
+        "Chrome DevTools": [],
+        "Firebug": [],
+        "Jekyll": [],
+        "Confluence": [],
+        "Jira": ["JIRA"],
+        "Redmine": [],
+        "Trello": [],
+        "Asana": [],
+        "Microsoft Office": ["MS Office"],
+        "Mantis": [],
+        "Indefero": [],
+        "Requirements analysis": [],
+        "Technical writing": [],
+        "Functional design": [],
+        "Client meetings": [],
+        "Bid proposals": [],
+        "Figma": [],
+        "Sketch": [],
+        "Adobe Photoshop": ["Photoshop"],
+        "Adobe Illustrator": ["Illustrator"],
+        "UX": ["User experience"],
+        "UI": ["User interface"],
+        "HMI design": [],
+        "Prototyping": [],
+        "Mobile-first design": ["Mobile First"],
+        "Progressive enhancement": [],
+        "Feature detection": [],
+        "A/B testing": ["A/B Testing"],
+        "Wireframing": [],
+        "Responsive web design": ["RWD"],
+        "Progressive web application": ["PWA"],
+        "Search engine optimization": ["SEO"],
+        "Google Analytics": [],
+        "Google Tag Manager": [],
+        "Google Search Console": ["Google Webmaster Tools"],
+        "Conversion optimization": [],
+        "Agile": [],
+        "Scrum": [],
+        "Kanban": [],
+        "Waterfall": [],
+        "Lean": [],
+        "Iterative development": [],
+        "Documentation as code": [],
+        "Stakeholder management": [],
+        "Cost estimation": [],
+        "Mentoring": [],
+        "Coaching": [],
+        "Risk management": [],
+        "Problem solving": [],
+        "Critical thinking": [],
+        "Active listening": [],
+        "Written communication": [],
+        "Verbal communication": [],
+        "Time management": [],
+        "Adaptability": [],
+        "Collaboration": [],
+        "Empathy": [],
+        "Knowledge sharing": [],
+        "Ownership": [],
+        "Lifelong learning": [],
+        "Economics": ["Economie"],
+        "Law": ["Droit"],
+        "Management": ["Gestion"],
+        "Ergonomics": [],
+        "Psychology": [],
+        "E-commerce": ["eCommerce"]
+      },
+      "software_categories": {
+        "Frontend": [
+          "React", "Angular", "Vue.js", "Svelte", "Next.js", "Nuxt",
+          "Redux", "AngularFire", "Backbone.js", "Knockout.js", "Polymer",
+          "jQuery", "Bootstrap", "Tailwind CSS", "Material UI", "HTML5",
+          "CSS3", "Sass", "Less"
+        ],
+        "Backend": [
+          "Node.js", "Express.js", "NestJS", "Django", "Flask", "FastAPI",
+          "Tornado", "Spring Boot", "JEE", "Jersey", "Play Framework",
+          "Hibernate", "ASP.NET Core", "Laravel", "Symfony", "Ruby on Rails",
+          "REST", "SOAP", "GraphQL", "gRPC"
+        ],
+        "Mobile Development": [
+          "Flutter", "Dart", "Kotlin", "Swift", "Android", "iOS", "SwiftUI",
+          "Jetpack Compose", "Ionic", "Cordova", "Xamarin", "React Native"
+        ],
+        "Database": [
+          "SQL", "PostgreSQL", "MySQL", "MariaDB", "SQLite", "Redis", "Cassandra",
+          "DynamoDB", "Firebase Firestore", "MongoDB", "SQL Server",
+          "Oracle Database", "Elasticsearch"
+        ],
+        "Containers": ["Docker"],
+        "Container Orchestration": [
+          "Kubernetes", "OpenShift", "Rancher", "VMware Tanzu"
+        ],
+        "Event Streaming": ["Apache Kafka", "RabbitMQ"],
+        "Data Engineering": [
+          "Apache Spark", "Apache Airflow", "ETL", "Snowflake", "Databricks",
+          "Power BI", "Tableau", "Pandas", "NumPy", "scikit-learn",
+          "Data modeling", "Database design"
+        ],
+        "Testing / QA": [
+          "Jest", "pytest", "JUnit", "Cypress", "Playwright", "Selenium",
+          "Mocha", "Chai", "Jasmine", "Karma", "BrowserStack",
+          "Sauce Labs", "Lighthouse", "Static analysis", "SonarQube",
+          "Test-driven development", "Behavior-driven development"
+        ]
+      },
+      "tier_1_terms": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "SQL",
+        "Git",
+        "GitHub Actions",
+        "Docker",
+        "CI/CD"
+      ],
+      "tier_2_terms": [
+        "Kubernetes",
+        "AWS",
+        "Agile",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "SQL Server",
+        "Oracle Database"
+      ],
+      "legacy_terms": [
+        "CLISP",
+        "CoffeeScript",
+        "Flex",
+        "Backbone.js",
+        "Knockout.js",
+        "Polymer",
+        "Compass",
+        "Gulp",
+        "Grunt",
+        "Bower",
+        "Browserify",
+        "RequireJS",
+        "Modernizr",
+        "Vagrant",
+        "SVN",
+        "Travis CI",
+        "PhantomJS",
+        "JSHint",
+        "CSSLint",
+        "Firebug",
+        "Google Web Toolkit",
+        "Drupal 7"
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "name": "Cisco",
+      "aliases": ["Cisco Systems"],
+      "parent_company": "Cisco",
+      "domains": ["IP Datacom / Networking", "IT Systems / Infrastructure", "Cybersecurity", "Unified Communications & Collaboration", "Telecommunications", "Smart Infrastructure"],
+      "products": ["Catalyst 9000", "Nexus", "Meraki", "Viptela", "Cisco ISE", "Cisco ACI", "Cisco UCS", "Cisco MDS", "Webex", "Intersight", "ThousandEyes", "Catalyst Center", "DNA Center", "Cisco Secure Access"],
+      "product_domains": {
+        "Catalyst 9000": ["IP Datacom / Networking"],
+        "Nexus": ["IP Datacom / Networking"],
+        "Meraki": ["IP Datacom / Networking"],
+        "Viptela": ["IP Datacom / Networking"],
+        "Cisco ISE": ["Cybersecurity", "IP Datacom / Networking"],
+        "Cisco ACI": ["IP Datacom / Networking"],
+        "Cisco UCS": ["IT Systems / Infrastructure"],
+        "Cisco MDS": ["Storage & Data Protection"],
+        "Webex": ["Unified Communications & Collaboration"],
+        "Intersight": ["IT Systems / Infrastructure"],
+        "ThousandEyes": ["IP Datacom / Networking"],
+        "Catalyst Center": ["IP Datacom / Networking"],
+        "DNA Center": ["IP Datacom / Networking"],
+        "Cisco Secure Access": ["Cybersecurity"]
+      }
+    },
+    {
+      "name": "Huawei",
+      "aliases": [],
+      "parent_company": "Huawei",
+      "domains": ["IP Datacom / Networking", "IT Systems / Infrastructure", "Storage & Data Protection", "Data Center Facilities", "Cybersecurity", "Smart Infrastructure", "AI / Machine Learning", "Power", "Cooling", "Telecommunications", "Cloud & Digital Infrastructure"],
+      "products": ["OceanStor", "OceanProtect", "FusionCompute", "FusionSolar", "Ascend", "CANN", "MindSpore", "iMaster NCE", "Huawei Cloud", "Huawei UPS"],
+      "product_domains": {
+        "OceanStor": ["Storage & Data Protection"],
+        "OceanProtect": ["Storage & Data Protection"],
+        "FusionCompute": ["IT Systems / Infrastructure"],
+        "FusionSolar": ["Smart Infrastructure", "Power"],
+        "Ascend": ["AI / Machine Learning"],
+        "CANN": ["AI / Machine Learning"],
+        "MindSpore": ["AI / Machine Learning"],
+        "iMaster NCE": ["IP Datacom / Networking"],
+        "Huawei Cloud": ["Cloud & Digital Infrastructure"],
+        "Huawei UPS": ["Power"]
+      }
+    },
+    {
+      "name": "H3C",
+      "aliases": [],
+      "parent_company": "H3C",
+      "domains": ["IP Datacom / Networking", "IT Systems / Infrastructure", "Storage & Data Protection", "Cybersecurity"],
+      "products": []
+    },
+    {
+      "name": "Juniper Networks",
+      "aliases": ["Juniper"],
+      "parent_company": "HPE",
+      "domains": ["IP Datacom / Networking", "Cybersecurity", "Telecommunications"],
+      "products": ["Junos", "Mist", "Apstra", "Contrail"]
+    },
+    {
+      "name": "HPE",
+      "aliases": ["Hewlett Packard Enterprise"],
+      "parent_company": "HPE",
+      "domains": ["IP Datacom / Networking", "IT Systems / Infrastructure", "Storage & Data Protection", "Cybersecurity", "Data Center Facilities", "Cooling", "AI / Machine Learning", "End-User Computing & Print"],
+      "products": ["Alletra", "Primera", "SimpliVity", "StoreOnce", "HPE Edgeline", "Cray", "ProLiant", "iLO", "OneView", "Nimble"],
+      "product_domains": {
+        "Alletra": ["Storage & Data Protection"],
+        "Primera": ["Storage & Data Protection"],
+        "SimpliVity": ["IT Systems / Infrastructure"],
+        "StoreOnce": ["Storage & Data Protection"],
+        "HPE Edgeline": ["Smart Infrastructure", "IT Systems / Infrastructure"],
+        "Cray": ["AI / Machine Learning", "IT Systems / Infrastructure"],
+        "ProLiant": ["IT Systems / Infrastructure"],
+        "iLO": ["IT Systems / Infrastructure"],
+        "OneView": ["IT Systems / Infrastructure"],
+        "Nimble": ["Storage & Data Protection"]
+      }
+    },
+    {
+      "name": "Dell Technologies",
+      "aliases": ["Dell", "Dell EMC"],
+      "parent_company": "Dell Technologies",
+      "domains": ["IP Datacom / Networking", "IT Systems / Infrastructure", "Storage & Data Protection", "Data Center Facilities", "AI / Machine Learning", "End-User Computing & Print"],
+      "products": ["PowerStore", "PowerMax", "PowerScale", "PowerProtect", "Data Domain", "VxRail", "PowerEdge XE", "NativeEdge", "iDRAC", "OpenManage", "Cyber Recovery", "CyberSense"]
+    },
+    {
+      "name": "Lenovo",
+      "aliases": [],
+      "parent_company": "Lenovo",
+      "domains": ["IT Systems / Infrastructure", "Storage & Data Protection", "AI / Machine Learning", "End-User Computing & Print"],
+      "products": ["ThinkEdge", "XClarity", "ThinkSystem"]
+    },
+    {
+      "name": "VMware",
+      "aliases": ["VMware by Broadcom"],
+      "parent_company": "Broadcom",
+      "domains": ["IT Systems / Infrastructure", "Cloud & Digital Infrastructure"],
+      "products": ["vSphere", "vSAN", "NSX", "Tanzu", "Horizon", "VeloCloud", "VMware SRM"]
+    },
+    {
+      "name": "Broadcom",
+      "aliases": ["Broadcom Inc."],
+      "parent_company": "Broadcom",
+      "domains": ["IP Datacom / Networking", "Storage & Data Protection", "Cybersecurity", "AI / Machine Learning"],
+      "products": ["Symantec", "Carbon Black", "Brocade", "Emulex", "VMware"],
+      "product_domains": {
+        "Symantec": ["Cybersecurity"],
+        "Carbon Black": ["Cybersecurity"],
+        "Brocade": ["IP Datacom / Networking", "Storage & Data Protection"],
+        "Emulex": ["Storage & Data Protection"],
+        "VMware": ["IT Systems / Infrastructure"]
+      }
+    },
+    {
+      "name": "Nutanix",
+      "aliases": [],
+      "parent_company": "Nutanix",
+      "domains": ["IT Systems / Infrastructure", "Storage & Data Protection"],
+      "products": []
+    },
+    {
+      "name": "Red Hat",
+      "aliases": ["RedHat"],
+      "parent_company": "IBM",
+      "domains": ["IT Systems / Infrastructure", "Software / Applications / Platforms", "Smart Infrastructure"],
+      "products": ["RHEL", "OpenShift", "Ansible", "OpenStack", "KVM"]
+    },
+    {
+      "name": "IBM",
+      "aliases": ["International Business Machines"],
+      "parent_company": "IBM",
+      "domains": ["IT Systems / Infrastructure", "Storage & Data Protection", "Software / Applications / Platforms", "AI / Machine Learning", "Cloud & Digital Infrastructure"],
+      "products": ["Power", "z/OS", "FlashSystem", "Storage Scale", "Storage Protect", "Db2", "WebSphere", "Cloud Pak", "QRadar", "watsonx"]
+    },
+    {
+      "name": "NetApp",
+      "aliases": [],
+      "parent_company": "NetApp",
+      "domains": ["Storage & Data Protection", "AI / Machine Learning"],
+      "products": ["ONTAP", "AFF", "FAS"]
+    },
+    {
+      "name": "Pure Storage",
+      "aliases": ["Pure"],
+      "parent_company": "Pure Storage",
+      "domains": ["Storage & Data Protection", "AI / Machine Learning"],
+      "products": ["FlashArray", "FlashBlade"]
+    },
+    {
+      "name": "Veeam",
+      "aliases": [],
+      "parent_company": "Veeam",
+      "domains": ["IT Systems / Infrastructure", "Storage & Data Protection", "Software / Applications / Platforms"],
+      "products": ["Veeam Backup & Replication"]
+    },
+    {
+      "name": "Commvault",
+      "aliases": [],
+      "parent_company": "Commvault",
+      "domains": ["Storage & Data Protection", "IT Systems / Infrastructure"],
+      "products": ["Commvault Cloud", "CVSA"]
+    },
+    {
+      "name": "Cohesity",
+      "aliases": ["Veritas Data Protection"],
+      "parent_company": "Cohesity",
+      "domains": ["Storage & Data Protection", "IT Systems / Infrastructure"],
+      "products": ["NetBackup", "DataProtect"]
+    },
+    {
+      "name": "Fortinet",
+      "aliases": [],
+      "parent_company": "Fortinet",
+      "domains": ["IP Datacom / Networking", "Cybersecurity", "Smart Infrastructure"],
+      "products": ["FortiGate", "FortiNAC", "FortiWeb", "FortiManager", "FortiAnalyzer", "FortiSASE", "Fortinet OT"]
+    },
+    {
+      "name": "Palo Alto Networks",
+      "aliases": ["Palo Alto"],
+      "parent_company": "Palo Alto Networks",
+      "domains": ["Cybersecurity", "IP Datacom / Networking"],
+      "products": ["Prisma", "Prisma Cloud", "Prisma Access", "Cortex XDR", "Cortex XSOAR"]
+    },
+    {
+      "name": "Check Point",
+      "aliases": ["CheckPoint"],
+      "parent_company": "Check Point",
+      "domains": ["Cybersecurity"],
+      "products": []
+    },
+    {
+      "name": "Microsoft",
+      "aliases": ["Microsoft Corporation"],
+      "parent_company": "Microsoft",
+      "domains": ["IT Systems / Infrastructure", "Cybersecurity", "Software / Applications / Platforms", "Smart Infrastructure", "Cloud & Digital Infrastructure", "Unified Communications & Collaboration", "ERP & Business Applications", "End-User Computing & Print"],
+      "products": ["Azure", "Azure Local", "Microsoft 365", "Windows Server", "Hyper-V", "System Center", "SQL Server", "Azure OpenAI", "Microsoft Sentinel", "Microsoft Defender", "Entra", "Intune", "Teams", "Teams Rooms", "Dynamics 365", "Surface", "AVD"],
+      "product_domains": {
+        "Azure": ["Cloud & Digital Infrastructure"],
+        "Azure Local": ["IT Systems / Infrastructure"],
+        "Microsoft 365": ["Software / Applications / Platforms"],
+        "Windows Server": ["IT Systems / Infrastructure"],
+        "Hyper-V": ["IT Systems / Infrastructure"],
+        "System Center": ["IT Systems / Infrastructure"],
+        "SQL Server": ["Software / Applications / Platforms"],
+        "Azure OpenAI": ["AI / Machine Learning", "Cloud & Digital Infrastructure"],
+        "Microsoft Sentinel": ["Cybersecurity"],
+        "Microsoft Defender": ["Cybersecurity"],
+        "Entra": ["Cybersecurity"],
+        "Intune": ["IT Systems / Infrastructure", "End-User Computing & Print"],
+        "Teams": ["Unified Communications & Collaboration"],
+        "Teams Rooms": ["Unified Communications & Collaboration"],
+        "Dynamics 365": ["ERP & Business Applications"],
+        "Surface": ["End-User Computing & Print"],
+        "AVD": ["End-User Computing & Print", "IT Systems / Infrastructure"]
+      }
+    },
+    {
+      "name": "AWS",
+      "aliases": ["Amazon Web Services"],
+      "parent_company": "Amazon",
+      "domains": ["Cloud & Digital Infrastructure", "AI / Machine Learning", "Smart Infrastructure"],
+      "products": ["EKS", "Bedrock", "SageMaker", "Trainium", "Inferentia", "AWS IoT"]
+    },
+    {
+      "name": "Google Cloud",
+      "aliases": ["Google Cloud Platform", "GCP"],
+      "parent_company": "Google",
+      "domains": ["Cloud & Digital Infrastructure", "AI / Machine Learning"],
+      "products": ["GKE", "Vertex AI", "TPU", "Google Chronicle"]
+    },
+    {
+      "name": "Oracle",
+      "aliases": ["Oracle Corporation"],
+      "parent_company": "Oracle",
+      "domains": ["IT Systems / Infrastructure", "Storage & Data Protection", "Software / Applications / Platforms", "Cloud & Digital Infrastructure", "ERP & Business Applications"],
+      "products": ["SPARC", "Exadata", "StorageTek", "Oracle Linux", "Oracle Database", "OCI", "Oracle Cloud", "Oracle Fusion"]
+    },
+    {
+      "name": "Schneider Electric",
+      "aliases": ["Schneider", "APC"],
+      "parent_company": "Schneider Electric",
+      "domains": ["Data Center Facilities", "Smart Infrastructure", "Power", "Cooling"],
+      "products": ["EcoStruxure", "Uniflair", "APC Smart-UPS", "APC NetShelter", "Starline", "PowerChute"]
+    },
+    {
+      "name": "Vertiv",
+      "aliases": ["Liebert"],
+      "parent_company": "Vertiv",
+      "domains": ["Data Center Facilities", "Power", "Cooling", "AI / Machine Learning"],
+      "products": ["SmartMod", "Geist", "Liebert", "Environet", "CoolTera"]
+    },
+    {
+      "name": "Eaton",
+      "aliases": ["Tripp Lite"],
+      "parent_company": "Eaton",
+      "domains": ["Data Center Facilities", "Power", "Cooling"],
+      "products": ["Power Xpert", "Tripp Lite", "Brightlayer"]
+    },
+    {
+      "name": "Siemens",
+      "aliases": [],
+      "parent_company": "Siemens",
+      "domains": ["Data Center Facilities", "Smart Infrastructure", "Power"],
+      "products": ["Desigo", "Desigo CC", "S7", "SIMATIC", "SINEC"]
+    },
+    {
+      "name": "Johnson Controls",
+      "aliases": ["JCI", "Tyco"],
+      "parent_company": "Johnson Controls",
+      "domains": ["Data Center Facilities", "Smart Infrastructure", "Cooling"],
+      "products": ["Metasys", "York"]
+    },
+    {
+      "name": "Honeywell",
+      "aliases": ["Notifier", "VESDA"],
+      "parent_company": "Honeywell",
+      "domains": ["Data Center Facilities", "Smart Infrastructure"],
+      "products": ["Forge", "Notifier", "VESDA"]
+    },
+    {
+      "name": "ABB",
+      "aliases": [],
+      "parent_company": "ABB",
+      "domains": ["Smart Infrastructure", "Power"],
+      "products": ["Ability", "Relion"]
+    },
+    {
+      "name": "Ciena",
+      "aliases": [],
+      "parent_company": "Ciena",
+      "domains": ["IP Datacom / Networking", "Telecommunications"],
+      "products": ["WaveLogic", "Blue Planet"]
+    },
+    {
+      "name": "Arista Networks",
+      "aliases": ["Arista"],
+      "parent_company": "Arista Networks",
+      "domains": ["IP Datacom / Networking", "AI / Machine Learning"],
+      "products": ["CloudVision", "EOS", "7050X"]
+    },
+    {
+      "name": "F5",
+      "aliases": ["F5 Networks"],
+      "parent_company": "F5",
+      "domains": ["IP Datacom / Networking", "Cybersecurity"],
+      "products": ["BIG-IP", "NGINX", "F5-CA", "F5-CTS", "F5-CSE"]
+    },
+    {
+      "name": "Nokia",
+      "aliases": [],
+      "parent_company": "Nokia",
+      "domains": ["IP Datacom / Networking", "Telecommunications"],
+      "products": ["Nokia SR OS", "NRS I", "NRS II"]
+    },
+    {
+      "name": "ZTE",
+      "aliases": [],
+      "parent_company": "ZTE",
+      "domains": ["IP Datacom / Networking", "Telecommunications"],
+      "products": ["ZTE OTN"]
+    },
+    {
+      "name": "Aruba",
+      "aliases": ["Aruba Networks"],
+      "parent_company": "HPE",
+      "domains": ["IP Datacom / Networking"],
+      "products": ["ClearPass", "EdgeConnect", "Aruba Central"]
+    },
+    {
+      "name": "Extreme Networks",
+      "aliases": ["Extreme"],
+      "parent_company": "Extreme Networks",
+      "domains": ["IP Datacom / Networking"],
+      "products": ["CloudIQ", "ExtremeCloud IQ"]
+    },
+    {
+      "name": "CommScope",
+      "aliases": [],
+      "parent_company": "CommScope",
+      "domains": ["IP Datacom / Networking", "Data Center Facilities"],
+      "products": ["SYSTIMAX"]
+    },
+    {
+      "name": "Panduit",
+      "aliases": [],
+      "parent_company": "Panduit",
+      "domains": ["IP Datacom / Networking", "Data Center Facilities", "Cooling"],
+      "products": ["PanZone", "Opti-Core"]
+    },
+    {
+      "name": "Corning",
+      "aliases": [],
+      "parent_company": "Corning",
+      "domains": ["IP Datacom / Networking"],
+      "products": ["ClearCurve"]
+    },
+    {
+      "name": "Axis Communications",
+      "aliases": ["Axis"],
+      "parent_company": "Axis Communications",
+      "domains": ["Data Center Facilities", "Smart Infrastructure", "Cybersecurity"],
+      "products": ["Axis Camera Station"]
+    },
+    {
+      "name": "Genetec",
+      "aliases": [],
+      "parent_company": "Genetec",
+      "domains": ["Data Center Facilities", "Smart Infrastructure"],
+      "products": ["Security Center"]
+    },
+    {
+      "name": "Rockwell Automation",
+      "aliases": ["Rockwell"],
+      "parent_company": "Rockwell Automation",
+      "domains": ["Smart Infrastructure"],
+      "products": ["FactoryTalk"]
+    },
+    {
+      "name": "AVEVA",
+      "aliases": [],
+      "parent_company": "Schneider Electric",
+      "domains": ["Smart Infrastructure"],
+      "products": ["System Platform"]
+    },
+    {
+      "name": "NVIDIA",
+      "aliases": [],
+      "parent_company": "NVIDIA",
+      "domains": ["IP Datacom / Networking", "IT Systems / Infrastructure", "Storage & Data Protection", "AI / Machine Learning"],
+      "products": ["Spectrum", "Cumulus Linux", "InfiniBand", "Spectrum-X", "BlueField", "CUDA", "DGX", "HGX", "NIM", "NeMo", "Triton", "TensorRT", "DeepStream"],
+      "product_domains": {
+        "Spectrum": ["IP Datacom / Networking"],
+        "Cumulus Linux": ["IP Datacom / Networking"],
+        "InfiniBand": ["AI / Machine Learning", "IP Datacom / Networking"],
+        "Spectrum-X": ["AI / Machine Learning", "IP Datacom / Networking"],
+        "BlueField": ["AI / Machine Learning"],
+        "CUDA": ["AI / Machine Learning"],
+        "DGX": ["AI / Machine Learning"],
+        "HGX": ["AI / Machine Learning"],
+        "NIM": ["AI / Machine Learning"],
+        "NeMo": ["AI / Machine Learning"],
+        "Triton": ["AI / Machine Learning"],
+        "TensorRT": ["AI / Machine Learning"],
+        "DeepStream": ["AI / Machine Learning"],
+        "NCA-AIIO": ["AI / Machine Learning"],
+        "NCP-AII": ["AI / Machine Learning"]
+      }
+    },
+    {
+      "name": "AMD",
+      "aliases": [],
+      "parent_company": "AMD",
+      "domains": ["AI / Machine Learning"],
+      "products": ["Instinct", "ROCm"]
+    },
+    {
+      "name": "OpenAI",
+      "aliases": [],
+      "parent_company": "OpenAI",
+      "domains": ["AI / Machine Learning"],
+      "products": ["ChatGPT"]
+    },
+    {
+      "name": "Anthropic",
+      "aliases": [],
+      "parent_company": "Anthropic",
+      "domains": ["AI / Machine Learning"],
+      "products": ["Claude"]
+    },
+    {
+      "name": "Datadog",
+      "aliases": [],
+      "parent_company": "Datadog",
+      "domains": ["Software / Applications / Platforms"],
+      "products": ["Datadog APM"]
+    },
+    {
+      "name": "Dynatrace",
+      "aliases": [],
+      "parent_company": "Dynatrace",
+      "domains": ["Software / Applications / Platforms"],
+      "products": ["Dynatrace OneAgent"]
+    },
+    {
+      "name": "ServiceNow",
+      "aliases": [],
+      "parent_company": "ServiceNow",
+      "domains": ["Software / Applications / Platforms", "Cybersecurity", "ERP & Business Applications"],
+      "products": []
+    },
+    {
+      "name": "SAP",
+      "aliases": [],
+      "parent_company": "SAP",
+      "domains": ["ERP & Business Applications", "Software / Applications / Platforms"],
+      "products": ["S/4HANA", "SAP HANA", "SAP Business One"]
+    },
+    {
+      "name": "Salesforce",
+      "aliases": [],
+      "parent_company": "Salesforce",
+      "domains": ["ERP & Business Applications"],
+      "products": ["Sales Cloud", "Service Cloud"]
+    },
+    {
+      "name": "Zoom",
+      "aliases": [],
+      "parent_company": "Zoom",
+      "domains": ["Unified Communications & Collaboration"],
+      "products": ["Zoom Rooms"]
+    },
+    {
+      "name": "Avaya",
+      "aliases": [],
+      "parent_company": "Avaya",
+      "domains": ["Unified Communications & Collaboration"]
+    },
+    {
+      "name": "Mitel",
+      "aliases": [],
+      "parent_company": "Mitel",
+      "domains": ["Unified Communications & Collaboration"]
+    },
+    {
+      "name": "Yealink",
+      "aliases": [],
+      "parent_company": "Yealink",
+      "domains": ["Unified Communications & Collaboration"]
+    },
+    {
+      "name": "Genesys",
+      "aliases": [],
+      "parent_company": "Genesys",
+      "domains": ["Unified Communications & Collaboration"]
+    },
+    {
+      "name": "HP",
+      "aliases": ["Hewlett-Packard"],
+      "parent_company": "HP Inc.",
+      "domains": ["End-User Computing & Print"]
+    },
+    {
+      "name": "Canon",
+      "aliases": [],
+      "parent_company": "Canon",
+      "domains": ["End-User Computing & Print"]
+    },
+    {
+      "name": "Epson",
+      "aliases": [],
+      "parent_company": "Seiko Epson",
+      "domains": ["End-User Computing & Print"]
+    },
+    {
+      "name": "Xerox",
+      "aliases": [],
+      "parent_company": "Xerox",
+      "domains": ["End-User Computing & Print"]
+    },
+    {
+      "name": "Ericsson",
+      "aliases": [],
+      "parent_company": "Ericsson",
+      "domains": ["Telecommunications", "Smart Infrastructure"]
+    },
+    {
+      "name": "Mavenir",
+      "aliases": [],
+      "parent_company": "Mavenir",
+      "domains": ["Telecommunications"]
+    },
+    {
+      "name": "Splunk",
+      "aliases": [],
+      "parent_company": "Cisco",
+      "domains": ["Cybersecurity", "Software / Applications / Platforms"],
+      "products": ["Splunk Enterprise", "Splunk Enterprise Security"]
+    },
+    {
+      "name": "LogRhythm",
+      "aliases": ["Exabeam"],
+      "parent_company": "Exabeam",
+      "domains": ["Cybersecurity"],
+      "products": ["LogRhythm SIEM"]
+    },
+    {
+      "name": "Delinea",
+      "aliases": ["Thycotic", "Centrify"],
+      "parent_company": "Delinea",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "Trellix",
+      "aliases": ["McAfee Enterprise", "FireEye"],
+      "parent_company": "Trellix",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "Rehlko",
+      "aliases": ["Kohler Energy"],
+      "parent_company": "Rehlko",
+      "domains": ["Power"],
+      "products": ["Rehlko generators"]
+    },
+    {
+      "name": "MikroTik",
+      "aliases": [],
+      "parent_company": "MikroTik",
+      "domains": ["IP Datacom / Networking"],
+      "products": ["RouterOS"]
+    },
+    {
+      "name": "Ruijie Networks",
+      "aliases": ["Ruijie"],
+      "parent_company": "Ruijie Networks",
+      "domains": ["IP Datacom / Networking"]
+    },
+    {
+      "name": "Ruckus Networks",
+      "aliases": ["Ruckus"],
+      "parent_company": "CommScope",
+      "domains": ["IP Datacom / Networking"],
+      "products": ["Ruckus SmartZone"]
+    },
+    {
+      "name": "Forescout",
+      "aliases": [],
+      "parent_company": "Forescout",
+      "domains": ["IP Datacom / Networking", "Cybersecurity"]
+    },
+    {
+      "name": "Zscaler",
+      "aliases": [],
+      "parent_company": "Zscaler",
+      "domains": ["IP Datacom / Networking", "Cybersecurity"]
+    },
+    {
+      "name": "CrowdStrike",
+      "aliases": [],
+      "parent_company": "CrowdStrike",
+      "domains": ["Cybersecurity"],
+      "products": ["Falcon"]
+    },
+    {
+      "name": "SentinelOne",
+      "aliases": [],
+      "parent_company": "SentinelOne",
+      "domains": ["Cybersecurity"],
+      "products": ["Singularity"]
+    },
+    {
+      "name": "Tenable",
+      "aliases": [],
+      "parent_company": "Tenable",
+      "domains": ["Cybersecurity"],
+      "products": ["Nessus"]
+    },
+    {
+      "name": "Qualys",
+      "aliases": [],
+      "parent_company": "Qualys",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "Akamai",
+      "aliases": [],
+      "parent_company": "Akamai",
+      "domains": ["Cybersecurity", "IP Datacom / Networking"]
+    },
+    {
+      "name": "Proofpoint",
+      "aliases": [],
+      "parent_company": "Proofpoint",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "Wiz",
+      "aliases": [],
+      "parent_company": "Wiz",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "OneTrust",
+      "aliases": [],
+      "parent_company": "OneTrust",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "MetricStream",
+      "aliases": [],
+      "parent_company": "MetricStream",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "Vanta",
+      "aliases": [],
+      "parent_company": "Vanta",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "Drata",
+      "aliases": [],
+      "parent_company": "Drata",
+      "domains": ["Cybersecurity"]
+    },
+    {
+      "name": "VAST Data",
+      "aliases": ["VAST"],
+      "parent_company": "VAST Data",
+      "domains": ["Storage & Data Protection", "AI / Machine Learning"]
+    },
+    {
+      "name": "WEKA",
+      "aliases": ["Weka"],
+      "parent_company": "WEKA",
+      "domains": ["Storage & Data Protection", "AI / Machine Learning"]
+    },
+    {
+      "name": "DDN",
+      "aliases": ["DataDirect Networks"],
+      "parent_company": "DDN",
+      "domains": ["Storage & Data Protection", "AI / Machine Learning"]
+    },
+    {
+      "name": "Qumulo",
+      "aliases": [],
+      "parent_company": "Qumulo",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "Hammerspace",
+      "aliases": [],
+      "parent_company": "Hammerspace",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "MinIO",
+      "aliases": [],
+      "parent_company": "MinIO",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "Scality",
+      "aliases": [],
+      "parent_company": "Scality",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "Cloudian",
+      "aliases": [],
+      "parent_company": "Cloudian",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "Synology",
+      "aliases": [],
+      "parent_company": "Synology",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "QNAP",
+      "aliases": [],
+      "parent_company": "QNAP",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "TrueNAS",
+      "aliases": [],
+      "parent_company": "iXsystems",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "Brocade",
+      "aliases": [],
+      "parent_company": "Broadcom",
+      "domains": ["IP Datacom / Networking", "Storage & Data Protection"]
+    },
+    {
+      "name": "Quantum",
+      "aliases": [],
+      "parent_company": "Quantum Corporation",
+      "domains": ["Storage & Data Protection"]
+    },
+    {
+      "name": "Rittal",
+      "aliases": [],
+      "parent_company": "Friedhelm Loh Group",
+      "domains": ["Data Center Facilities", "Power", "Cooling"]
+    },
+    {
+      "name": "STULZ",
+      "aliases": [],
+      "parent_company": "STULZ",
+      "domains": ["Cooling", "Data Center Facilities"]
+    },
+    {
+      "name": "Munters",
+      "aliases": [],
+      "parent_company": "Munters",
+      "domains": ["Cooling"]
+    },
+    {
+      "name": "Daikin",
+      "aliases": [],
+      "parent_company": "Daikin",
+      "domains": ["Cooling", "Smart Infrastructure"]
+    },
+    {
+      "name": "Trane",
+      "aliases": [],
+      "parent_company": "Trane Technologies",
+      "domains": ["Cooling", "Smart Infrastructure"]
+    },
+    {
+      "name": "Carrier",
+      "aliases": [],
+      "parent_company": "Carrier Global",
+      "domains": ["Cooling", "Smart Infrastructure"]
+    },
+    {
+      "name": "R&M",
+      "aliases": ["Reichle & De-Massari"],
+      "parent_company": "R&M",
+      "domains": ["IP Datacom / Networking"]
+    },
+    {
+      "name": "Legrand",
+      "aliases": [],
+      "parent_company": "Legrand",
+      "domains": ["IP Datacom / Networking", "Data Center Facilities", "Power", "Cooling"]
+    },
+    {
+      "name": "SUSE",
+      "aliases": ["SUSE Linux"],
+      "parent_company": "SUSE",
+      "domains": ["IT Systems / Infrastructure", "Software / Applications / Platforms"],
+      "products": ["SUSE Linux Enterprise", "Rancher", "Harvester"]
+    },
+    {
+      "name": "Canonical",
+      "aliases": [],
+      "parent_company": "Canonical",
+      "domains": ["IT Systems / Infrastructure", "Software / Applications / Platforms"],
+      "products": ["Ubuntu", "MAAS", "MicroK8s"]
+    },
+    {
+      "name": "Citrix",
+      "aliases": [],
+      "parent_company": "Cloud Software Group",
+      "domains": ["IT Systems / Infrastructure", "End-User Computing & Print"],
+      "products": ["Citrix Virtual Apps and Desktops", "NetScaler", "Citrix ADC"]
+    },
+    {
+      "name": "Supermicro",
+      "aliases": ["Super Micro Computer"],
+      "parent_company": "Supermicro",
+      "domains": ["IT Systems / Infrastructure", "AI / Machine Learning"]
+    },
+    {
+      "name": "Fujitsu",
+      "aliases": [],
+      "parent_company": "Fujitsu",
+      "domains": ["IT Systems / Infrastructure", "Storage & Data Protection"]
+    },
+    {
+      "name": "Inspur",
+      "aliases": [],
+      "parent_company": "Inspur",
+      "domains": ["IT Systems / Infrastructure", "Storage & Data Protection", "AI / Machine Learning"]
+    },
+    {
+      "name": "xFusion",
+      "aliases": [],
+      "parent_company": "xFusion",
+      "domains": ["IT Systems / Infrastructure", "AI / Machine Learning"]
+    },
+    {
+      "name": "Gigabyte",
+      "aliases": [],
+      "parent_company": "Gigabyte",
+      "domains": ["IT Systems / Infrastructure", "AI / Machine Learning", "End-User Computing & Print"]
+    },
+    {
+      "name": "ASUS",
+      "aliases": ["ASUSTeK"],
+      "parent_company": "ASUS",
+      "domains": ["IT Systems / Infrastructure", "End-User Computing & Print"]
+    },
+    {
+      "name": "Apple",
+      "aliases": [],
+      "parent_company": "Apple",
+      "domains": ["End-User Computing & Print"]
+    },
+    {
+      "name": "Acer",
+      "aliases": [],
+      "parent_company": "Acer",
+      "domains": ["End-User Computing & Print"]
+    },
+    {
+      "name": "Samsung",
+      "aliases": [],
+      "parent_company": "Samsung",
+      "domains": ["End-User Computing & Print", "Telecommunications", "Power"]
+    },
+    {
+      "name": "Ricoh",
+      "aliases": [],
+      "parent_company": "Ricoh",
+      "domains": ["End-User Computing & Print"]
+    },
+    {
+      "name": "Cummins",
+      "aliases": [],
+      "parent_company": "Cummins",
+      "domains": ["Power"]
+    },
+    {
+      "name": "Caterpillar",
+      "aliases": [],
+      "parent_company": "Caterpillar",
+      "domains": ["Power"]
+    },
+    {
+      "name": "Socomec",
+      "aliases": [],
+      "parent_company": "Socomec",
+      "domains": ["Power"]
+    },
+    {
+      "name": "Mitsubishi Electric",
+      "aliases": [],
+      "parent_company": "Mitsubishi Electric",
+      "domains": ["Power", "Cooling", "Smart Infrastructure", "Telecommunications"]
+    },
+    {
+      "name": "Yokogawa",
+      "aliases": [],
+      "parent_company": "Yokogawa",
+      "domains": ["Smart Infrastructure"]
+    },
+    {
+      "name": "Emerson",
+      "aliases": [],
+      "parent_company": "Emerson",
+      "domains": ["Smart Infrastructure", "Power"]
+    },
+    {
+      "name": "Phoenix Contact",
+      "aliases": [],
+      "parent_company": "Phoenix Contact",
+      "domains": ["Smart Infrastructure", "IP Datacom / Networking"]
+    },
+    {
+      "name": "Moxa",
+      "aliases": [],
+      "parent_company": "Moxa",
+      "domains": ["Smart Infrastructure", "IP Datacom / Networking"]
+    },
+    {
+      "name": "Advantech",
+      "aliases": [],
+      "parent_company": "Advantech",
+      "domains": ["Smart Infrastructure", "IT Systems / Infrastructure"]
+    },
+    {
+      "name": "Odoo",
+      "aliases": [],
+      "parent_company": "Odoo",
+      "domains": ["ERP & Business Applications"]
+    },
+    {
+      "name": "Workday",
+      "aliases": [],
+      "parent_company": "Workday",
+      "domains": ["ERP & Business Applications"]
+    }
+  ]
+}

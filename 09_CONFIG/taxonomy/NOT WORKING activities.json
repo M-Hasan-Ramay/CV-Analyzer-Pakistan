@@ -1,0 +1,519 @@
+from pathlib import Path
+
+script = r'''"""
+Safely enrich generated activity records in C:\CV_AI\09_CONFIG\taxonomy\activities.json.
+
+What this script does:
+- Makes a timestamped backup before writing.
+- Updates ONLY the 70 records listed in UPDATES.
+- Preserves all activity IDs, category values, branch values, and existing records.
+- Replaces placeholder descriptions and adds carefully scoped aliases.
+- Keeps review_status="GENERATED_NEEDS_REVIEW" so nothing is falsely approved.
+- Writes JSON to a temporary file, validates it, then replaces the original.
+
+Run from C:\CV_AI:
+    python app\taxonomy_activity_enrich.py
+
+Review the backup and resulting diff/report before using the taxonomy in production.
+"""
+
+import json
+import shutil
+from datetime import datetime
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+TAXONOMY_DIR = ROOT / "09_CONFIG" / "taxonomy"
+ACTIVITIES_FILE = TAXONOMY_DIR / "activities.json"
+BACKUP_DIR = ROOT / "10_BACKUP"
+REPORT_DIR = ROOT / "08_LOGS"
+
+# Deliberately limited to name, description, and aliases.
+# Existing IDs, category, branch, and review status are not changed.
+UPDATES = {
+    "ACTIVITY.ACCOUNT_PLANNING": {
+        "name": "Account Planning",
+        "description": "Developing and maintaining plans for an account, including objectives, stakeholder relationships, opportunities, risks, engagement actions, and account growth or service priorities.",
+        "aliases": ["account strategy", "strategic account planning"],
+    },
+    "ACTIVITY.AUDIT_REPORTING": {
+        "name": "Audit Reporting",
+        "description": "Documenting and communicating audit scope, procedures, findings, evidence, control weaknesses, conclusions, and agreed corrective actions. This activity concerns reporting audit results, not the entire audit engagement.",
+        "aliases": ["audit report preparation", "audit findings reporting"],
+    },
+    "ACTIVITY.BACKUP_RECOVERY": {
+        "name": "Backup and Recovery",
+        "description": "Planning or performing data and system backup and restoration activities to support recoverability after deletion, corruption, failure, or disruption. Use the more specific database backup or database recovery activities when the work is specifically database-focused.",
+        "aliases": ["backup and restore", "data backup and recovery", "disaster recovery support"],
+    },
+    "ACTIVITY.CAPACITY_PLANNING": {
+        "name": "Capacity Planning",
+        "description": "Estimating future resource requirements and comparing expected demand with available capacity, such as compute, storage, network, facilities, staffing, or inventory, to identify constraints and plan expansion or allocation.",
+        "aliases": ["resource capacity planning", "capacity forecasting"],
+    },
+    "ACTIVITY.CODE_REVIEW": {
+        "name": "Code Review",
+        "description": "Examining source code changes for correctness, readability, maintainability, security, performance, and conformance to engineering standards before acceptance or integration.",
+        "aliases": ["source code review", "peer code review"],
+    },
+    "ACTIVITY.COMMERCIAL_NEGOTIATION": {
+        "name": "Commercial Negotiation",
+        "description": "Negotiating commercial terms such as price, payment milestones, discounts, delivery, service levels, liability, warranty, and contract conditions with customers, suppliers, vendors, or partners.",
+        "aliases": ["price negotiation", "commercial terms negotiation"],
+    },
+    "ACTIVITY.COMPENSATION_BENEFITS": {
+        "name": "Compensation and Benefits Management",
+        "description": "Administering or designing employee compensation and benefits, including salary structures, allowances, incentives, benefits eligibility, compensation reviews, and related records or policies.",
+        "aliases": ["compensation and benefits", "C&B", "total rewards administration"],
+    },
+    "ACTIVITY.COMPLIANCE_AUDIT": {
+        "name": "Compliance Audit",
+        "description": "Assessing documented evidence and practices against applicable laws, regulations, standards, policies, contractual obligations, or control requirements, and recording nonconformities and corrective actions.",
+        "aliases": ["regulatory compliance audit", "compliance assessment audit"],
+    },
+    "ACTIVITY.COMPLIANCE_MATRIX": {
+        "name": "Compliance Matrix Preparation and Maintenance",
+        "description": "Creating, mapping, and maintaining a matrix that links requirements to responses, evidence, responsible parties, and compliance status, commonly for tenders, contracts, standards, or assurance reviews. The matrix is a deliverable; the activity is preparing and maintaining it.",
+        "aliases": ["compliance matrix preparation", "requirements compliance matrix", "compliance mapping"],
+    },
+    "ACTIVITY.CONTRACT_COORDINATION": {
+        "name": "Contract Coordination",
+        "description": "Coordinating contract documents, milestones, approvals, obligations, amendments, deliverables, and communications among internal stakeholders and external parties. This does not by itself imply legal advice or authority to approve contracts.",
+        "aliases": ["contract administration coordination", "contract documentation coordination"],
+    },
+    "ACTIVITY.CONTROL_TESTING": {
+        "name": "Control Testing",
+        "description": "Testing whether specified controls are appropriately designed and/or operate as intended, using evidence, samples, walkthroughs, or repeatable test procedures, and documenting exceptions and results.",
+        "aliases": ["internal control testing", "control effectiveness testing"],
+    },
+    "ACTIVITY.CUSTOMER_COORDINATION": {
+        "name": "Customer Coordination",
+        "description": "Coordinating customer communications, requests, meetings, schedules, dependencies, deliverables, and follow-up actions across relevant internal teams and external stakeholders.",
+        "aliases": ["client coordination", "customer liaison"],
+    },
+    "ACTIVITY.DATABASE_BACKUP": {
+        "name": "Database Backup",
+        "description": "Configuring, scheduling, monitoring, and verifying database backups, including retention and backup-integrity checks, to support recovery objectives and data protection requirements.",
+        "aliases": ["database backup management", "DB backup"],
+    },
+    "ACTIVITY.DATABASE_MIGRATION": {
+        "name": "Database Migration",
+        "description": "Planning and executing movement of databases between platforms, versions, environments, or hosting locations, including compatibility checks, data validation, cutover planning, and rollback preparation.",
+        "aliases": ["DB migration", "database platform migration"],
+    },
+    "ACTIVITY.DATABASE_PERFORMANCE": {
+        "name": "Database Performance Tuning and Management",
+        "description": "Diagnosing and improving database performance through analysis of queries, indexes, configuration, workloads, resource utilization, and execution plans, while monitoring performance against service needs.",
+        "aliases": ["database performance tuning", "DB performance optimization"],
+    },
+    "ACTIVITY.DATABASE_RECOVERY": {
+        "name": "Database Recovery",
+        "description": "Restoring database availability and/or data after failure, corruption, accidental change, or interruption using backups, transaction logs, replication, recovery procedures, and validation checks.",
+        "aliases": ["DB recovery", "database restore"],
+    },
+    "ACTIVITY.DATABASE_SECURITY": {
+        "name": "Database Security Management",
+        "description": "Protecting database systems and data through access control, privilege management, secure configuration, encryption where applicable, auditing, vulnerability remediation, and security monitoring.",
+        "aliases": ["database security", "DB security", "database hardening"],
+    },
+    "ACTIVITY.DEBUGGING": {
+        "name": "Debugging",
+        "description": "Reproducing, isolating, diagnosing, and correcting faults in software, scripts, integrations, or technical systems, then verifying that the correction resolves the observed behavior without introducing regressions.",
+        "aliases": ["fault diagnosis", "software debugging", "troubleshooting code"],
+    },
+    "ACTIVITY.DEMAND_PLANNING": {
+        "name": "Demand Planning",
+        "description": "Forecasting expected demand and aligning supply, purchasing, inventory, production, or delivery plans with forecast requirements, constraints, and changes in demand.",
+        "aliases": ["demand forecasting and planning", "sales and operations demand planning"],
+    },
+    "ACTIVITY.DEMO": {
+        "name": "Solution Demonstration",
+        "description": "Demonstrating a product, platform, or proposed solution to explain capabilities and show relevant workflows against stakeholder needs. A demonstration is distinct from a proof of concept that tests feasibility against defined criteria.",
+        "aliases": ["product demo", "solution demo", "technical demonstration"],
+    },
+    "ACTIVITY.DISTRIBUTION": {
+        "name": "Distribution",
+        "description": "Coordinating or carrying out the delivery or dissemination of goods, materials, products, software, or information to intended destinations or recipients. Interpret the term using the surrounding role and industry context.",
+        "aliases": ["goods distribution", "product distribution", "distribution coordination"],
+    },
+    "ACTIVITY.DOCUMENTATION": {
+        "name": "Documentation",
+        "description": "Creating, updating, reviewing, or maintaining records and explanatory material such as technical designs, procedures, operating guides, test evidence, project records, policies, or user documentation.",
+        "aliases": ["document preparation", "technical documentation", "documentation management"],
+    },
+    "ACTIVITY.DOCUMENT_COORDINATION": {
+        "name": "Document Coordination",
+        "description": "Collecting, organizing, routing, tracking, version-controlling, and following up on documents and approvals across contributors or stakeholders. This activity focuses on document workflow rather than authoring all content.",
+        "aliases": ["document control coordination", "document workflow coordination"],
+    },
+    "ACTIVITY.EMPLOYEE_RELATIONS": {
+        "name": "Employee Relations",
+        "description": "Supporting workplace relations through employee queries, grievance handling, disciplinary-process coordination, policy communication, case documentation, and liaison between employees and management in accordance with applicable procedures.",
+        "aliases": ["industrial and employee relations", "workplace relations"],
+    },
+    "ACTIVITY.EXECUTIVE_SUPPORT": {
+        "name": "Executive Support",
+        "description": "Providing administrative and coordination support to executives, including calendar management, meeting preparation, briefing materials, correspondence, action tracking, and follow-up on decisions.",
+        "aliases": ["senior executive support", "executive assistance"],
+    },
+    "ACTIVITY.EXTERNAL_AUDIT": {
+        "name": "External Audit Coordination and Support",
+        "description": "Supporting an independent external audit through evidence preparation, document requests, schedules, auditor liaison, query tracking, and follow-up. The term does not imply that the person independently performs or signs the external audit opinion.",
+        "aliases": ["external auditor coordination", "external audit support"],
+    },
+    "ACTIVITY.FACILITIES_COORDINATION": {
+        "name": "Facilities Coordination",
+        "description": "Coordinating building, office, workplace, or data-centre facility services, access, maintenance requests, contractors, utilities, and related schedules. Distinguish coordination from hands-on operation of power, cooling, or other engineering systems.",
+        "aliases": ["facility coordination", "facilities services coordination"],
+    },
+    "ACTIVITY.FAT": {
+        "name": "Factory Acceptance Testing",
+        "description": "Testing equipment or a solution at the manufacturer's or supplier's facility against agreed specifications and acceptance criteria before shipment or site deployment, with results and exceptions documented.",
+        "aliases": ["FAT", "factory acceptance test"],
+    },
+    "ACTIVITY.FINANCIAL_CONTROL": {
+        "name": "Financial Control Management",
+        "description": "Applying and monitoring financial procedures and controls over transactions, approvals, reconciliations, reporting, budgets, and financial risks to support accuracy, authorization, and accountability.",
+        "aliases": ["financial controls", "finance control"],
+    },
+    "ACTIVITY.FORECASTING": {
+        "name": "Forecasting",
+        "description": "Estimating future values or events from historical data, current conditions, assumptions, and relevant drivers, such as sales, demand, costs, revenue, workload, staffing, or technical resource needs. Use surrounding context to identify the forecast subject.",
+        "aliases": ["forecast preparation", "predictive forecasting"],
+    },
+    "ACTIVITY.HANDOVER": {
+        "name": "Handover",
+        "description": "Formally transferring a deliverable, system, service, responsibility, or case to a customer or receiving team, including required documentation, knowledge transfer, acceptance status, open issues, and support responsibilities.",
+        "aliases": ["project handover", "service handover", "operational handover"],
+    },
+    "ACTIVITY.HR_REPORTING": {
+        "name": "HR Reporting",
+        "description": "Preparing and interpreting workforce and HR reports such as headcount, attendance, recruitment pipeline, turnover, leave, payroll inputs, training, and other employee metrics, subject to data access and confidentiality requirements.",
+        "aliases": ["human resources reporting", "workforce reporting", "people analytics reporting"],
+    },
+    "ACTIVITY.INFRASTRUCTURE_AS_CODE": {
+        "name": "Infrastructure as Code",
+        "description": "Defining and managing infrastructure through machine-readable configuration, templates, and version-controlled code so environments can be provisioned, changed, reviewed, and reproduced consistently.",
+        "aliases": ["IaC", "infrastructure automation code"],
+    },
+    "ACTIVITY.INTEGRATION_DESIGN": {
+        "name": "Integration Design",
+        "description": "Designing how systems, applications, services, or infrastructure components interact, including interfaces, data flows, dependencies, protocols, error handling, security boundaries, and interoperability requirements.",
+        "aliases": ["system integration design", "interface design"],
+    },
+    "ACTIVITY.INTERNAL_AUDIT": {
+        "name": "Internal Audit",
+        "description": "Conducting or supporting independent internal assessments of governance, risk management, and controls against approved criteria, documenting evidence and findings, and tracking agreed corrective actions.",
+        "aliases": ["internal auditing", "internal audit engagement"],
+    },
+    "ACTIVITY.INTEROPERABILITY": {
+        "name": "Interoperability Assessment and Engineering",
+        "description": "Assessing or enabling the ability of systems, products, applications, or components to exchange information and work together correctly, including compatibility, interfaces, protocols, data formats, and end-to-end validation.",
+        "aliases": ["system interoperability", "interoperability assessment", "interoperability engineering"],
+    },
+    "ACTIVITY.INVENTORY_REPORTING": {
+        "name": "Inventory Reporting",
+        "description": "Preparing reports on stock or asset quantities, movements, aging, valuation where applicable, shortages, discrepancies, and inventory status to support operational and management decisions.",
+        "aliases": ["stock reporting", "inventory status reporting"],
+    },
+    "ACTIVITY.LIFECYCLE_DESIGN": {
+        "name": "Lifecycle Design",
+        "description": "Defining lifecycle stages, governance, maintenance, support, upgrade, replacement, and retirement considerations for a specified asset, product, service, platform, or system. The subject must be inferred from the role context.",
+        "aliases": ["lifecycle planning and design", "technology lifecycle design"],
+    },
+    "ACTIVITY.LIFECYCLE_REFRESH": {
+        "name": "Lifecycle Refresh",
+        "description": "Planning or carrying out replacement, upgrade, renewal, or refresh of assets, components, platforms, or systems as they approach end of support, capacity limits, obsolescence, or changed requirements.",
+        "aliases": ["technology refresh", "hardware refresh", "lifecycle renewal"],
+    },
+    "ACTIVITY.MATERIAL_CONTROL": {
+        "name": "Material Control",
+        "description": "Controlling material availability, receipt, issue, usage, movement, and reconciliation against work orders or operational needs, including investigating shortages and variances. Distinguish this from overall inventory policy and stock planning.",
+        "aliases": ["materials control", "material issuance control"],
+    },
+    "ACTIVITY.OEM_COORDINATION": {
+        "name": "OEM Coordination",
+        "description": "Coordinating with original equipment manufacturers on technical clarifications, compatibility, quotations, product lifecycle, warranty cases, escalation, delivery dependencies, and support commitments.",
+        "aliases": ["original equipment manufacturer coordination", "OEM liaison"],
+    },
+    "ACTIVITY.OFFICE_COORDINATION": {
+        "name": "Office Coordination",
+        "description": "Coordinating day-to-day office arrangements, schedules, supplies, shared services, facilities requests, and administrative dependencies to support workplace operations.",
+        "aliases": ["office operations coordination", "office administration coordination"],
+    },
+    "ACTIVITY.ONBOARDING": {
+        "name": "Onboarding",
+        "description": "Coordinating the structured entry of a new employee, customer, supplier, or user into an organization or service, including required information, access, orientation, documentation, and readiness steps. Identify the onboarding subject from context.",
+        "aliases": ["new hire onboarding", "employee onboarding", "customer onboarding"],
+    },
+    "ACTIVITY.OPERATIONAL_REPORTING": {
+        "name": "Operational Reporting",
+        "description": "Preparing and communicating operational status and performance information such as service levels, incidents, workload, delivery progress, resource utilization, and operational KPIs.",
+        "aliases": ["operations reporting", "service operations reporting"],
+    },
+    "ACTIVITY.OPERATIONS_MANAGEMENT": {
+        "name": "Operations Management",
+        "description": "Planning, coordinating, monitoring, and improving recurring operational processes, people, resources, and service delivery to meet defined quality, cost, timing, and performance requirements.",
+        "aliases": ["operational management", "business operations management"],
+    },
+    "ACTIVITY.OPTIMIZATION": {
+        "name": "Optimization",
+        "description": "Improving a process, system, workload, configuration, or resource allocation against defined objectives such as cost, speed, quality, reliability, or utilization. Because the term is broad, the object and outcome should be identified from context.",
+        "aliases": ["performance optimization", "process optimization", "resource optimization"],
+    },
+    "ACTIVITY.PATCHING": {
+        "name": "Patching",
+        "description": "Planning, applying, testing, and tracking software, operating-system, application, or firmware updates to address defects, vulnerabilities, compatibility issues, or vendor maintenance requirements.",
+        "aliases": ["security patching", "patch management", "firmware patching"],
+    },
+    "ACTIVITY.PERFORMANCE_MANAGEMENT": {
+        "name": "Performance Management",
+        "description": "Managing performance against defined objectives and measures. Depending on context, this may concern employee goals and reviews or the performance of an IT system or service; do not infer which meaning applies without contextual evidence.",
+        "aliases": ["performance review management", "employee performance management", "IT performance management"],
+    },
+    "ACTIVITY.PLATFORM_ENGINEERING": {
+        "name": "Platform Engineering",
+        "description": "Designing, building, and maintaining reusable internal platforms, automation, deployment pathways, infrastructure services, and self-service capabilities that help engineering or operations teams deliver and run workloads consistently.",
+        "aliases": ["internal developer platform engineering", "platform development"],
+    },
+    "ACTIVITY.POC": {
+        "name": "Proof of Concept",
+        "description": "Conducting a limited, criteria-driven evaluation to test whether a proposed product, technology, design, or solution is feasible and suitable before a broader commitment or implementation.",
+        "aliases": ["POC", "proof-of-concept", "proof of concept testing"],
+    },
+    "ACTIVITY.PREVENTIVE_MAINTENANCE": {
+        "name": "Preventive Maintenance",
+        "description": "Performing planned inspections, servicing, checks, and maintenance intended to reduce the likelihood of failure and preserve asset or service reliability. The maintained asset or system should be identified from context.",
+        "aliases": ["preventative maintenance", "scheduled maintenance", "planned maintenance"],
+    },
+    "ACTIVITY.PROBLEM_MANAGEMENT": {
+        "name": "Problem Management",
+        "description": "Investigating underlying causes of incidents or recurring faults, documenting known errors and workarounds, and coordinating permanent corrective actions to reduce recurrence. Distinguish root-cause work from immediate incident restoration.",
+        "aliases": ["root cause analysis management", "IT problem management"],
+    },
+    "ACTIVITY.PROJECT_GOVERNANCE": {
+        "name": "Project Governance",
+        "description": "Establishing and operating project decision rights, approvals, reporting, accountability, risk escalation, change control, and oversight mechanisms so a project is directed and controlled against agreed objectives.",
+        "aliases": ["project oversight", "project control governance"],
+    },
+    "ACTIVITY.QUOTATION_COMPARISON": {
+        "name": "Quotation Comparison",
+        "description": "Comparing supplier or vendor quotations against relevant requirements, scope, technical compliance, price, taxes, delivery, warranty, support, payment terms, and contractual conditions, while recording assumptions and deviations.",
+        "aliases": ["quote comparison", "quotation evaluation", "bid quotation comparison"],
+    },
+    "ACTIVITY.RELEASE_MANAGEMENT": {
+        "name": "Release Management",
+        "description": "Planning, coordinating, approving, scheduling, and controlling releases of software, configurations, platforms, or infrastructure changes into target environments, including readiness checks and release communication.",
+        "aliases": ["software release management", "release coordination"],
+    },
+    "ACTIVITY.RESILIENCE_DESIGN": {
+        "name": "Resilience Design",
+        "description": "Designing systems or services to withstand disruptions and maintain or recover required functions, using appropriate redundancy, fault isolation, failover, backup, recovery, and continuity measures.",
+        "aliases": ["system resilience design", "service resilience engineering"],
+    },
+    "ACTIVITY.RISK_MANAGEMENT": {
+        "name": "Risk Management",
+        "description": "Identifying, analyzing, evaluating, treating, monitoring, and reporting risks, including ownership, mitigations, residual exposure, and escalation, within a business, project, compliance, or technical context.",
+        "aliases": ["risk assessment and treatment", "risk control management"],
+    },
+    "ACTIVITY.SAT": {
+        "name": "Site Acceptance Testing",
+        "description": "Testing an installed system or solution at its deployment site against agreed acceptance criteria, recording results and defects, and supporting customer or stakeholder acceptance.",
+        "aliases": ["SAT", "site acceptance test"],
+    },
+    "ACTIVITY.SECURITY_ARCHITECTURE": {
+        "name": "Security Architecture",
+        "description": "Designing the structure and placement of security controls, trust boundaries, identity and access models, segmentation, data protection, and security integrations to meet defined security requirements.",
+        "aliases": ["cybersecurity architecture", "information security architecture"],
+    },
+    "ACTIVITY.STAKEHOLDER_COORDINATION": {
+        "name": "Stakeholder Coordination",
+        "description": "Coordinating communications, meetings, dependencies, schedules, action items, and information exchange among stakeholders to keep work aligned and moving.",
+        "aliases": ["stakeholder liaison", "stakeholder communications coordination"],
+    },
+    "ACTIVITY.STAKEHOLDER_MANAGEMENT": {
+        "name": "Stakeholder Management",
+        "description": "Identifying stakeholders, understanding their interests and influence, planning engagement, managing expectations, and maintaining appropriate relationships throughout a project or ongoing responsibility.",
+        "aliases": ["stakeholder engagement", "stakeholder relationship management"],
+    },
+    "ACTIVITY.SUPPLIER_COORDINATION": {
+        "name": "Supplier Coordination",
+        "description": "Coordinating supplier communications, purchase-order follow-up, delivery schedules, documents, dependencies, and issue resolution. Distinguish routine coordination from strategic supplier selection or performance governance.",
+        "aliases": ["supplier liaison", "supplier delivery coordination"],
+    },
+    "ACTIVITY.SUPPLY_CHAIN_PLANNING": {
+        "name": "Supply Chain Planning",
+        "description": "Coordinating demand, sourcing, procurement, inventory, replenishment, logistics, and distribution plans so required materials or products are available at the right time and place.",
+        "aliases": ["supply planning", "supply chain operations planning"],
+    },
+    "ACTIVITY.TAXATION": {
+        "name": "Taxation",
+        "description": "Preparing, calculating, documenting, reviewing, or coordinating tax-related obligations and reporting, such as tax records, returns, reconciliations, and compliance tasks, within the person's actual role and authority.",
+        "aliases": ["tax compliance", "tax reporting", "tax administration"],
+    },
+    "ACTIVITY.TECHNICAL_PROPOSAL": {
+        "name": "Technical Proposal Preparation",
+        "description": "Preparing the technical portion of a proposal or bid, including solution approach, architecture, compliance responses, bill of quantities where relevant, implementation methodology, assumptions, deviations, and technical evidence.",
+        "aliases": ["technical bid proposal", "solution proposal preparation"],
+    },
+    "ACTIVITY.TENDER_PROCESSING": {
+        "name": "Tender Processing",
+        "description": "Managing the administrative and procedural workflow of a tender, including document collection, forms, deadlines, approvals, eligibility evidence, submission packaging, and submission tracking. It may support public or private procurement processes.",
+        "aliases": ["tender administration", "tender documentation", "bid processing"],
+    },
+    "ACTIVITY.TENDER_RESPONSE": {
+        "name": "Tender Response Preparation",
+        "description": "Preparing and coordinating a formal response to a solicitation, combining applicable technical, commercial, eligibility, and compliance materials and ensuring that response requirements and submission instructions are addressed.",
+        "aliases": ["bid response", "tender submission response", "proposal response"],
+    },
+    "ACTIVITY.TRAINING": {
+        "name": "Training",
+        "description": "Designing, delivering, coordinating, or evaluating structured learning for employees, customers, users, or technical teams, including instruction, practice, knowledge transfer, and assessment where applicable.",
+        "aliases": ["staff training", "technical training", "customer training"],
+    },
+    "ACTIVITY.VENDOR_COORDINATION": {
+        "name": "Vendor Coordination",
+        "description": "Coordinating vendor communications, schedules, documents, quotations, deliveries, and issue follow-up. Use OEM Coordination when the work specifically concerns an original equipment manufacturer and its product or support processes.",
+        "aliases": ["vendor liaison", "vendor follow-up"],
+    },
+    "ACTIVITY.WARRANTY_COORDINATION": {
+        "name": "Warranty Coordination",
+        "description": "Coordinating warranty registration and entitlement checks, claim documentation, vendor or OEM escalation, repair or replacement progress, service tracking, and closure communication.",
+        "aliases": ["warranty administration", "warranty claim coordination", "RMA coordination"],
+    },
+}
+
+
+def main():
+    if not ACTIVITIES_FILE.exists():
+        raise FileNotFoundError(
+            f"Could not find {ACTIVITIES_FILE}\n"
+            "Save this script as C:\\CV_AI\\app\\taxonomy_activity_enrich.py "
+            "and run it from C:\\CV_AI."
+        )
+
+    with ACTIVITIES_FILE.open("r", encoding="utf-8-sig") as f:
+        data = json.load(f)
+
+    if not isinstance(data, dict) or not isinstance(data.get("activities"), list):
+        raise ValueError("Expected a JSON object containing an 'activities' list.")
+
+    records = data["activities"]
+    by_id = {}
+    for record in records:
+        if not isinstance(record, dict) or not isinstance(record.get("id"), str):
+            raise ValueError("Found an activity record without a valid string ID.")
+        if record["id"] in by_id:
+            raise ValueError(f"Duplicate activity ID found: {record['id']}")
+        by_id[record["id"]] = record
+
+    missing = sorted(set(UPDATES) - set(by_id))
+    if missing:
+        raise ValueError(
+            "These expected generated IDs were not found; no file was changed:\n"
+            + "\n".join(missing)
+        )
+
+    # Refuse to overwrite any record that no longer looks like a generated placeholder.
+    unexpected = []
+    for activity_id in UPDATES:
+        record = by_id[activity_id]
+        if record.get("generated_by") != "taxonomy_repair.py":
+            unexpected.append(f"{activity_id}: generated_by is not taxonomy_repair.py")
+        if record.get("review_status") != "GENERATED_NEEDS_REVIEW":
+            unexpected.append(f"{activity_id}: review_status is not GENERATED_NEEDS_REVIEW")
+    if unexpected:
+        raise ValueError(
+            "Some records do not match the expected review state; no file was changed:\n"
+            + "\n".join(unexpected)
+        )
+
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_dir = BACKUP_DIR / f"taxonomy_activity_enrich_{stamp}"
+    backup_dir.mkdir(parents=True, exist_ok=False)
+    shutil.copy2(ACTIVITIES_FILE, backup_dir / "activities.json")
+
+    changes = []
+    for activity_id, proposed in UPDATES.items():
+        record = by_id[activity_id]
+        old_name = record.get("name")
+        old_description = record.get("description")
+        old_aliases = record.get("aliases", [])
+
+        # Preserve existing aliases and append unique additions, case-insensitively.
+        aliases = list(old_aliases) if isinstance(old_aliases, list) else []
+        seen = {str(alias).strip().casefold() for alias in aliases if str(alias).strip()}
+        for alias in proposed["aliases"]:
+            key = alias.strip().casefold()
+            if key and key not in seen:
+                aliases.append(alias)
+                seen.add(key)
+
+        record["name"] = proposed["name"]
+        record["description"] = proposed["description"]
+        record["aliases"] = aliases
+        # Deliberately retain review_status, generated_by, category, branch, and id.
+
+        changes.append({
+            "id": activity_id,
+            "old_name": old_name,
+            "new_name": proposed["name"],
+            "description_replaced": old_description != proposed["description"],
+            "aliases_added": proposed["aliases"],
+            "review_status_retained": record.get("review_status"),
+            "category_retained": record.get("category"),
+            "branch_retained": record.get("branch"),
+        })
+
+    temp_file = ACTIVITIES_FILE.with_suffix(".json.tmp")
+    with temp_file.open("w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+        f.write("\n")
+
+    # Re-open and validate the exact output before replacing the original.
+    with temp_file.open("r", encoding="utf-8") as f:
+        check = json.load(f)
+    if len(check["activities"]) != len(records):
+        temp_file.unlink(missing_ok=True)
+        raise ValueError("Record count changed during validation; original left untouched.")
+
+    check_ids = [r["id"] for r in check["activities"]]
+    original_ids = [r["id"] for r in records]
+    if check_ids != original_ids:
+        temp_file.unlink(missing_ok=True)
+        raise ValueError("Activity ID order or IDs changed; original left untouched.")
+
+    shutil.move(str(temp_file), str(ACTIVITIES_FILE))
+
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    report_file = REPORT_DIR / "taxonomy_activity_enrich_report.txt"
+    with report_file.open("w", encoding="utf-8", newline="\n") as f:
+        f.write("TAXONOMY ACTIVITY ENRICHMENT REPORT\n")
+        f.write(f"Timestamp: {stamp}\n")
+        f.write(f"File updated: {ACTIVITIES_FILE}\n")
+        f.write(f"Backup: {backup_dir / 'activities.json'}\n")
+        f.write(f"Records enriched: {len(changes)}\n")
+        f.write("IDs, category, branch, and review_status were preserved.\n")
+        f.write("No record was marked approved.\n\n")
+        for item in changes:
+            f.write(f"{item['id']}\n")
+            f.write(f"  Name: {item['old_name']} -> {item['new_name']}\n")
+            f.write(f"  Category retained: {item['category_retained']}\n")
+            f.write(f"  Branch retained: {item['branch_retained']}\n")
+            f.write(f"  Review status retained: {item['review_status_retained']}\n")
+            f.write(f"  Aliases proposed: {', '.join(item['aliases_added'])}\n\n")
+
+    print("Activity enrichment completed.")
+    print(f"Records enriched: {len(changes)}")
+    print(f"Backup: {backup_dir}")
+    print(f"Report: {report_file}")
+    print("All 70 records remain GENERATED_NEEDS_REVIEW.")
+    print("Next: run the taxonomy validator and loader tests.")
+    
+
+if __name__ == "__main__":
+    main()
+'''
+path = Path("/mnt/data/taxonomy_activity_enrich.py")
+path.write_text(script, encoding="utf-8")
+print(f"Created {path} ({len(script.splitlines())} lines).")

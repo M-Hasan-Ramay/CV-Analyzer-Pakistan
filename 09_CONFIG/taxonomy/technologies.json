@@ -1,0 +1,527 @@
+
+{
+  "technologies": [
+    {
+      "id": "TECH.DB.MYSQL",
+      "name": "MySQL",
+      "type": "database",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.DATABASES",
+      "aliases": ["MySQL Server"],
+      "description": "Relational database management system."
+    },
+    {
+      "id": "TECH.DB.MONGODB",
+      "name": "MongoDB",
+      "type": "database",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.DATABASES",
+      "aliases": ["Mongo DB"],
+      "description": "Document-oriented NoSQL database."
+    },
+    {
+      "id": "TECH.DB.POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "database",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.DATABASES",
+      "aliases": ["Postgres", "Postgre SQL"],
+      "description": "Relational database management system."
+    },
+    {
+      "id": "TECH.DB.ORACLE_DATABASE",
+      "name": "Oracle Database",
+      "type": "database",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.DATABASES",
+      "aliases": ["Oracle DB", "Oracle RDBMS"],
+      "description": "Enterprise relational database."
+    },
+    {
+      "id": "TECH.LANG.PYTHON",
+      "name": "Python",
+      "type": "programming_language",
+      "domains": ["CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.AI_ML"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
+      "aliases": ["Python 3"],
+      "description": "General-purpose programming language."
+    },
+    {
+      "id": "TECH.LANG.JAVA",
+      "name": "Java",
+      "type": "programming_language",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
+      "aliases": ["Java SE", "Java EE"],
+      "description": "Programming language and application ecosystem."
+    },
+    {
+      "id": "TECH.LANG.PHP",
+      "name": "PHP",
+      "type": "programming_language",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.BACKEND",
+      "aliases": [],
+      "description": "Server-side programming language commonly used for web applications."
+    },
+    {
+      "id": "TECH.PLATFORM.DOTNET",
+      "name": ".NET",
+      "type": "development_platform",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.BACKEND",
+      "aliases": ["dotnet", ".NET Framework", ".NET Core", "ASP.NET"],
+      "description": "Microsoft application development platform and related technologies. Specific frameworks and versions should be distinguished when evidence permits."
+    },
+    {
+      "id": "TECH.LANG.JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "programming_language",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
+      "aliases": ["JS", "ECMAScript"],
+      "description": "Programming language used in browsers and server-side environments."
+    },
+    {
+      "id": "TECH.LANG.TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "programming_language",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
+      "aliases": ["TS"],
+      "description": "Typed programming language built on JavaScript."
+    },
+    {
+      "id": "TECH.WEB.HTML",
+      "name": "HTML",
+      "type": "markup_language",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+      "aliases": ["HTML5"],
+      "description": "Markup language for structuring web content."
+    },
+    {
+      "id": "TECH.WEB.CSS",
+      "name": "CSS",
+      "type": "stylesheet_language",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+      "aliases": ["CSS3"],
+      "description": "Stylesheet language for presentation and layout."
+    },
+    {
+      "id": "TECH.WEB.SASS",
+      "name": "Sass",
+      "type": "stylesheet_preprocessor",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+      "aliases": ["SCSS", "Syntactically Awesome Style Sheets"],
+      "description": "CSS preprocessor. SCSS is a syntax associated with Sass."
+    },
+    {
+      "id": "TECH.WEB.REACT",
+      "name": "React",
+      "type": "frontend_library",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+      "aliases": ["React.js", "ReactJS"],
+      "description": "JavaScript library for building user interfaces."
+    },
+    {
+      "id": "TECH.WEB.JQUERY",
+      "name": "jQuery",
+      "type": "javascript_library",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+      "aliases": ["JQuery"],
+      "description": "JavaScript library commonly used for DOM manipulation and browser interactions."
+    },
+    {
+      "id": "TECH.FRAMEWORK.DJANGO",
+      "name": "Django",
+      "type": "web_framework",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.BACKEND",
+      "aliases": ["Django Framework"],
+      "description": "Python web framework."
+    },
+    {
+      "id": "TECH.WEB.NGINX",
+      "name": "NGINX",
+      "type": "web_server",
+      "domains": ["CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.WEB_INFRASTRUCTURE",
+      "aliases": ["Nginx", "NGINX Plus"],
+      "description": "Web server, reverse proxy and load-balancing platform."
+    },
+    {
+      "id": "TECH.DEVOPS.GITHUB",
+      "name": "GitHub",
+      "type": "development_collaboration_platform",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.VERSION_CONTROL",
+      "aliases": ["GitHub Actions"],
+      "description": "Git-based code hosting and collaboration platform. GitHub Actions is a related automation capability."
+    },
+    {
+      "id": "TECH.DEVOPS.GIT",
+      "name": "Git",
+      "type": "version_control_system",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.VERSION_CONTROL",
+      "aliases": ["Git version control"],
+      "description": "Distributed version control system."
+    },
+    {
+      "id": "TECH.DEVOPS.DOCKER",
+      "name": "Docker",
+      "type": "container_platform",
+      "domains": ["CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.CONTAINERIZATION",
+      "aliases": ["Docker Engine", "Docker Compose"],
+      "description": "Container tooling and platform ecosystem."
+    },
+    {
+      "id": "TECH.DEVOPS.KUBERNETES",
+      "name": "Kubernetes",
+      "type": "container_orchestration_platform",
+      "domains": ["CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.ORCHESTRATION",
+      "aliases": ["K8s"],
+      "description": "Platform for orchestrating containerized workloads."
+    },
+    {
+      "id": "TECH.DEVOPS.JENKINS",
+      "name": "Jenkins",
+      "type": "automation_server",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.DEVOPS",
+      "aliases": [],
+      "description": "Automation server commonly used for CI/CD."
+    },
+    {
+      "id": "TECH.DEVOPS.TERRAFORM",
+      "name": "Terraform",
+      "type": "infrastructure_as_code_tool",
+      "domains": ["CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.CLOUD"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.DEVOPS",
+      "aliases": ["HashiCorp Terraform"],
+      "description": "Infrastructure as code tool."
+    },
+    {
+      "id": "TECH.DEVOPS.ANSIBLE",
+      "name": "Ansible",
+      "type": "automation_tool",
+      "domains": ["CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.DEVOPS",
+      "aliases": ["Red Hat Ansible"],
+      "description": "Automation and configuration management technology."
+    },
+    {
+      "id": "TECH.CLOUD.AWS",
+      "name": "Amazon Web Services",
+      "type": "cloud_platform",
+      "domains": ["CMC.DOMAIN.CLOUD", "CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.AI_ML"],
+      "subdomain": "CMC.SUBDOMAIN.CLOUD.PUBLIC",
+      "aliases": ["AWS"],
+      "description": "Public cloud platform."
+    },
+    {
+      "id": "TECH.CLOUD.AZURE",
+      "name": "Microsoft Azure",
+      "type": "cloud_platform",
+      "domains": ["CMC.DOMAIN.CLOUD", "CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.AI_ML"],
+      "subdomain": "CMC.SUBDOMAIN.CLOUD.PUBLIC",
+      "aliases": ["Azure", "MS Azure"],
+      "description": "Microsoft cloud platform."
+    },
+    {
+      "id": "TECH.CLOUD.GCP",
+      "name": "Google Cloud",
+      "type": "cloud_platform",
+      "domains": ["CMC.DOMAIN.CLOUD", "CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.AI_ML"],
+      "subdomain": "CMC.SUBDOMAIN.CLOUD.PUBLIC",
+      "aliases": ["GCP", "Google Cloud Platform"],
+      "description": "Google cloud platform."
+    },
+    {
+      "id": "TECH.CLOUD.OPENSHIFT",
+      "name": "Red Hat OpenShift",
+      "type": "application_platform",
+      "domains": ["CMC.DOMAIN.CLOUD", "CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["OpenShift"],
+      "description": "Enterprise Kubernetes-based application platform."
+    },
+    {
+      "id": "TECH.NET.INTERNET",
+      "name": "Internet",
+      "type": "network_infrastructure",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING", "CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.NETWORK.ENTERPRISE",
+      "aliases": ["public internet"],
+      "description": "Global interconnected network infrastructure. Mention alone does not establish networking expertise."
+    },
+    {
+      "id": "TECH.NET.TCP_IP",
+      "name": "TCP/IP",
+      "type": "protocol_suite",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING"],
+      "subdomain": "CMC.SUBDOMAIN.NETWORK.ROUTING",
+      "aliases": ["TCP IP", "Internet Protocol Suite"],
+      "description": "Core networking protocol suite."
+    },
+    {
+      "id": "TECH.NET.DNS",
+      "name": "DNS",
+      "type": "network_service",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.NETWORK.ENTERPRISE",
+      "aliases": ["Domain Name System"],
+      "description": "Naming system used by networks and applications."
+    },
+    {
+      "id": "TECH.NET.HTTP",
+      "name": "HTTP",
+      "type": "application_protocol",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING", "CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.WEB_INFRASTRUCTURE",
+      "aliases": ["Hypertext Transfer Protocol"],
+      "description": "Protocol for web communication."
+    },
+    {
+      "id": "TECH.NET.HTTPS",
+      "name": "HTTPS",
+      "type": "application_protocol",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING", "CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.CYBERSECURITY"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.WEB_INFRASTRUCTURE",
+      "aliases": ["HTTP over TLS"],
+      "description": "HTTP communication protected by TLS."
+    },
+    {
+      "id": "TECH.NET.BGP",
+      "name": "BGP",
+      "type": "routing_protocol",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING"],
+      "subdomain": "CMC.SUBDOMAIN.NETWORK.ROUTING",
+      "aliases": ["Border Gateway Protocol"],
+      "description": "Inter-domain routing protocol."
+    },
+    {
+      "id": "TECH.NET.OSPF",
+      "name": "OSPF",
+      "type": "routing_protocol",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING"],
+      "subdomain": "CMC.SUBDOMAIN.NETWORK.ROUTING",
+      "aliases": ["Open Shortest Path First"],
+      "description": "Link-state routing protocol."
+    },
+    {
+      "id": "TECH.NET.VLAN",
+      "name": "VLAN",
+      "type": "networking_technology",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING"],
+      "subdomain": "CMC.SUBDOMAIN.NETWORK.SWITCHING",
+      "aliases": ["Virtual LAN"],
+      "description": "Logical network segmentation technology."
+    },
+    {
+      "id": "TECH.SYSTEMS.VMWARE",
+      "name": "VMware",
+      "type": "virtualization_platform",
+      "domains": ["CMC.DOMAIN.IT_SYSTEMS", "CMC.DOMAIN.CLOUD"],
+      "subdomain": "CMC.SUBDOMAIN.SYSTEMS.VIRTUALIZATION",
+      "aliases": ["VMware vSphere", "VMware ESXi"],
+      "description": "Virtualization technology family. Product-specific claims should be distinguished when possible."
+    },
+    {
+      "id": "TECH.SYSTEMS.HYPERV",
+      "name": "Microsoft Hyper-V",
+      "type": "virtualization_platform",
+      "domains": ["CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.SYSTEMS.VIRTUALIZATION",
+      "aliases": ["Hyper-V"],
+      "description": "Microsoft virtualization platform."
+    },
+    {
+      "id": "TECH.SYSTEMS.LINUX",
+      "name": "Linux",
+      "type": "operating_system_family",
+      "domains": ["CMC.DOMAIN.IT_SYSTEMS", "CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SYSTEMS.LINUX",
+      "aliases": ["GNU/Linux"],
+      "description": "Operating system family."
+    },
+    {
+      "id": "TECH.SYSTEMS.WINDOWS_SERVER",
+      "name": "Windows Server",
+      "type": "operating_system",
+      "domains": ["CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.SYSTEMS.WINDOWS",
+      "aliases": ["Microsoft Windows Server"],
+      "description": "Microsoft server operating system."
+    },
+    {
+      "id": "TECH.STORAGE.VEEAM",
+      "name": "Veeam",
+      "type": "backup_data_protection_platform",
+      "domains": ["CMC.DOMAIN.STORAGE_DATA_PROTECTION", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.STORAGE.BACKUP",
+      "aliases": ["Veeam Backup & Replication"],
+      "description": "Backup, recovery and data protection product family."
+    },
+    {
+      "id": "TECH.STORAGE.COMMVAULT",
+      "name": "Commvault",
+      "type": "data_protection_platform",
+      "domains": ["CMC.DOMAIN.STORAGE_DATA_PROTECTION"],
+      "subdomain": "CMC.SUBDOMAIN.STORAGE.BACKUP",
+      "aliases": [],
+      "description": "Enterprise data protection and data management platform."
+    },
+    {
+      "id": "TECH.SECURITY.FORTINET",
+      "name": "Fortinet",
+      "type": "cybersecurity_vendor_technology",
+      "domains": ["CMC.DOMAIN.CYBERSECURITY", "CMC.DOMAIN.IP_NETWORKING"],
+      "subdomain": "CMC.SUBDOMAIN.CYBER.NGFW",
+      "aliases": ["FortiGate", "FortiManager", "FortiAnalyzer"],
+      "description": "Cybersecurity and networking product ecosystem. Preserve the specific product when identifiable."
+    },
+    {
+      "id": "TECH.SECURITY.PALO_ALTO",
+      "name": "Palo Alto Networks",
+      "type": "cybersecurity_vendor_technology",
+      "domains": ["CMC.DOMAIN.CYBERSECURITY"],
+      "subdomain": "CMC.SUBDOMAIN.CYBER.NGFW",
+      "aliases": ["PAN", "PAN-OS"],
+      "description": "Cybersecurity vendor and product ecosystem."
+    },
+    {
+      "id": "TECH.SECURITY.SIEM",
+      "name": "SIEM",
+      "type": "security_technology_category",
+      "domains": ["CMC.DOMAIN.CYBERSECURITY"],
+      "subdomain": "CMC.SUBDOMAIN.CYBER.SIEM",
+      "aliases": ["Security Information and Event Management"],
+      "description": "Security event collection, correlation and analysis category."
+    },
+    {
+      "id": "TECH.MONITORING.SOLARWINDS",
+      "name": "SolarWinds",
+      "type": "monitoring_platform",
+      "domains": ["CMC.DOMAIN.IP_NETWORKING", "CMC.DOMAIN.IT_SYSTEMS"],
+      "subdomain": "CMC.SUBDOMAIN.NETWORK.TELEMETRY",
+      "aliases": ["SolarWinds NPM", "Network Performance Monitor"],
+      "description": "Monitoring and observability product family."
+    },
+    {
+      "id": "TECH.MONITORING.GRAFANA",
+      "name": "Grafana",
+      "type": "observability_platform",
+      "domains": ["CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.IT_SYSTEMS", "CMC.DOMAIN.IP_NETWORKING"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": [],
+      "description": "Metrics visualization and observability platform."
+    },
+    {
+      "id": "TECH.BUSINESS.SAP",
+      "name": "SAP",
+      "type": "enterprise_business_software",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["SAP ERP", "SAP S/4HANA"],
+      "description": "Enterprise business software ecosystem. Usage may occur in finance, HR, procurement, supply chain, inventory or IT roles."
+    },
+    {
+      "id": "TECH.BUSINESS.ORACLE_ERP",
+      "name": "Oracle Enterprise Applications",
+      "type": "enterprise_business_software",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["Oracle ERP", "Oracle Fusion Cloud Applications"],
+      "description": "Enterprise application ecosystem. Do not conflate application usage with Oracle Database administration."
+    },
+    {
+      "id": "TECH.BUSINESS.MICROSOFT_EXCEL",
+      "name": "Microsoft Excel",
+      "type": "productivity_software",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["Excel", "MS Excel"],
+      "description": "Spreadsheet software used across technical and non-technical functions."
+    },
+    {
+      "id": "TECH.BUSINESS.MICROSOFT_POWER_BI",
+      "name": "Microsoft Power BI",
+      "type": "business_intelligence_platform",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["Power BI", "PBI"],
+      "description": "Business intelligence and reporting platform."
+    },
+    {
+      "id": "TECH.BUSINESS.WMS",
+      "name": "Warehouse Management System",
+      "type": "business_application_category",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["WMS", "warehouse management software"],
+      "description": "Software supporting warehouse and inventory operations."
+    },
+    {
+      "id": "TECH.BUSINESS.HRIS",
+      "name": "Human Resource Information System",
+      "type": "business_application_category",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["HRIS", "HR information system"],
+      "description": "Software supporting HR data and workflows."
+    },
+    {
+      "id": "TECH.BUSINESS.CRM",
+      "name": "Customer Relationship Management",
+      "type": "business_application_category",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["CRM", "customer relationship management software"],
+      "description": "Applications for managing customer and sales relationships."
+    },
+    {
+      "id": "TECH.BUSINESS.ERP",
+      "name": "Enterprise Resource Planning",
+      "type": "business_application_category",
+      "domains": ["CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+      "aliases": ["ERP", "enterprise resource planning system"],
+      "description": "Integrated business applications. Specific modules and hands-on activities should be captured separately."
+    },
+    {
+      "id": "TECH.CONCEPT.CLOUD",
+      "name": "Cloud Computing",
+      "type": "computing_model",
+      "domains": ["CMC.DOMAIN.CLOUD", "CMC.DOMAIN.SOFTWARE", "CMC.DOMAIN.IT_SYSTEMS", "CMC.DOMAIN.CYBERSECURITY"],
+      "subdomain": "CMC.SUBDOMAIN.CLOUD.INFRASTRUCTURE",
+      "aliases": ["cloud", "cloud computing"],
+      "description": "Computing services and resources delivered through cloud models."
+    },
+    {
+      "id": "TECH.CONCEPT.ON_PREMISES",
+      "name": "On-Premises",
+      "type": "deployment_model",
+      "domains": ["CMC.DOMAIN.CLOUD", "CMC.DOMAIN.IT_SYSTEMS", "CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.CLOUD.INFRASTRUCTURE",
+      "aliases": ["on premise", "on-prem", "on premises", "on-premise"],
+      "description": "Infrastructure or software operated within an organization's own facilities or controlled environment."
+    },
+    {
+      "id": "TECH.CONCEPT.SAAS",
+      "name": "Software as a Service",
+      "type": "software_delivery_model",
+      "domains": ["CMC.DOMAIN.CLOUD", "CMC.DOMAIN.SOFTWARE"],
+      "subdomain": "CMC.SUBDOMAIN.CLOUD.SAAS",
+      "aliases": ["SaaS", "Software-as-a-Service"],
+      "description": "Software delivered as a service, commonly over a network."
+    }
+  ]
+}

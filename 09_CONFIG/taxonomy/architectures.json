@@ -1,0 +1,149 @@
+
+{
+  "architectures": [
+    {
+      "id": "ARCH.APP.THREE_TIER",
+      "name": "Three-Tier Architecture",
+      "type": "application_architecture",
+      "aliases": ["3-tier architecture", "three tier"],
+      "layers": ["presentation", "application", "data"],
+      "description": "Separates presentation, application processing and data responsibilities into three logical tiers."
+    },
+    {
+      "id": "ARCH.APP.N_TIER",
+      "name": "N-Tier Architecture",
+      "type": "application_architecture",
+      "aliases": ["n-tier", "multi-tier architecture", "multitier architecture"],
+      "layers": [],
+      "description": "Organizes an application into multiple logical or physical tiers."
+    },
+    {
+      "id": "ARCH.APP.CLIENT_SERVER",
+      "name": "Client-Server Architecture",
+      "type": "application_architecture",
+      "aliases": ["client server architecture"],
+      "layers": ["client", "server"],
+      "description": "Separates requesting clients from services provided by servers."
+    },
+    {
+      "id": "ARCH.APP.MONOLITHIC",
+      "name": "Monolithic Architecture",
+      "type": "application_architecture",
+      "aliases": ["monolith", "monolithic application"],
+      "layers": [],
+      "description": "Application architecture in which major application functions are deployed as a unified unit."
+    },
+    {
+      "id": "ARCH.APP.MICROSERVICES",
+      "name": "Microservices Architecture",
+      "type": "application_architecture",
+      "aliases": ["microservices", "micro-service architecture"],
+      "layers": [],
+      "description": "Structures an application as independently deployable services communicating through defined interfaces."
+    },
+    {
+      "id": "ARCH.APP.SOA",
+      "name": "Service-Oriented Architecture",
+      "type": "application_architecture",
+      "aliases": ["SOA"],
+      "layers": [],
+      "description": "Organizes application capabilities as interoperable services."
+    },
+    {
+      "id": "ARCH.APP.EVENT_DRIVEN",
+      "name": "Event-Driven Architecture",
+      "type": "application_architecture",
+      "aliases": ["event driven architecture", "EDA"],
+      "layers": [],
+      "description": "Uses events to trigger and coordinate processing between components."
+    },
+    {
+      "id": "ARCH.APP.SERVERLESS",
+      "name": "Serverless Architecture",
+      "type": "application_architecture",
+      "aliases": ["serverless"],
+      "layers": [],
+      "description": "Uses managed execution services where the cloud provider manages much of the underlying server infrastructure."
+    },
+    {
+      "id": "ARCH.DC.LEAF_SPINE",
+      "name": "Leaf-Spine Architecture",
+      "type": "network_architecture",
+      "aliases": ["leaf spine", "spine leaf"],
+      "layers": ["leaf", "spine"],
+      "description": "A data center network topology using leaf switches connected to spine switches."
+    },
+    {
+      "id": "ARCH.NET.HIERARCHICAL",
+      "name": "Hierarchical Network Architecture",
+      "type": "network_architecture",
+      "aliases": ["three-tier network architecture", "core distribution access"],
+      "layers": ["core", "distribution", "access"],
+      "description": "A network design organized into functional layers. Context is needed to distinguish it from three-tier application architecture."
+    },
+    {
+      "id": "ARCH.DC.REDUNDANCY",
+      "name": "Redundant Infrastructure Architecture",
+      "type": "infrastructure_architecture",
+      "aliases": ["redundant architecture", "high availability architecture"],
+      "layers": [],
+      "description": "Designs infrastructure to reduce service interruption through redundancy and failover."
+    },
+    {
+      "id": "ARCH.DC.DISASTER_RECOVERY",
+      "name": "Disaster Recovery Architecture",
+      "type": "infrastructure_architecture",
+      "aliases": ["DR architecture", "disaster recovery design"],
+      "layers": [],
+      "description": "Designs recovery capabilities for services and data following a disruptive event."
+    },
+    {
+      "id": "ARCH.DATA.DATA_WAREHOUSE",
+      "name": "Data Warehouse Architecture",
+      "type": "data_architecture",
+      "aliases": ["data warehousing architecture"],
+      "layers": [],
+      "description": "Structures data ingestion, storage, transformation and analytical access."
+    },
+    {
+      "id": "ARCH.DATA.DATA_LAKE",
+      "name": "Data Lake Architecture",
+      "type": "data_architecture",
+      "aliases": ["data lake"],
+      "layers": [],
+      "description": "Stores data in varied formats for later processing and analysis."
+    },
+    {
+      "id": "ARCH.CLOUD.HYBRID",
+      "name": "Hybrid Cloud Architecture",
+      "type": "deployment_architecture",
+      "aliases": ["hybrid cloud"],
+      "layers": [],
+      "description": "Integrates private or on-premises environments with public cloud services."
+    },
+    {
+      "id": "ARCH.CLOUD.MULTI",
+      "name": "Multi-Cloud Architecture",
+      "type": "deployment_architecture",
+      "aliases": ["multi cloud"],
+      "layers": [],
+      "description": "Uses services from multiple cloud providers."
+    },
+    {
+      "id": "ARCH.SEC.ZERO_TRUST",
+      "name": "Zero Trust Architecture",
+      "type": "security_architecture",
+      "aliases": ["zero-trust", "zero trust"],
+      "layers": [],
+      "description": "A security approach based on explicit verification and controlled access rather than implicit trust."
+    },
+    {
+      "id": "ARCH.AI.RAG",
+      "name": "Retrieval-Augmented Generation Architecture",
+      "type": "ai_architecture",
+      "aliases": ["RAG architecture", "retrieval augmented generation"],
+      "layers": [],
+      "description": "Combines retrieval from external knowledge sources with generative model responses."
+    }
+  ]
+}

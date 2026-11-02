@@ -1,0 +1,100 @@
+Double-click `START CV ANALYZER.bat` in `C:\CV_AI` to open the desktop
+interface. Choose the CV inbox, report destination, and log folder, then
+click **Analyze CVs**. The window shows live progress, per-file outcomes,
+review notes/errors, and buttons to open the generated Excel/CSV reports.
+
+The launcher uses the project's `.venv` and processes PDF/DOCX files in
+`01_INBOX`, writing reports to `07_DATABASE` and logs to `08_LOGS`.
+The batch creates these timestamped files:
+
+- `07_DATABASE\cv_database_<timestamp>.xlsx` — filtered Candidates
+  sheet plus Processing Details
+- `07_DATABASE\cv_database_<timestamp>.csv` — the candidate table,
+  retaining the original 14 fields and adding Industry,
+  Specialization / Subdomain, Career Function, and Software Stack
+- `07_DATABASE\cv_database_<timestamp>_evidence.json` — extraction
+  evidence and review reasons for later auditing
+- `07_DATABASE\cv_contacts_<timestamp>.vcf` — contacts that can be
+  imported into a contacts app and used to start email/message workflows
+- `08_LOGS\cv_database_log_<timestamp>.txt` — processing outcomes
+
+The original CV files remain in `01_INBOX`. Review the generated
+records and evidence before relying on extracted classifications.
+The provisional validity value indicates evidence coverage within
+the document; it does not rank or evaluate candidates.
+
+To try a small batch without processing everything in `01_INBOX`,
+copy a few representative PDF/DOCX files into a separate folder in
+File Explorer, for example `C:\CV_AI\TEST_BATCH`, then run:
+
+To process a separate test folder from Command Prompt, run:
+
+`.venv\Scripts\python.exe app\cv_analyzer.py --inbox "C:\CV_AI\TEST_BATCH" --output "C:\CV_AI\07_DATABASE\TEST_BATCH" --logs "C:\CV_AI\08_LOGS\TEST_BATCH"`
+
+The batch engine is in `app\cv_analyzer.py`; the desktop interface is in
+`app\cv_analyzer_gui.py`. The existing `app\main.py` remains the single-file
+diagnostic processor.
+
+PDF text extraction and page rendering use pypdfium2; scanned pages use the
+bundled Tesseract-compatible OCR path. The Python dependency list is in
+`requirements.txt`. To build a self-contained Windows x64 portable ZIP on a
+Windows build PC, install/use Tesseract OCR, then double-click
+`BUILD PORTABLE RELEASE.bat`. The build uses PyInstaller and creates
+`dist\CV-Analyzer-portable-windows-x64.zip`. The resulting folder includes
+the app runtime, Tesseract English data, editable catalogs, and third-party
+license notices. Do not distribute the ZIP until the build completes and
+the self-test and representative PDF/DOCX sample tests pass.
+
+This reads the copied files and leaves both the originals and the
+main inbox unchanged.
+
+The editable `09_CONFIG\classification_rules.json` contains the
+industry taxonomies, career-function evidence terms, software stack
+rules, and education-to-department rules. The industry taxonomy
+includes the supplied professional-network labels and broad
+economic-sector labels, alongside Oil & Gas upstream, midstream, and
+downstream classification. Career functions cover
+Human Resources, Finance & Accounts, Legal & Compliance,
+Administration & Facilities, Sales / Business Development, Marketing,
+Customer Support / Success, Information Technology, Research &
+Development, Production / Manufacturing, Quality Assurance,
+Procurement / Purchasing, and Logistics & Supply Chain. Work
+responsibility evidence can suggest a Department when the job title
+alone is inconclusive; education-based suggestions remain a separate
+fallback and are flagged for review.
+
+The engine also classifies CMC solution domains; mobile development
+signals such as Flutter/Kotlin; named and inferred MERN, PERN, and
+ASP.NET full-stack profiles; and CMC career functions such as
+Presales, Architecture, Delivery, and Postsales. Industry and career
+labels are evidence-backed matches, not confirmation of expertise or
+employment suitability. Review the evidence and generated report,
+especially for generic taxonomy terms and CVs mentioning multiple
+industries or functions.
+
+`09_CONFIG\technology_catalog.json` holds editable skill aliases and
+domain-linked OEM/product matches for the infrastructure, software,
+cloud, AI, facilities, power/cooling, communications, end-user and ERP
+areas. Product matches retain the OEM, product line, parent company,
+mapped domains, evidence text, and signal tier in the evidence JSON;
+product lines are also shown beside OEM names in the Candidates sheet.
+The initial skill-strength tiers are organizational hints only and
+are not candidate rankings. Legacy tools are retained as searchable
+terms rather than treated as current recommendations.
+
+`09_CONFIG\certification_catalog.json` supplements the built-in
+certification patterns with the supplied framework's recognizable
+credential codes, including domain/vendor metadata and raw matched
+variants. Extracted credentials retain their vendor, category, level,
+normalized domain, match confidence, and CV evidence in the evidence
+JSON. Generic labels such as "Foundation" or "Sales Expert" are not
+treated as certifications by themselves. Check each extracted
+credential against its CV evidence; the app does not verify active
+status, validity dates, or issuer records.
+
+Apache Kafka is classified as event streaming/messaging. It is not
+classified as a container tool; architecture labels are added only
+when the CV also mentions evidence such as event-driven systems or
+microservices. Classification remains multi-dimensional and
+evidence-backed. Please inspect the Processing Details/evidence
+output and adjust the editable rules as you encounter new terms.

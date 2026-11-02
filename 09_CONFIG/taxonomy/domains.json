@@ -1,0 +1,441 @@
+{
+    "domains": [
+        {
+            "id": "CMC.DOMAIN.POWER",
+            "name": "Power",
+            "branch": "TECHNICAL",
+            "description": "Critical electrical power infrastructure supporting technology and data center environments.",
+            "children": [
+                "CMC.SUBDOMAIN.POWER.UTILITY",
+                "CMC.SUBDOMAIN.POWER.MV_LV",
+                "CMC.SUBDOMAIN.POWER.UPS",
+                "CMC.SUBDOMAIN.POWER.BATTERIES",
+                "CMC.SUBDOMAIN.POWER.GENERATORS",
+                "CMC.SUBDOMAIN.POWER.DISTRIBUTION",
+                "CMC.SUBDOMAIN.POWER.PROTECTION",
+                "CMC.SUBDOMAIN.POWER.MONITORING",
+                "CMC.SUBDOMAIN.POWER.COMMISSIONING"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.COOLING",
+            "name": "Cooling",
+            "branch": "TECHNICAL",
+            "description": "Thermal management and cooling infrastructure for data centers and high-density computing.",
+            "children": [
+                "CMC.SUBDOMAIN.COOLING.CRAC_CRAH",
+                "CMC.SUBDOMAIN.COOLING.DX",
+                "CMC.SUBDOMAIN.COOLING.CHILLED_WATER",
+                "CMC.SUBDOMAIN.COOLING.HEAT_REJECTION",
+                "CMC.SUBDOMAIN.COOLING.AIRFLOW",
+                "CMC.SUBDOMAIN.COOLING.CONTAINMENT",
+                "CMC.SUBDOMAIN.COOLING.LIQUID",
+                "CMC.SUBDOMAIN.COOLING.CONTROLS"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.DATA_CENTER_FACILITIES",
+            "name": "Data Center Facilities",
+            "branch": "TECHNICAL",
+            "description": "Physical data center infrastructure, facilities engineering and facility integration.",
+            "children": [
+                "CMC.SUBDOMAIN.DCF.TIER_ARCHITECTURE",
+                "CMC.SUBDOMAIN.DCF.RACKS",
+                "CMC.SUBDOMAIN.DCF.FIRE",
+                "CMC.SUBDOMAIN.DCF.PHYSICAL_SECURITY",
+                "CMC.SUBDOMAIN.DCF.DCIM",
+                "CMC.SUBDOMAIN.DCF.BMS",
+                "CMC.SUBDOMAIN.DCF.STRUCTURED_CABLING",
+                "CMC.SUBDOMAIN.DCF.COMMISSIONING",
+                "CMC.SUBDOMAIN.DCF.COLOCATION"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.IT_SYSTEMS",
+            "name": "IT Systems / Infrastructure",
+            "branch": "TECHNICAL",
+            "description": "Enterprise compute, servers, operating systems, virtualization, HCI, containers and infrastructure platforms.",
+            "children": [
+                "CMC.SUBDOMAIN.SYSTEMS.SERVERS",
+                "CMC.SUBDOMAIN.SYSTEMS.VIRTUALIZATION",
+                "CMC.SUBDOMAIN.SYSTEMS.HCI",
+                "CMC.SUBDOMAIN.SYSTEMS.PRIVATE_CLOUD",
+                "CMC.SUBDOMAIN.SYSTEMS.OPERATING_SYSTEMS",
+                "CMC.SUBDOMAIN.SYSTEMS.HA_DR",
+                "CMC.SUBDOMAIN.SYSTEMS.CONTAINERS",
+                "CMC.SUBDOMAIN.SYSTEMS.SYSTEMS_MANAGEMENT",
+                "CMC.SUBDOMAIN.SYSTEMS.LINUX",
+                "CMC.SUBDOMAIN.SYSTEMS.WINDOWS",
+                "CMC.SUBDOMAIN.SYSTEMS.HPC",
+                "CMC.SUBDOMAIN.SYSTEMS.GPU_COMPUTING"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.STORAGE_DATA_PROTECTION",
+            "name": "Storage & Data Protection",
+            "branch": "TECHNICAL",
+            "description": "Enterprise storage, backup, recovery, replication and data protection technologies.",
+            "children": [
+                "CMC.SUBDOMAIN.STORAGE.SAN",
+                "CMC.SUBDOMAIN.STORAGE.NAS",
+                "CMC.SUBDOMAIN.STORAGE.OBJECT",
+                "CMC.SUBDOMAIN.STORAGE.FLASH",
+                "CMC.SUBDOMAIN.STORAGE.NVME",
+                "CMC.SUBDOMAIN.STORAGE.NVME_OF",
+                "CMC.SUBDOMAIN.STORAGE.SCALE_OUT",
+                "CMC.SUBDOMAIN.STORAGE.BACKUP",
+                "CMC.SUBDOMAIN.STORAGE.REPLICATION",
+                "CMC.SUBDOMAIN.STORAGE.ARCHIVE",
+                "CMC.SUBDOMAIN.STORAGE.RANSOMWARE_RECOVERY",
+                "CMC.SUBDOMAIN.STORAGE.DR"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.IP_NETWORKING",
+            "name": "IP Datacom / Networking",
+            "branch": "TECHNICAL",
+            "description": "Enterprise, data center, WAN, carrier, wireless and network security infrastructure.",
+            "children": [
+                "CMC.SUBDOMAIN.NETWORK.ROUTING",
+                "CMC.SUBDOMAIN.NETWORK.SWITCHING",
+                "CMC.SUBDOMAIN.NETWORK.ENTERPRISE",
+                "CMC.SUBDOMAIN.NETWORK.DATA_CENTER",
+                "CMC.SUBDOMAIN.NETWORK.WAN",
+                "CMC.SUBDOMAIN.NETWORK.SD_WAN",
+                "CMC.SUBDOMAIN.NETWORK.LAN",
+                "CMC.SUBDOMAIN.NETWORK.WLAN",
+                "CMC.SUBDOMAIN.NETWORK.WIRELESS",
+                "CMC.SUBDOMAIN.NETWORK.ISP_CARRIER",
+                "CMC.SUBDOMAIN.NETWORK.IP_MPLS",
+                "CMC.SUBDOMAIN.NETWORK.VXLAN_EVPN",
+                "CMC.SUBDOMAIN.NETWORK.NAC",
+                "CMC.SUBDOMAIN.NETWORK.AUTOMATION",
+                "CMC.SUBDOMAIN.NETWORK.TELEMETRY",
+                "CMC.SUBDOMAIN.NETWORK.ARCHITECTURE",
+                "CMC.SUBDOMAIN.NETWORK.NOC"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.SOFTWARE",
+            "name": "Software / Applications / Platforms",
+            "branch": "TECHNICAL",
+            "description": "Software engineering, application development, databases, architecture, DevOps, web infrastructure and application platforms.",
+            "children": [
+                "CMC.SUBDOMAIN.SOFTWARE.ENGINEERING",
+                "CMC.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
+                "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+                "CMC.SUBDOMAIN.SOFTWARE.BACKEND",
+                "CMC.SUBDOMAIN.SOFTWARE.FULL_STACK",
+                "CMC.SUBDOMAIN.SOFTWARE.DATABASES",
+                "CMC.SUBDOMAIN.SOFTWARE.APPLICATION_ARCHITECTURE",
+                "CMC.SUBDOMAIN.SOFTWARE.WEB_INFRASTRUCTURE",
+                "CMC.SUBDOMAIN.SOFTWARE.DEVOPS",
+                "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+                "CMC.SUBDOMAIN.SOFTWARE.API",
+                "CMC.SUBDOMAIN.SOFTWARE.MICROSERVICES",
+                "CMC.SUBDOMAIN.SOFTWARE.CONTAINERIZATION",
+                "CMC.SUBDOMAIN.SOFTWARE.ORCHESTRATION",
+                "CMC.SUBDOMAIN.SOFTWARE.VERSION_CONTROL",
+                "CMC.SUBDOMAIN.SOFTWARE.TESTING",
+                "CMC.SUBDOMAIN.SOFTWARE.APPLICATION_SUPPORT"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.CLOUD",
+            "name": "Cloud & Digital Infrastructure",
+            "branch": "TECHNICAL",
+            "description": "Cloud infrastructure, deployment models, cloud platforms and hybrid digital infrastructure.",
+            "children": [
+                "CMC.SUBDOMAIN.CLOUD.PUBLIC",
+                "CMC.SUBDOMAIN.CLOUD.PRIVATE",
+                "CMC.SUBDOMAIN.CLOUD.HYBRID",
+                "CMC.SUBDOMAIN.CLOUD.INFRASTRUCTURE",
+                "CMC.SUBDOMAIN.CLOUD.ARCHITECTURE",
+                "CMC.SUBDOMAIN.CLOUD.ENGINEERING",
+                "CMC.SUBDOMAIN.CLOUD.ADMINISTRATION",
+                "CMC.SUBDOMAIN.CLOUD.SECURITY",
+                "CMC.SUBDOMAIN.CLOUD.SAAS"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.CYBERSECURITY",
+            "name": "Cybersecurity",
+            "branch": "TECHNICAL",
+            "description": "Cybersecurity technologies, operations, architecture, governance and security engineering.",
+            "children": [
+                "CMC.SUBDOMAIN.CYBER.NGFW",
+                "CMC.SUBDOMAIN.CYBER.NAC",
+                "CMC.SUBDOMAIN.CYBER.ZERO_TRUST",
+                "CMC.SUBDOMAIN.CYBER.ENDPOINT",
+                "CMC.SUBDOMAIN.CYBER.SIEM",
+                "CMC.SUBDOMAIN.CYBER.SOC",
+                "CMC.SUBDOMAIN.CYBER.SOAR",
+                "CMC.SUBDOMAIN.CYBER.NDR",
+                "CMC.SUBDOMAIN.CYBER.IAM",
+                "CMC.SUBDOMAIN.CYBER.PAM",
+                "CMC.SUBDOMAIN.CYBER.VULNERABILITY",
+                "CMC.SUBDOMAIN.CYBER.WAF",
+                "CMC.SUBDOMAIN.CYBER.API_SECURITY",
+                "CMC.SUBDOMAIN.CYBER.CLOUD_SECURITY",
+                "CMC.SUBDOMAIN.CYBER.VAPT",
+                "CMC.SUBDOMAIN.CYBER.PEN_TESTING",
+                "CMC.SUBDOMAIN.CYBER.GRC",
+                "CMC.SUBDOMAIN.CYBER.INCIDENT_RESPONSE",
+                "CMC.SUBDOMAIN.CYBER.THREAT_INTELLIGENCE"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.SMART_INFRASTRUCTURE",
+            "name": "Smart Infrastructure",
+            "branch": "TECHNICAL",
+            "description": "IoT, OT, smart buildings, sensors, BMS, SCADA, physical security and edge infrastructure.",
+            "children": [
+                "CMC.SUBDOMAIN.SMART.IOT",
+                "CMC.SUBDOMAIN.SMART.OT",
+                "CMC.SUBDOMAIN.SMART.SCADA",
+                "CMC.SUBDOMAIN.SMART.BMS",
+                "CMC.SUBDOMAIN.SMART.SENSORS",
+                "CMC.SUBDOMAIN.SMART.SMART_BUILDINGS",
+                "CMC.SUBDOMAIN.SMART.SMART_DC",
+                "CMC.SUBDOMAIN.SMART.EDGE",
+                "CMC.SUBDOMAIN.SMART.PHYSICAL_SECURITY",
+                "CMC.SUBDOMAIN.SMART.ANALYTICS"
+            ]
+        },
+        {
+            "id": "CMC.DOMAIN.AI_ML",
+            "name": "AI / Machine Learning",
+            "branch": "TECHNICAL",
+            "description": "AI infrastructure, machine learning, generative AI, data and model platforms.",
+            "children": [
+                "CMC.SUBDOMAIN.AI.GPU_INFRASTRUCTURE",
+                "CMC.SUBDOMAIN.AI.AI_NETWORKING",
+                "CMC.SUBDOMAIN.AI.AI_STORAGE",
+                "CMC.SUBDOMAIN.AI.CUDA",
+                "CMC.SUBDOMAIN.AI.MACHINE_LEARNING",
+                "CMC.SUBDOMAIN.AI.DEEP_LEARNING",
+                "CMC.SUBDOMAIN.AI.GENERATIVE_AI",
+                "CMC.SUBDOMAIN.AI.RAG",
+                "CMC.SUBDOMAIN.AI.VECTOR_DATABASES",
+                "CMC.SUBDOMAIN.AI.MLOPS",
+                "CMC.SUBDOMAIN.AI.INFERENCE",
+                "CMC.SUBDOMAIN.AI.COMPUTER_VISION",
+                "CMC.SUBDOMAIN.AI.NLP"
+            ]
+        },
+        {
+            "id": "BUSINESS.HUMAN_RESOURCES",
+            "name": "Human Resources",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Human resource management and workforce-related functions.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.HR.GENERALIST",
+                "BUSINESS.SUBDOMAIN.HR.OPERATIONS",
+                "BUSINESS.SUBDOMAIN.HR.RECRUITMENT",
+                "BUSINESS.SUBDOMAIN.HR.TECHNICAL_RECRUITMENT",
+                "BUSINESS.SUBDOMAIN.HR.EXECUTIVE_RECRUITMENT",
+                "BUSINESS.SUBDOMAIN.HR.TALENT_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.HR.LEARNING_DEVELOPMENT",
+                "BUSINESS.SUBDOMAIN.HR.PERFORMANCE",
+                "BUSINESS.SUBDOMAIN.HR.COMPENSATION_BENEFITS",
+                "BUSINESS.SUBDOMAIN.HR.PAYROLL",
+                "BUSINESS.SUBDOMAIN.HR.EMPLOYEE_RELATIONS",
+                "BUSINESS.SUBDOMAIN.HR.HRBP",
+                "BUSINESS.SUBDOMAIN.HR.ORGANIZATIONAL_DEVELOPMENT",
+                "BUSINESS.SUBDOMAIN.HR.HR_ANALYTICS",
+                "BUSINESS.SUBDOMAIN.HR.HRIS",
+                "BUSINESS.SUBDOMAIN.HR.WORKFORCE_PLANNING"
+            ]
+        },
+        {
+            "id": "BUSINESS.FINANCE_ACCOUNTING",
+            "name": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Financial management, accounting, audit and related financial control functions.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.FINANCE.ACCOUNTING",
+                "BUSINESS.SUBDOMAIN.FINANCE.FINANCE",
+                "BUSINESS.SUBDOMAIN.FINANCE.AUDIT",
+                "BUSINESS.SUBDOMAIN.FINANCE.TAX",
+                "BUSINESS.SUBDOMAIN.FINANCE.FINANCIAL_CONTROL",
+                "BUSINESS.SUBDOMAIN.FINANCE.ACCOUNTS_PAYABLE",
+                "BUSINESS.SUBDOMAIN.FINANCE.ACCOUNTS_RECEIVABLE",
+                "BUSINESS.SUBDOMAIN.FINANCE.FINANCIAL_REPORTING",
+                "BUSINESS.SUBDOMAIN.FINANCE.BUDGETING"
+            ]
+        },
+        {
+            "id": "BUSINESS.PROCUREMENT",
+            "name": "Procurement",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Sourcing, purchasing, vendor management, procurement operations and commercial procurement.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.PROCUREMENT.SOURCING",
+                "BUSINESS.SUBDOMAIN.PROCUREMENT.PURCHASING",
+                "BUSINESS.SUBDOMAIN.PROCUREMENT.VENDOR_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.PROCUREMENT.PO",
+                "BUSINESS.SUBDOMAIN.PROCUREMENT.TENDER",
+                "BUSINESS.SUBDOMAIN.PROCUREMENT.CONTRACTS",
+                "BUSINESS.SUBDOMAIN.PROCUREMENT.COMMERCIAL"
+            ]
+        },
+        {
+            "id": "BUSINESS.SUPPLY_CHAIN",
+            "name": "Supply Chain",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "End-to-end supply chain planning, sourcing, logistics and fulfillment.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.PLANNING",
+                "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.LOGISTICS",
+                "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.DISTRIBUTION",
+                "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.FULFILLMENT",
+                "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.SUPPLIER_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.SUPPLY_CHAIN.DEMAND_PLANNING"
+            ]
+        },
+        {
+            "id": "BUSINESS.INVENTORY_WAREHOUSE",
+            "name": "Inventory & Warehouse",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Inventory control, warehouse operations, stock management and material handling.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.INVENTORY.STOCK_CONTROL",
+                "BUSINESS.SUBDOMAIN.INVENTORY.WAREHOUSE",
+                "BUSINESS.SUBDOMAIN.INVENTORY.STOCK_TAKING",
+                "BUSINESS.SUBDOMAIN.INVENTORY.MATERIALS",
+                "BUSINESS.SUBDOMAIN.INVENTORY.DISPATCH",
+                "BUSINESS.SUBDOMAIN.INVENTORY.RECEIVING"
+            ]
+        },
+        {
+            "id": "BUSINESS.OPERATIONS",
+            "name": "Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Business and operational execution, process management and operational coordination.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.OPERATIONS.BUSINESS_OPERATIONS",
+                "BUSINESS.SUBDOMAIN.OPERATIONS.PROCESSING",
+                "BUSINESS.SUBDOMAIN.OPERATIONS.ORDER_PROCESSING",
+                "BUSINESS.SUBDOMAIN.OPERATIONS.TRANSACTION_PROCESSING",
+                "BUSINESS.SUBDOMAIN.OPERATIONS.DOCUMENT_PROCESSING",
+                "BUSINESS.SUBDOMAIN.OPERATIONS.PROCESS_MANAGEMENT"
+            ]
+        },
+        {
+            "id": "BUSINESS.ADMINISTRATION",
+            "name": "Administration",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "General administration, office management and organizational support functions.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.ADMIN.GENERAL_ADMIN",
+                "BUSINESS.SUBDOMAIN.ADMIN.OFFICE_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.ADMIN.FACILITIES_ADMIN",
+                "BUSINESS.SUBDOMAIN.ADMIN.RECORDS",
+                "BUSINESS.SUBDOMAIN.ADMIN.CORRESPONDENCE",
+                "BUSINESS.SUBDOMAIN.ADMIN.EXECUTIVE_SUPPORT"
+            ]
+        },
+        {
+            "id": "BUSINESS.COORDINATION",
+            "name": "Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Cross-functional coordination, scheduling, documentation, follow-up and operational communication.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.COORDINATION.PROJECT_COORDINATION",
+                "BUSINESS.SUBDOMAIN.COORDINATION.OPERATIONS_COORDINATION",
+                "BUSINESS.SUBDOMAIN.COORDINATION.VENDOR_COORDINATION",
+                "BUSINESS.SUBDOMAIN.COORDINATION.CUSTOMER_COORDINATION",
+                "BUSINESS.SUBDOMAIN.COORDINATION.DOCUMENT_COORDINATION",
+                "BUSINESS.SUBDOMAIN.COORDINATION.SCHEDULING"
+            ]
+        },
+        {
+            "id": "BUSINESS.SALES",
+            "name": "Sales",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Commercial sales, account management and business development.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.SALES.ACCOUNT_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.SALES.BUSINESS_DEVELOPMENT",
+                "BUSINESS.SUBDOMAIN.SALES.ENTERPRISE_SALES",
+                "BUSINESS.SUBDOMAIN.SALES.RETAIL_SALES",
+                "BUSINESS.SUBDOMAIN.SALES.CHANNEL",
+                "BUSINESS.SUBDOMAIN.SALES.CUSTOMER_RELATIONS"
+            ]
+        },
+        {
+            "id": "BUSINESS.MARKETING",
+            "name": "Marketing",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Marketing, communications, brand and market development functions.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.MARKETING.DIGITAL",
+                "BUSINESS.SUBDOMAIN.MARKETING.BRAND",
+                "BUSINESS.SUBDOMAIN.MARKETING.COMMUNICATIONS",
+                "BUSINESS.SUBDOMAIN.MARKETING.MARKET_RESEARCH",
+                "BUSINESS.SUBDOMAIN.MARKETING.CONTENT"
+            ]
+        },
+        {
+            "id": "BUSINESS.PROJECT_MANAGEMENT",
+            "name": "Project Management",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Project planning, coordination, governance, execution and reporting.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.PM.PROJECT_COORDINATION",
+                "BUSINESS.SUBDOMAIN.PM.PROJECT_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.PM.PROJECT_CONTROL",
+                "BUSINESS.SUBDOMAIN.PM.REPORTING",
+                "BUSINESS.SUBDOMAIN.PM.GOVERNANCE"
+            ]
+        },
+        {
+            "id": "BUSINESS.BUSINESS_ANALYSIS",
+            "name": "Business Analysis",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Requirements, process analysis, business process improvement and stakeholder analysis.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.BA.REQUIREMENTS",
+                "BUSINESS.SUBDOMAIN.BA.PROCESS_ANALYSIS",
+                "BUSINESS.SUBDOMAIN.BA.BUSINESS_PROCESS",
+                "BUSINESS.SUBDOMAIN.BA.STAKEHOLDER_ANALYSIS",
+                "BUSINESS.SUBDOMAIN.BA.PROCESS_IMPROVEMENT"
+            ]
+        },
+        {
+            "id": "BUSINESS.CUSTOMER_SERVICE",
+            "name": "Customer Service",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Customer support, customer relationship and service coordination.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.CUSTOMER_SERVICE.CUSTOMER_SUPPORT",
+                "BUSINESS.SUBDOMAIN.CUSTOMER_SERVICE.CUSTOMER_RELATIONS",
+                "BUSINESS.SUBDOMAIN.CUSTOMER_SERVICE.SERVICE_COORDINATION"
+            ]
+        },
+        {
+            "id": "BUSINESS.LEGAL_COMPLIANCE",
+            "name": "Legal & Compliance",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Legal administration, regulatory compliance, policy and governance.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.LEGAL.CONTRACTS",
+                "BUSINESS.SUBDOMAIN.LEGAL.COMPLIANCE",
+                "BUSINESS.SUBDOMAIN.LEGAL.POLICY",
+                "BUSINESS.SUBDOMAIN.LEGAL.REGULATORY"
+            ]
+        },
+        {
+            "id": "BUSINESS.MANAGEMENT",
+            "name": "Management",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "General management and organizational leadership functions.",
+            "children": [
+                "BUSINESS.SUBDOMAIN.MANAGEMENT.GENERAL_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.MANAGEMENT.DEPARTMENT_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.MANAGEMENT.BUSINESS_MANAGEMENT",
+                "BUSINESS.SUBDOMAIN.MANAGEMENT.OPERATIONS_MANAGEMENT"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,268 @@
+{
+    "functions": [
+        {
+            "id": "FUNCTION.SALES",
+            "name": "Sales",
+            "branch": "BUSINESS_CORPORATE",
+            "description": "Commercial opportunity development, customer relationship management and revenue generation.",
+            "activities": [
+                "ACTIVITY.ACCOUNT_PLANNING",
+                "ACTIVITY.CUSTOMER_DISCOVERY",
+                "ACTIVITY.OPPORTUNITY_DEVELOPMENT",
+                "ACTIVITY.STAKEHOLDER_MANAGEMENT",
+                "ACTIVITY.COMMERCIAL_NEGOTIATION",
+                "ACTIVITY.FORECASTING"
+            ]
+        },
+        {
+            "id": "FUNCTION.PRESALES",
+            "name": "Presales",
+            "branch": "TECHNICAL",
+            "description": "Translating customer requirements into technically and commercially viable solutions.",
+            "activities": [
+                "ACTIVITY.TECHNICAL_DISCOVERY",
+                "ACTIVITY.REQUIREMENT_ANALYSIS",
+                "ACTIVITY.SIZING",
+                "ACTIVITY.BOQ",
+                "ACTIVITY.COMPLIANCE_MATRIX",
+                "ACTIVITY.TECHNICAL_PROPOSAL",
+                "ACTIVITY.POC",
+                "ACTIVITY.DEMO",
+                "ACTIVITY.OEM_COORDINATION",
+                "ACTIVITY.TENDER_RESPONSE"
+            ]
+        },
+        {
+            "id": "FUNCTION.SOLUTION_ARCHITECTURE",
+            "name": "Solution Architecture",
+            "branch": "TECHNICAL",
+            "description": "Designing coherent end-to-end technology architectures.",
+            "activities": [
+                "ACTIVITY.ARCHITECTURE_DESIGN",
+                "ACTIVITY.HLD",
+                "ACTIVITY.LLD",
+                "ACTIVITY.INTEGRATION_DESIGN",
+                "ACTIVITY.INTEROPERABILITY",
+                "ACTIVITY.CAPACITY_PLANNING",
+                "ACTIVITY.RESILIENCE_DESIGN",
+                "ACTIVITY.SECURITY_ARCHITECTURE",
+                "ACTIVITY.LIFECYCLE_DESIGN"
+            ]
+        },
+        {
+            "id": "FUNCTION.SOLUTION_DELIVERY",
+            "name": "Solution Delivery",
+            "branch": "TECHNICAL",
+            "description": "Implementation, integration, testing, commissioning and handover of solutions.",
+            "activities": [
+                "ACTIVITY.INSTALLATION",
+                "ACTIVITY.CONFIGURATION",
+                "ACTIVITY.IMPLEMENTATION",
+                "ACTIVITY.MIGRATION",
+                "ACTIVITY.INTEGRATION",
+                "ACTIVITY.TESTING",
+                "ACTIVITY.FAT",
+                "ACTIVITY.SAT",
+                "ACTIVITY.COMMISSIONING",
+                "ACTIVITY.DOCUMENTATION",
+                "ACTIVITY.HANDOVER"
+            ]
+        },
+        {
+            "id": "FUNCTION.POSTSALES",
+            "name": "Postsales / Support",
+            "branch": "TECHNICAL",
+            "description": "Operational support, maintenance, monitoring and lifecycle management.",
+            "activities": [
+                "ACTIVITY.MONITORING",
+                "ACTIVITY.INCIDENT_MANAGEMENT",
+                "ACTIVITY.PROBLEM_MANAGEMENT",
+                "ACTIVITY.PREVENTIVE_MAINTENANCE",
+                "ACTIVITY.PATCHING",
+                "ACTIVITY.BACKUP_RECOVERY",
+                "ACTIVITY.WARRANTY_COORDINATION",
+                "ACTIVITY.OPTIMIZATION",
+                "ACTIVITY.LIFECYCLE_REFRESH"
+            ]
+        },
+        {
+            "id": "FUNCTION.HR",
+            "name": "Human Resources",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.RECRUITMENT",
+                "ACTIVITY.TALENT_ACQUISITION",
+                "ACTIVITY.ONBOARDING",
+                "ACTIVITY.EMPLOYEE_RELATIONS",
+                "ACTIVITY.HR_OPERATIONS",
+                "ACTIVITY.PAYROLL",
+                "ACTIVITY.PERFORMANCE_MANAGEMENT",
+                "ACTIVITY.TRAINING",
+                "ACTIVITY.COMPENSATION_BENEFITS",
+                "ACTIVITY.HR_REPORTING"
+            ]
+        },
+        {
+            "id": "FUNCTION.FINANCE_ACCOUNTING",
+            "name": "Finance & Accounting",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.ACCOUNTING",
+                "ACTIVITY.BOOKKEEPING",
+                "ACTIVITY.ACCOUNTS_PAYABLE",
+                "ACTIVITY.ACCOUNTS_RECEIVABLE",
+                "ACTIVITY.FINANCIAL_REPORTING",
+                "ACTIVITY.BUDGETING",
+                "ACTIVITY.RECONCILIATION",
+                "ACTIVITY.TAXATION",
+                "ACTIVITY.FINANCIAL_CONTROL"
+            ]
+        },
+        {
+            "id": "FUNCTION.AUDIT",
+            "name": "Audit",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.INTERNAL_AUDIT",
+                "ACTIVITY.EXTERNAL_AUDIT",
+                "ACTIVITY.COMPLIANCE_AUDIT",
+                "ACTIVITY.CONTROL_TESTING",
+                "ACTIVITY.AUDIT_REPORTING"
+            ]
+        },
+        {
+            "id": "FUNCTION.PROCUREMENT",
+            "name": "Procurement",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.SOURCING",
+                "ACTIVITY.VENDOR_EVALUATION",
+                "ACTIVITY.PURCHASING",
+                "ACTIVITY.PO_PROCESSING",
+                "ACTIVITY.QUOTATION_COMPARISON",
+                "ACTIVITY.TENDER_PROCESSING",
+                "ACTIVITY.CONTRACT_COORDINATION"
+            ]
+        },
+        {
+            "id": "FUNCTION.SUPPLY_CHAIN",
+            "name": "Supply Chain",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.SUPPLY_CHAIN_PLANNING",
+                "ACTIVITY.LOGISTICS",
+                "ACTIVITY.DISTRIBUTION",
+                "ACTIVITY.SUPPLIER_COORDINATION",
+                "ACTIVITY.FULFILLMENT",
+                "ACTIVITY.DEMAND_PLANNING"
+            ]
+        },
+        {
+            "id": "FUNCTION.INVENTORY",
+            "name": "Inventory",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.STOCK_CONTROL",
+                "ACTIVITY.STOCK_TAKING",
+                "ACTIVITY.RECEIVING",
+                "ACTIVITY.DISPATCH",
+                "ACTIVITY.MATERIAL_CONTROL",
+                "ACTIVITY.INVENTORY_REPORTING"
+            ]
+        },
+        {
+            "id": "FUNCTION.OPERATIONS",
+            "name": "Operations",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.OPERATIONS_MANAGEMENT",
+                "ACTIVITY.PROCESS_MANAGEMENT",
+                "ACTIVITY.ORDER_PROCESSING",
+                "ACTIVITY.TRANSACTION_PROCESSING",
+                "ACTIVITY.DOCUMENT_PROCESSING",
+                "ACTIVITY.OPERATIONAL_REPORTING"
+            ]
+        },
+        {
+            "id": "FUNCTION.ADMINISTRATION",
+            "name": "Administration",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.OFFICE_ADMINISTRATION",
+                "ACTIVITY.RECORD_MANAGEMENT",
+                "ACTIVITY.CORRESPONDENCE",
+                "ACTIVITY.FACILITIES_COORDINATION",
+                "ACTIVITY.EXECUTIVE_SUPPORT",
+                "ACTIVITY.OFFICE_COORDINATION"
+            ]
+        },
+        {
+            "id": "FUNCTION.COORDINATION",
+            "name": "Coordination",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.SCHEDULING",
+                "ACTIVITY.FOLLOW_UP",
+                "ACTIVITY.CROSS_FUNCTIONAL_COORDINATION",
+                "ACTIVITY.VENDOR_COORDINATION",
+                "ACTIVITY.CUSTOMER_COORDINATION",
+                "ACTIVITY.DOCUMENT_COORDINATION"
+            ]
+        },
+        {
+            "id": "FUNCTION.PROJECT_MANAGEMENT",
+            "name": "Project Management",
+            "branch": "BUSINESS_CORPORATE",
+            "activities": [
+                "ACTIVITY.PROJECT_PLANNING",
+                "ACTIVITY.PROJECT_TRACKING",
+                "ACTIVITY.PROJECT_REPORTING",
+                "ACTIVITY.PROJECT_GOVERNANCE",
+                "ACTIVITY.STAKEHOLDER_COORDINATION",
+                "ACTIVITY.RISK_MANAGEMENT"
+            ]
+        },
+        {
+            "id": "FUNCTION.SOFTWARE_ENGINEERING",
+            "name": "Software Engineering",
+            "branch": "TECHNICAL",
+            "activities": [
+                "ACTIVITY.SOFTWARE_DEVELOPMENT",
+                "ACTIVITY.FRONTEND_DEVELOPMENT",
+                "ACTIVITY.BACKEND_DEVELOPMENT",
+                "ACTIVITY.FULL_STACK_DEVELOPMENT",
+                "ACTIVITY.API_DEVELOPMENT",
+                "ACTIVITY.CODE_REVIEW",
+                "ACTIVITY.DEBUGGING",
+                "ACTIVITY.TESTING"
+            ]
+        },
+        {
+            "id": "FUNCTION.DATABASE_ADMINISTRATION",
+            "name": "Database Administration",
+            "branch": "TECHNICAL",
+            "activities": [
+                "ACTIVITY.DATABASE_ADMINISTRATION",
+                "ACTIVITY.DATABASE_BACKUP",
+                "ACTIVITY.DATABASE_RECOVERY",
+                "ACTIVITY.DATABASE_PERFORMANCE",
+                "ACTIVITY.DATABASE_SECURITY",
+                "ACTIVITY.DATABASE_MIGRATION"
+            ]
+        },
+        {
+            "id": "FUNCTION.DEVOPS",
+            "name": "DevOps / Platform Engineering",
+            "branch": "TECHNICAL",
+            "activities": [
+                "ACTIVITY.CI_CD",
+                "ACTIVITY.AUTOMATION",
+                "ACTIVITY.CONTAINERIZATION",
+                "ACTIVITY.ORCHESTRATION",
+                "ACTIVITY.INFRASTRUCTURE_AS_CODE",
+                "ACTIVITY.PLATFORM_ENGINEERING",
+                "ACTIVITY.RELEASE_MANAGEMENT"
+            ]
+        }
+    ]
+}

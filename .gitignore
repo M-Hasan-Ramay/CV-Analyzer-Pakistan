@@ -1,0 +1,16 @@
+.venv/
+build/
+dist/
+tests/
+__pycache__/
+*.py[cod]
+01_INBOX/
+02_PROCESSING/
+03_REVIEW/
+04_PROCESSED/
+05_DUPLICATES/
+06_ERRORS/
+07_DATABASE/
+08_LOGS/
+10_BACKUP/
+TEST_BATCH/
