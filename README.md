@@ -1,7 +1,7 @@
 # CV-Analyzer
-The focus audience of this software is Pakistani Recruiters. This simple software analyzes a batch of resumes/CVs and creates a .csv .xlsx .vcf &amp; .json files ready for a recruter to start working on them. It does the about 60-70% of the work for a recruiter and gives them a headstart. 
+The focus audience of this software is Pakistani Recruiters. This simple software analyzes a batch of resumes/CVs and creates a .csv .xlsx .vcf &amp; .json files ready for a recruter to start working on them. It does the about 60-70% of the work for a recruiter and gives them a headstart.   
 
-HOW TO USE CV ANALYZER - INSTRUCTIONS
+HOW TO USE CV ANALYZER - INSTRUCTIONS  
 
 -----STEP 1-----  
 UNZIP THIS ZIP FILE, CV-Analyzer-portable-windows-x64.zip  
@@ -26,13 +26,13 @@ CLICK OPEN REPORTS FOLDER
 YOU CAN CHECK THIS FOLDER 07_DATABASE MANUALLY AS WELL  
 -----END-----  
 
-It should have .vcf .xlsx .csv .json files. All of them with populated fields/columns/rows etc.
+It should have .vcf .xlsx .csv .json files. All of them with populated fields/columns/rows etc.  
 
-.vcf = This is a vCard file to import the contact details of the CVs with simple and universal VCF contacts import on any device. 
-.xlsx = This is a Microsoft Excel workbook where all the data is collected.
-.csv = This is a comma seperated values file for database imports. 
-.json = This is a JSON file which is fast if feeding the extracted data to an AI and also for databases. 
+.vcf = This is a vCard file to import the contact details of the CVs with simple and universal VCF contacts import on any device.   
+.xlsx = This is a Microsoft Excel workbook where all the data is collected.  
+.csv = This is a comma seperated values file for database imports.   
+.json = This is a JSON file which is fast if feeding the extracted data to an AI and also for databases.   
 
-I hope you enjoy this simple software. 
+I hope you enjoy this simple software.   
 
-CREDITS = AI (free versions of ChatGPT, Claude, Copilot, Gemini), My employer & My family. 
+CREDITS = AI (free versions of ChatGPT, Claude, Copilot, Gemini), My employer & My family.   
