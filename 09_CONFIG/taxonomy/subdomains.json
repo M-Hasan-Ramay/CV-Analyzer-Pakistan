@@ -1129,11 +1129,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.AI_NETWORKING",
+            "id": "RESUME.SUBDOMAIN.AI.AI_NETWORKING",
             "name": "AI Networking",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1141,11 +1141,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.AI_STORAGE",
+            "id": "RESUME.SUBDOMAIN.AI.AI_STORAGE",
             "name": "AI Storage",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1153,11 +1153,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.COMPUTER_VISION",
+            "id": "RESUME.SUBDOMAIN.AI.COMPUTER_VISION",
             "name": "Computer Vision",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1165,11 +1165,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.CUDA",
+            "id": "RESUME.SUBDOMAIN.AI.CUDA",
             "name": "Cuda",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1177,11 +1177,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.DEEP_LEARNING",
+            "id": "RESUME.SUBDOMAIN.AI.DEEP_LEARNING",
             "name": "Deep Learning",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1189,11 +1189,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.GENERATIVE_AI",
+            "id": "RESUME.SUBDOMAIN.AI.GENERATIVE_AI",
             "name": "Generative Ai",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1201,11 +1201,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.GPU_INFRASTRUCTURE",
+            "id": "RESUME.SUBDOMAIN.AI.GPU_INFRASTRUCTURE",
             "name": "GPU Infrastructure",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1213,11 +1213,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.INFERENCE",
+            "id": "RESUME.SUBDOMAIN.AI.INFERENCE",
             "name": "Inference",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1225,11 +1225,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.MACHINE_LEARNING",
+            "id": "RESUME.SUBDOMAIN.AI.MACHINE_LEARNING",
             "name": "Machine Learning",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1237,11 +1237,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.MLOPS",
+            "id": "RESUME.SUBDOMAIN.AI.MLOPS",
             "name": "Machine Learning Operations (MLOps)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1249,11 +1249,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.NLP",
+            "id": "RESUME.SUBDOMAIN.AI.NLP",
             "name": "Natural Language Processing (NLP)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1261,11 +1261,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.RAG",
+            "id": "RESUME.SUBDOMAIN.AI.RAG",
             "name": "Retrieval-Augmented Generation (RAG)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1273,11 +1273,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.AI.VECTOR_DATABASES",
+            "id": "RESUME.SUBDOMAIN.AI.VECTOR_DATABASES",
             "name": "Vector Databases",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1285,11 +1285,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.ADMINISTRATION",
+            "id": "RESUME.SUBDOMAIN.CLOUD.ADMINISTRATION",
             "name": "Administration",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD"
+                "RESUME.DOMAIN.CLOUD"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1297,11 +1297,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.ARCHITECTURE",
+            "id": "RESUME.SUBDOMAIN.CLOUD.ARCHITECTURE",
             "name": "Architecture",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD"
+                "RESUME.DOMAIN.CLOUD"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1309,11 +1309,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.ENGINEERING",
+            "id": "RESUME.SUBDOMAIN.CLOUD.ENGINEERING",
             "name": "Engineering",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD"
+                "RESUME.DOMAIN.CLOUD"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1321,11 +1321,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.HYBRID",
+            "id": "RESUME.SUBDOMAIN.CLOUD.HYBRID",
             "name": "Hybrid",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD"
+                "RESUME.DOMAIN.CLOUD"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1333,14 +1333,14 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.INFRASTRUCTURE",
+            "id": "RESUME.SUBDOMAIN.CLOUD.INFRASTRUCTURE",
             "name": "Infrastructure",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD",
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.IT_SYSTEMS",
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CLOUD",
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.IT_SYSTEMS",
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1348,11 +1348,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.PRIVATE",
+            "id": "RESUME.SUBDOMAIN.CLOUD.PRIVATE",
             "name": "Private",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD"
+                "RESUME.DOMAIN.CLOUD"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1360,13 +1360,13 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.PUBLIC",
+            "id": "RESUME.SUBDOMAIN.CLOUD.PUBLIC",
             "name": "Public",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD",
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.CLOUD",
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1374,12 +1374,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.SAAS",
+            "id": "RESUME.SUBDOMAIN.CLOUD.SAAS",
             "name": "Software as a Service (SaaS)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD",
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.CLOUD",
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1387,11 +1387,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CLOUD.SECURITY",
+            "id": "RESUME.SUBDOMAIN.CLOUD.SECURITY",
             "name": "Security",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CLOUD"
+                "RESUME.DOMAIN.CLOUD"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1399,11 +1399,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.AIRFLOW",
+            "id": "RESUME.SUBDOMAIN.COOLING.AIRFLOW",
             "name": "Airflow",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1411,11 +1411,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.CHILLED_WATER",
+            "id": "RESUME.SUBDOMAIN.COOLING.CHILLED_WATER",
             "name": "Chilled Water",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1423,11 +1423,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.CONTAINMENT",
+            "id": "RESUME.SUBDOMAIN.COOLING.CONTAINMENT",
             "name": "Containment",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1435,11 +1435,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.CONTROLS",
+            "id": "RESUME.SUBDOMAIN.COOLING.CONTROLS",
             "name": "Controls",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1447,11 +1447,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.CRAC_CRAH",
+            "id": "RESUME.SUBDOMAIN.COOLING.CRAC_CRAH",
             "name": "CRAC / CRAH",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1459,11 +1459,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.DX",
+            "id": "RESUME.SUBDOMAIN.COOLING.DX",
             "name": "Direct Expansion (DX)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1471,11 +1471,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.HEAT_REJECTION",
+            "id": "RESUME.SUBDOMAIN.COOLING.HEAT_REJECTION",
             "name": "Heat Rejection",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1483,11 +1483,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.COOLING.LIQUID",
+            "id": "RESUME.SUBDOMAIN.COOLING.LIQUID",
             "name": "Liquid",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.COOLING"
+                "RESUME.DOMAIN.COOLING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1495,11 +1495,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.API_SECURITY",
+            "id": "RESUME.SUBDOMAIN.CYBER.API_SECURITY",
             "name": "Api Security",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1507,11 +1507,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.CLOUD_SECURITY",
+            "id": "RESUME.SUBDOMAIN.CYBER.CLOUD_SECURITY",
             "name": "Cloud Security",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1519,11 +1519,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.ENDPOINT",
+            "id": "RESUME.SUBDOMAIN.CYBER.ENDPOINT",
             "name": "Endpoint",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1531,11 +1531,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.GRC",
+            "id": "RESUME.SUBDOMAIN.CYBER.GRC",
             "name": "Governance, Risk and Compliance (GRC)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1543,11 +1543,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.IAM",
+            "id": "RESUME.SUBDOMAIN.CYBER.IAM",
             "name": "Identity and Access Management (IAM)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1555,11 +1555,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.INCIDENT_RESPONSE",
+            "id": "RESUME.SUBDOMAIN.CYBER.INCIDENT_RESPONSE",
             "name": "Incident Response",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1567,11 +1567,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.NAC",
+            "id": "RESUME.SUBDOMAIN.CYBER.NAC",
             "name": "Network Access Control (NAC)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1579,11 +1579,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.NDR",
+            "id": "RESUME.SUBDOMAIN.CYBER.NDR",
             "name": "Network Detection and Response (NDR)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1591,12 +1591,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.NGFW",
+            "id": "RESUME.SUBDOMAIN.CYBER.NGFW",
             "name": "Next-Generation Firewall (NGFW)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY",
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.CYBERSECURITY",
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1604,11 +1604,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.PAM",
+            "id": "RESUME.SUBDOMAIN.CYBER.PAM",
             "name": "Privileged Access Management (PAM)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1616,11 +1616,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.PEN_TESTING",
+            "id": "RESUME.SUBDOMAIN.CYBER.PEN_TESTING",
             "name": "Pen Testing",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1628,11 +1628,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.SIEM",
+            "id": "RESUME.SUBDOMAIN.CYBER.SIEM",
             "name": "Security Information and Event Management (SIEM)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1640,11 +1640,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.SOAR",
+            "id": "RESUME.SUBDOMAIN.CYBER.SOAR",
             "name": "Security Orchestration, Automation and Response (SOAR)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1652,11 +1652,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.SOC",
+            "id": "RESUME.SUBDOMAIN.CYBER.SOC",
             "name": "Soc",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1664,11 +1664,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.THREAT_INTELLIGENCE",
+            "id": "RESUME.SUBDOMAIN.CYBER.THREAT_INTELLIGENCE",
             "name": "Threat Intelligence",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1676,11 +1676,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.VAPT",
+            "id": "RESUME.SUBDOMAIN.CYBER.VAPT",
             "name": "Vulnerability Assessment and Penetration Testing (VAPT)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1688,11 +1688,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.VULNERABILITY",
+            "id": "RESUME.SUBDOMAIN.CYBER.VULNERABILITY",
             "name": "Vulnerability",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1700,11 +1700,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.WAF",
+            "id": "RESUME.SUBDOMAIN.CYBER.WAF",
             "name": "Waf",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1712,11 +1712,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.CYBER.ZERO_TRUST",
+            "id": "RESUME.SUBDOMAIN.CYBER.ZERO_TRUST",
             "name": "Zero Trust",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1724,11 +1724,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.BMS",
+            "id": "RESUME.SUBDOMAIN.DCF.BMS",
             "name": "Building Management System (BMS)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1736,11 +1736,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.COLOCATION",
+            "id": "RESUME.SUBDOMAIN.DCF.COLOCATION",
             "name": "Colocation",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1748,11 +1748,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.COMMISSIONING",
+            "id": "RESUME.SUBDOMAIN.DCF.COMMISSIONING",
             "name": "Commissioning",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1760,11 +1760,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.DCIM",
+            "id": "RESUME.SUBDOMAIN.DCF.DCIM",
             "name": "Data Center Infrastructure Management (DCIM)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1772,11 +1772,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.FIRE",
+            "id": "RESUME.SUBDOMAIN.DCF.FIRE",
             "name": "Fire",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1784,11 +1784,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.PHYSICAL_SECURITY",
+            "id": "RESUME.SUBDOMAIN.DCF.PHYSICAL_SECURITY",
             "name": "Physical Security",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1796,11 +1796,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.RACKS",
+            "id": "RESUME.SUBDOMAIN.DCF.RACKS",
             "name": "Racks",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1808,11 +1808,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.STRUCTURED_CABLING",
+            "id": "RESUME.SUBDOMAIN.DCF.STRUCTURED_CABLING",
             "name": "Structured Cabling",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1820,11 +1820,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.DCF.TIER_ARCHITECTURE",
+            "id": "RESUME.SUBDOMAIN.DCF.TIER_ARCHITECTURE",
             "name": "Tier Architecture",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.DATA_CENTER_FACILITIES"
+                "RESUME.DOMAIN.DATA_CENTER_FACILITIES"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1832,11 +1832,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.ARCHITECTURE",
+            "id": "RESUME.SUBDOMAIN.NETWORK.ARCHITECTURE",
             "name": "Architecture",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1844,11 +1844,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.AUTOMATION",
+            "id": "RESUME.SUBDOMAIN.NETWORK.AUTOMATION",
             "name": "Automation",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1856,11 +1856,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.DATA_CENTER",
+            "id": "RESUME.SUBDOMAIN.NETWORK.DATA_CENTER",
             "name": "Data Center",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1868,13 +1868,13 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.ENTERPRISE",
+            "id": "RESUME.SUBDOMAIN.NETWORK.ENTERPRISE",
             "name": "Enterprise",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING",
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IP_NETWORKING",
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1882,11 +1882,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.IP_MPLS",
+            "id": "RESUME.SUBDOMAIN.NETWORK.IP_MPLS",
             "name": "IP / MPLS",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1894,11 +1894,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.ISP_CARRIER",
+            "id": "RESUME.SUBDOMAIN.NETWORK.ISP_CARRIER",
             "name": "Isp Carrier",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1906,11 +1906,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.LAN",
+            "id": "RESUME.SUBDOMAIN.NETWORK.LAN",
             "name": "Lan",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1918,11 +1918,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.NAC",
+            "id": "RESUME.SUBDOMAIN.NETWORK.NAC",
             "name": "Network Access Control (NAC)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1930,11 +1930,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.NOC",
+            "id": "RESUME.SUBDOMAIN.NETWORK.NOC",
             "name": "Noc",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1942,11 +1942,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.ROUTING",
+            "id": "RESUME.SUBDOMAIN.NETWORK.ROUTING",
             "name": "Routing",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1954,11 +1954,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.SD_WAN",
+            "id": "RESUME.SUBDOMAIN.NETWORK.SD_WAN",
             "name": "Software-Defined WAN (SD-WAN)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1966,11 +1966,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.SWITCHING",
+            "id": "RESUME.SUBDOMAIN.NETWORK.SWITCHING",
             "name": "Switching",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1978,12 +1978,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.TELEMETRY",
+            "id": "RESUME.SUBDOMAIN.NETWORK.TELEMETRY",
             "name": "Telemetry",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING",
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IP_NETWORKING",
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -1991,11 +1991,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.VXLAN_EVPN",
+            "id": "RESUME.SUBDOMAIN.NETWORK.VXLAN_EVPN",
             "name": "VXLAN / EVPN",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2003,11 +2003,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.WAN",
+            "id": "RESUME.SUBDOMAIN.NETWORK.WAN",
             "name": "Wan",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2015,11 +2015,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.WIRELESS",
+            "id": "RESUME.SUBDOMAIN.NETWORK.WIRELESS",
             "name": "Wireless",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2027,11 +2027,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.NETWORK.WLAN",
+            "id": "RESUME.SUBDOMAIN.NETWORK.WLAN",
             "name": "Wlan",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2039,11 +2039,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.BATTERIES",
+            "id": "RESUME.SUBDOMAIN.POWER.BATTERIES",
             "name": "Batteries",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2051,11 +2051,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.COMMISSIONING",
+            "id": "RESUME.SUBDOMAIN.POWER.COMMISSIONING",
             "name": "Commissioning",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2063,11 +2063,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.DISTRIBUTION",
+            "id": "RESUME.SUBDOMAIN.POWER.DISTRIBUTION",
             "name": "Distribution",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2075,11 +2075,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.GENERATORS",
+            "id": "RESUME.SUBDOMAIN.POWER.GENERATORS",
             "name": "Generators",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2087,11 +2087,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.MONITORING",
+            "id": "RESUME.SUBDOMAIN.POWER.MONITORING",
             "name": "Monitoring",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2099,11 +2099,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.MV_LV",
+            "id": "RESUME.SUBDOMAIN.POWER.MV_LV",
             "name": "Medium-Voltage / Low-Voltage",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2111,11 +2111,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.PROTECTION",
+            "id": "RESUME.SUBDOMAIN.POWER.PROTECTION",
             "name": "Protection",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2123,11 +2123,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.UPS",
+            "id": "RESUME.SUBDOMAIN.POWER.UPS",
             "name": "Ups",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2135,11 +2135,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.POWER.UTILITY",
+            "id": "RESUME.SUBDOMAIN.POWER.UTILITY",
             "name": "Utility",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.POWER"
+                "RESUME.DOMAIN.POWER"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2147,11 +2147,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.ANALYTICS",
+            "id": "RESUME.SUBDOMAIN.SMART.ANALYTICS",
             "name": "Analytics",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2159,11 +2159,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.BMS",
+            "id": "RESUME.SUBDOMAIN.SMART.BMS",
             "name": "Building Management System (BMS)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2171,11 +2171,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.EDGE",
+            "id": "RESUME.SUBDOMAIN.SMART.EDGE",
             "name": "Edge",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2183,11 +2183,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.IOT",
+            "id": "RESUME.SUBDOMAIN.SMART.IOT",
             "name": "Internet of Things (IoT)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2195,11 +2195,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.OT",
+            "id": "RESUME.SUBDOMAIN.SMART.OT",
             "name": "Operational Technology (OT)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2207,11 +2207,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.PHYSICAL_SECURITY",
+            "id": "RESUME.SUBDOMAIN.SMART.PHYSICAL_SECURITY",
             "name": "Physical Security",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2219,11 +2219,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.SCADA",
+            "id": "RESUME.SUBDOMAIN.SMART.SCADA",
             "name": "Supervisory Control and Data Acquisition (SCADA)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2231,11 +2231,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.SENSORS",
+            "id": "RESUME.SUBDOMAIN.SMART.SENSORS",
             "name": "Sensors",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2243,11 +2243,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.SMART_BUILDINGS",
+            "id": "RESUME.SUBDOMAIN.SMART.SMART_BUILDINGS",
             "name": "Smart Buildings",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2255,11 +2255,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SMART.SMART_DC",
+            "id": "RESUME.SUBDOMAIN.SMART.SMART_DC",
             "name": "Smart Dc",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SMART_INFRASTRUCTURE"
+                "RESUME.DOMAIN.SMART_INFRASTRUCTURE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2267,11 +2267,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.API",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.API",
             "name": "Application Programming Interfaces (APIs)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2279,11 +2279,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.APPLICATION_ARCHITECTURE",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.APPLICATION_ARCHITECTURE",
             "name": "Application Architecture",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2291,11 +2291,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.APPLICATION_SUPPORT",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.APPLICATION_SUPPORT",
             "name": "Application Support",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2303,11 +2303,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.BACKEND",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.BACKEND",
             "name": "Backend",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2315,12 +2315,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.CONTAINERIZATION",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.CONTAINERIZATION",
             "name": "Containerization",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2328,11 +2328,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.DATABASES",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.DATABASES",
             "name": "Databases",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2340,13 +2340,13 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.DEVOPS",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.DEVOPS",
             "name": "Devops",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.CLOUD",
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.CLOUD",
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2354,11 +2354,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.ENGINEERING",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.ENGINEERING",
             "name": "Engineering",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2366,11 +2366,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.FRONTEND",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.FRONTEND",
             "name": "Frontend",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2378,11 +2378,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.FULL_STACK",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.FULL_STACK",
             "name": "Full Stack",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2390,11 +2390,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.MICROSERVICES",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.MICROSERVICES",
             "name": "Microservices",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2402,12 +2402,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.ORCHESTRATION",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.ORCHESTRATION",
             "name": "Orchestration",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2415,14 +2415,14 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.PLATFORM_ENGINEERING",
             "name": "Platform Engineering",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.CLOUD",
-                "CMC.DOMAIN.IT_SYSTEMS",
-                "CMC.DOMAIN.IP_NETWORKING"
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.CLOUD",
+                "RESUME.DOMAIN.IT_SYSTEMS",
+                "RESUME.DOMAIN.IP_NETWORKING"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2430,12 +2430,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.PROGRAMMING_LANGUAGES",
             "name": "Programming Languages",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.AI_ML"
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.AI_ML"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2443,11 +2443,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.TESTING",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.TESTING",
             "name": "Testing",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2455,11 +2455,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.VERSION_CONTROL",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.VERSION_CONTROL",
             "name": "Version Control",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2467,14 +2467,14 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SOFTWARE.WEB_INFRASTRUCTURE",
+            "id": "RESUME.SUBDOMAIN.SOFTWARE.WEB_INFRASTRUCTURE",
             "name": "Web Infrastructure",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.SOFTWARE",
-                "CMC.DOMAIN.IT_SYSTEMS",
-                "CMC.DOMAIN.IP_NETWORKING",
-                "CMC.DOMAIN.CYBERSECURITY"
+                "RESUME.DOMAIN.SOFTWARE",
+                "RESUME.DOMAIN.IT_SYSTEMS",
+                "RESUME.DOMAIN.IP_NETWORKING",
+                "RESUME.DOMAIN.CYBERSECURITY"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2482,11 +2482,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.ARCHIVE",
+            "id": "RESUME.SUBDOMAIN.STORAGE.ARCHIVE",
             "name": "Archive",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2494,12 +2494,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.BACKUP",
+            "id": "RESUME.SUBDOMAIN.STORAGE.BACKUP",
             "name": "Backup",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION",
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION",
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2507,11 +2507,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.DR",
+            "id": "RESUME.SUBDOMAIN.STORAGE.DR",
             "name": "Disaster Recovery (DR)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2519,11 +2519,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.FLASH",
+            "id": "RESUME.SUBDOMAIN.STORAGE.FLASH",
             "name": "Flash",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2531,11 +2531,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.NAS",
+            "id": "RESUME.SUBDOMAIN.STORAGE.NAS",
             "name": "Network-Attached Storage (NAS)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2543,11 +2543,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.NVME",
+            "id": "RESUME.SUBDOMAIN.STORAGE.NVME",
             "name": "Non-Volatile Memory Express (NVMe)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2555,11 +2555,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.NVME_OF",
+            "id": "RESUME.SUBDOMAIN.STORAGE.NVME_OF",
             "name": "NVMe over Fabrics (NVMe-oF)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2567,11 +2567,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.OBJECT",
+            "id": "RESUME.SUBDOMAIN.STORAGE.OBJECT",
             "name": "Object",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2579,11 +2579,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.RANSOMWARE_RECOVERY",
+            "id": "RESUME.SUBDOMAIN.STORAGE.RANSOMWARE_RECOVERY",
             "name": "Ransomware Recovery",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2591,11 +2591,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.REPLICATION",
+            "id": "RESUME.SUBDOMAIN.STORAGE.REPLICATION",
             "name": "Replication",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2603,11 +2603,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.SAN",
+            "id": "RESUME.SUBDOMAIN.STORAGE.SAN",
             "name": "Storage Area Network (SAN)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2615,11 +2615,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.STORAGE.SCALE_OUT",
+            "id": "RESUME.SUBDOMAIN.STORAGE.SCALE_OUT",
             "name": "Scale Out",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.STORAGE_DATA_PROTECTION"
+                "RESUME.DOMAIN.STORAGE_DATA_PROTECTION"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2627,11 +2627,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.CONTAINERS",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.CONTAINERS",
             "name": "Containers",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2639,11 +2639,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.GPU_COMPUTING",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.GPU_COMPUTING",
             "name": "Gpu Computing",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2651,11 +2651,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.HA_DR",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.HA_DR",
             "name": "High Availability and Disaster Recovery",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2663,11 +2663,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.HCI",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.HCI",
             "name": "Hyper-Converged Infrastructure (HCI)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2675,11 +2675,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.HPC",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.HPC",
             "name": "High-Performance Computing (HPC)",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2687,12 +2687,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.LINUX",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.LINUX",
             "name": "Linux",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS",
-                "CMC.DOMAIN.SOFTWARE"
+                "RESUME.DOMAIN.IT_SYSTEMS",
+                "RESUME.DOMAIN.SOFTWARE"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2700,11 +2700,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.OPERATING_SYSTEMS",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.OPERATING_SYSTEMS",
             "name": "Operating Systems",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2712,11 +2712,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.PRIVATE_CLOUD",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.PRIVATE_CLOUD",
             "name": "Private Cloud",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2724,11 +2724,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.SERVERS",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.SERVERS",
             "name": "Servers",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2736,11 +2736,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.SYSTEMS_MANAGEMENT",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.SYSTEMS_MANAGEMENT",
             "name": "Systems Management",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2748,12 +2748,12 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.VIRTUALIZATION",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.VIRTUALIZATION",
             "name": "Virtualization",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS",
-                "CMC.DOMAIN.CLOUD"
+                "RESUME.DOMAIN.IT_SYSTEMS",
+                "RESUME.DOMAIN.CLOUD"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],
@@ -2761,11 +2761,11 @@
             "generated_by": "taxonomy_repair.py"
         },
         {
-            "id": "CMC.SUBDOMAIN.SYSTEMS.WINDOWS",
+            "id": "RESUME.SUBDOMAIN.SYSTEMS.WINDOWS",
             "name": "Windows",
             "branch": "TECHNICAL",
             "parent_domain_ids": [
-                "CMC.DOMAIN.IT_SYSTEMS"
+                "RESUME.DOMAIN.IT_SYSTEMS"
             ],
             "description": "Generated from existing domain-child and/or technology references. Review name, parent domain(s), and definition before production use.",
             "aliases": [],

@@ -1,6 +1,7 @@
 import argparse
 import csv
 import json
+import re
 import shutil
 import tempfile
 import uuid
@@ -39,11 +40,16 @@ EVIDENCE_COLUMNS = [
     "Error",
 ]
 
+_XML_INVALID_CHARACTERS = re.compile(
+    "[\x00-\x08\x0B\x0C\x0E-\x1F\uD800-\uDFFF\uFFFE\uFFFF]"
+)
+
 
 def _safe_spreadsheet_value(value):
-    """Prevent CV-controlled text from being interpreted as a spreadsheet formula."""
+    """Make CV-controlled text safe for spreadsheet cells and formulas."""
     if not isinstance(value, str):
         return value
+    value = _XML_INVALID_CHARACTERS.sub("", value)
     if value.lstrip().startswith(("=", "+", "-", "@")):
         return "'" + value
     return value

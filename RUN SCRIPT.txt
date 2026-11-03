@@ -63,9 +63,9 @@ responsibility evidence can suggest a Department when the job title
 alone is inconclusive; education-based suggestions remain a separate
 fallback and are flagged for review.
 
-The engine also classifies CMC solution domains; mobile development
+The engine also classifies industry-independent technical domains; mobile development
 signals such as Flutter/Kotlin; named and inferred MERN, PERN, and
-ASP.NET full-stack profiles; and CMC career functions such as
+ASP.NET full-stack profiles; and career functions such as
 Presales, Architecture, Delivery, and Postsales. Industry and career
 labels are evidence-backed matches, not confirmation of expertise or
 employment suitability. Review the evidence and generated report,

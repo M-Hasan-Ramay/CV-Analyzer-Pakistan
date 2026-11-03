@@ -1,4 +1,4 @@
-"""Editable rule-based classification for industry, CMC domains, and software."""
+"""Editable rule-based classification for industry, technical domains, and software."""
 
 import json
 import re

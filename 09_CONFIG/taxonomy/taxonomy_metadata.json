@@ -1,5 +1,5 @@
 {
-    "taxonomy_name": "CV_AI Recruitment and System Integration Taxonomy",
+    "taxonomy_name": "CV Analyzer Recruitment and System Integration Taxonomy",
     "taxonomy_version": "0.1.0",
     "status": "development",
     "language": "en",
@@ -22,7 +22,7 @@
         "Technical and non-technical occupations are parallel branches.",
         "Evidence must be preserved before interpretation.",
         "Semantic interpretation should use the complete CV context.",
-        "CMC-specific system integration knowledge is an extension layer.",
+        "Industry-specific system integration knowledge is an extension layer.",
         "Taxonomy identity must remain separate from competency assessment.",
         "Human review remains available for ambiguous cases."
     ],
@@ -39,8 +39,8 @@
         }
     ],
     "namespaces": {
-        "domain": "CMC.DOMAIN",
-        "subdomain": "CMC.SUBDOMAIN",
+        "domain": "RESUME.DOMAIN",
+        "subdomain": "RESUME.SUBDOMAIN",
         "technology": "TECH",
         "oem": "OEM",
         "role": "ROLE",
