@@ -76,4 +76,4 @@ CVs and the generated reports contain personal information. Store them securely,
 
 ## Credits
 
-Created with assistance from free versions of ChatGPT, Claude, Copilot, and Gemini, and with support from my employer and family.
+Created with assistance from free versions of ChatGPT, Claude, Copilot, and Gemini, and with support from my employer and my family.
